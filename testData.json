@@ -1,0 +1,6094 @@
+{
+  "feed": {
+    "author": {
+      "name": {
+        "label": "iTunes Store"
+      },
+      "uri": {
+        "label": "http://www.apple.com/itunes/"
+      }
+    },
+    "entry": [
+      {
+        "im:name": {
+          "label": "Closer (feat. Halsey)"
+        },
+        "im:image": [
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music60/v4/67/7a/b7/677ab72a-b84e-02d2-ee43-4466d6875353/886445991147.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music60/v4/67/7a/b7/677ab72a-b84e-02d2-ee43-4466d6875353/886445991147.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music60/v4/67/7a/b7/677ab72a-b84e-02d2-ee43-4466d6875353/886445991147.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Closer (feat. Halsey) - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/closer-feat.-halsey-single/id1136768287?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Disruptor Records/Columbia Records"
+        },
+        "title": {
+          "label": "Closer (feat. Halsey) - The Chainsmokers"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/closer-feat.-halsey/id1136768287?i=1136768508&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/bd/6b/34/bd6b3443-d4c3-26fd-91c8-d0b31ab47ee3/mzaf_8046559398209773051.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/closer-feat.-halsey/id1136768287?i=1136768508&uo=2",
+          "attributes": {
+            "im:id": "1136768508"
+          }
+        },
+        "im:artist": {
+          "label": "The Chainsmokers",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/the-chainsmokers/id580391756?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "17",
+            "term": "Dance",
+            "scheme": "https://itunes.apple.com/us/genre/music-dance/id17?uo=2",
+            "label": "Dance"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-07-29T00:00:00-07:00",
+          "attributes": {
+            "label": "July 29, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Don't Wanna Know (feat. Kendrick Lamar)"
+        },
+        "im:image": [
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music71/v4/83/ef/9a/83ef9a01-279e-e029-ae2a-c5ae40807fc0/UMG_cvrart_00602557010671_01_RGB72_1800x1800_16UMGIM71928.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music71/v4/83/ef/9a/83ef9a01-279e-e029-ae2a-c5ae40807fc0/UMG_cvrart_00602557010671_01_RGB72_1800x1800_16UMGIM71928.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music71/v4/83/ef/9a/83ef9a01-279e-e029-ae2a-c5ae40807fc0/UMG_cvrart_00602557010671_01_RGB72_1800x1800_16UMGIM71928.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Don't Wanna Know (feat. Kendrick Lamar) - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/dont-wanna-know-feat.-kendrick/id1163339721?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Interscope Records"
+        },
+        "title": {
+          "label": "Don't Wanna Know (feat. Kendrick Lamar) - Maroon 5"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/dont-wanna-know-feat.-kendrick/id1163339721?i=1163339802&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/be/9d/ef/be9deffa-05be-93aa-f8ce-ba944da212be/mzaf_6003182623069177293.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/dont-wanna-know-feat.-kendrick/id1163339721?i=1163339802&uo=2",
+          "attributes": {
+            "im:id": "1163339802"
+          }
+        },
+        "im:artist": {
+          "label": "Maroon 5",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/maroon-5/id1798556?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-10-21T00:00:00-07:00",
+          "attributes": {
+            "label": "October 21, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "24K Magic"
+        },
+        "im:image": [
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music62/v4/40/98/ed/4098edc3-1ae9-4da7-4778-b9d3b8b2a846/075679904119.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music62/v4/40/98/ed/4098edc3-1ae9-4da7-4778-b9d3b8b2a846/075679904119.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music62/v4/40/98/ed/4098edc3-1ae9-4da7-4778-b9d3b8b2a846/075679904119.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "24K Magic"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/24k-magic/id1161503945?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Atlantic Recording Corporation for the United States and WEA International Inc. for the world outside of the United States. A Warner Music Group Company"
+        },
+        "title": {
+          "label": "24K Magic - Bruno Mars"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/24k-magic/id1161503945?i=1161504024&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview71/v4/9c/3e/1f/9c3e1f12-fd5d-d4ff-0c53-80e5862fec0e/mzaf_5092878683606415963.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/24k-magic/id1161503945?i=1161504024&uo=2",
+          "attributes": {
+            "im:id": "1161504024"
+          }
+        },
+        "im:artist": {
+          "label": "Bruno Mars",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/bruno-mars/id278873078?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-11-18T00:00:00-07:00",
+          "attributes": {
+            "label": "November 18, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Heathens"
+        },
+        "im:image": [
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music20/v4/fc/c0/3b/fcc03b5f-df40-0d3e-2e71-72bde568482e/075679910486.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music20/v4/fc/c0/3b/fcc03b5f-df40-0d3e-2e71-72bde568482e/075679910486.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music20/v4/fc/c0/3b/fcc03b5f-df40-0d3e-2e71-72bde568482e/075679910486.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Suicide Squad: The Album"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/suicide-squad-the-album/id1125281254?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Atlantic Recording Corporation & Warner Bros. Entertainment Inc. for the United States and WEA International Inc. & Warner Bros. Entertainment Inc. for the world outside of the United States."
+        },
+        "title": {
+          "label": "Heathens - twenty one pilots"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/heathens/id1125281254?i=1125281487&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview20/v4/81/74/57/817457ae-25e0-05e6-c0ab-00edbf44b176/mzaf_5130432630561576009.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/heathens/id1125281254?i=1125281487&uo=2",
+          "attributes": {
+            "im:id": "1125281487"
+          }
+        },
+        "im:artist": {
+          "label": "twenty one pilots",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/twenty-one-pilots/id349736311?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "20",
+            "term": "Alternative",
+            "scheme": "https://itunes.apple.com/us/genre/music-alternative/id20?uo=2",
+            "label": "Alternative"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-08-05T00:00:00-07:00",
+          "attributes": {
+            "label": "August 5, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Let Me Love You (feat. Justin Bieber)"
+        },
+        "im:image": [
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music18/v4/b8/7b/a1/b87ba110-8cac-b7c0-4070-1124c31534da/UMG_cvrart_00602557034745_01_RGB72_1800x1800_16UMGIM39232.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music18/v4/b8/7b/a1/b87ba110-8cac-b7c0-4070-1124c31534da/UMG_cvrart_00602557034745_01_RGB72_1800x1800_16UMGIM39232.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music18/v4/b8/7b/a1/b87ba110-8cac-b7c0-4070-1124c31534da/UMG_cvrart_00602557034745_01_RGB72_1800x1800_16UMGIM39232.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Encore"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/encore/id1132414935?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 DJ Snake Music under exclusive license to Interscope Records"
+        },
+        "title": {
+          "label": "Let Me Love You (feat. Justin Bieber) - DJ Snake"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/let-me-love-you-feat.-justin/id1132414935?i=1132415077&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview60/v4/26/ba/d0/26bad027-1f54-5adc-61a1-3ed16e5fde13/mzaf_1666196137781576467.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/let-me-love-you-feat.-justin/id1132414935?i=1132415077&uo=2",
+          "attributes": {
+            "im:id": "1132415077"
+          }
+        },
+        "im:artist": {
+          "label": "DJ Snake",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/dj-snake/id125742557?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "17",
+            "term": "Dance",
+            "scheme": "https://itunes.apple.com/us/genre/music-dance/id17?uo=2",
+            "label": "Dance"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-08-05T00:00:00-07:00",
+          "attributes": {
+            "label": "August 5, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Gold"
+        },
+        "im:image": [
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music49/v4/92/8d/7c/928d7c8c-423b-2a80-173c-2d628fc0a31b/075679911940.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music49/v4/92/8d/7c/928d7c8c-423b-2a80-173c-2d628fc0a31b/075679911940.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music49/v4/92/8d/7c/928d7c8c-423b-2a80-173c-2d628fc0a31b/075679911940.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "low kii savage - EP"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/low-kii-savage-ep/id1094908663?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$0.69",
+          "attributes": {
+            "amount": "0.69000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 EFFESS/Atlantic Recording Corporation for the United States and WEA International Inc. for the outside of the United States."
+        },
+        "title": {
+          "label": "Gold - Kiiara"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/gold/id1094908663?i=1094908777&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview18/v4/f7/10/b3/f710b390-188c-4144-c950-3851e70b3279/mzaf_9069988609755021554.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/gold/id1094908663?i=1094908777&uo=2",
+          "attributes": {
+            "im:id": "1094908777"
+          }
+        },
+        "im:artist": {
+          "label": "Kiiara",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/kiiara/id1017136601?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-03-22T00:00:00-07:00",
+          "attributes": {
+            "label": "March 22, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Blue Ain't Your Color"
+        },
+        "im:image": [
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music49/v4/20/d2/03/20d203f0-737d-ceab-e6c7-a50b985445d5/UMG_cvrart_00602547905048_01_RGB72_1800x1800_16UMGIM18157.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music49/v4/20/d2/03/20d203f0-737d-ceab-e6c7-a50b985445d5/UMG_cvrart_00602547905048_01_RGB72_1800x1800_16UMGIM18157.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music49/v4/20/d2/03/20d203f0-737d-ceab-e6c7-a50b985445d5/UMG_cvrart_00602547905048_01_RGB72_1800x1800_16UMGIM18157.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Ripcord"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/ripcord/id1098796818?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Hit Red Records under exclusive license to Capitol Records Nashville"
+        },
+        "title": {
+          "label": "Blue Ain't Your Color - Keith Urban"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/blue-aint-your-color/id1098796818?i=1098797022&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview60/v4/a6/f4/f2/a6f4f230-f05b-10c4-f829-eed6783cee3a/mzaf_4518803864055406300.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/blue-aint-your-color/id1098796818?i=1098797022&uo=2",
+          "attributes": {
+            "im:id": "1098797022"
+          }
+        },
+        "im:artist": {
+          "label": "Keith Urban",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/keith-urban/id549836?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "6",
+            "term": "Country",
+            "scheme": "https://itunes.apple.com/us/genre/music-country/id6?uo=2",
+            "label": "Country"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-05-06T00:00:00-07:00",
+          "attributes": {
+            "label": "May 6, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Juju on That Beat (TZ Anthem)"
+        },
+        "im:image": [
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music71/v4/6a/a5/95/6aa595a5-814f-3682-fa24-ed02270a2788/075679903990.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music71/v4/6a/a5/95/6aa595a5-814f-3682-fa24-ed02270a2788/075679903990.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music71/v4/6a/a5/95/6aa595a5-814f-3682-fa24-ed02270a2788/075679903990.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Juju on That Beat (TZ Anthem) - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/juju-on-that-beat-tz-anthem/id1160753548?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Tha Lights Global, INC / Atlantic Recording Corporation"
+        },
+        "title": {
+          "label": "Juju on That Beat (TZ Anthem) - Zay Hilfigerrr & Zayion McCall"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/juju-on-that-beat-tz-anthem/id1160753548?i=1160753755&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/79/db/1f/79db1fbb-2b48-d505-d07f-6ede76ba3a7d/mzaf_1952880548153297608.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/juju-on-that-beat-tz-anthem/id1160753548?i=1160753755&uo=2",
+          "attributes": {
+            "im:id": "1160753755"
+          }
+        },
+        "im:artist": {
+          "label": "Zay Hilfigerrr & Zayion McCall",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/zay-hilfigerrr/id1160941543?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "1073",
+            "term": "Hip-Hop",
+            "scheme": "https://itunes.apple.com/us/genre/music-hip-hop-rap-hip-hop/id1073?uo=2",
+            "label": "Hip-Hop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-09-30T00:00:00-07:00",
+          "attributes": {
+            "label": "September 30, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "The Stage"
+        },
+        "im:image": [
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music71/v4/ad/30/98/ad30980f-d1a2-9d2d-4c41-60d8809a44ac/UMG_cvrart_00602557188608_01_RGB72_1800x1800_16UMGIM70612.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music71/v4/ad/30/98/ad30980f-d1a2-9d2d-4c41-60d8809a44ac/UMG_cvrart_00602557188608_01_RGB72_1800x1800_16UMGIM70612.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music71/v4/ad/30/98/ad30980f-d1a2-9d2d-4c41-60d8809a44ac/UMG_cvrart_00602557188608_01_RGB72_1800x1800_16UMGIM70612.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "The Stage - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/the-stage-single/id1161818172?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Avenged Sevenfold Partnership Under Exclusive License To Capitol Records"
+        },
+        "title": {
+          "label": "The Stage - Avenged Sevenfold"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/the-stage/id1161818172?i=1161818185&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/96/8b/b2/968bb295-521f-7d77-c0c5-26b5f4792563/mzaf_3459016359317626552.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/the-stage/id1161818172?i=1161818185&uo=2",
+          "attributes": {
+            "im:id": "1161818185"
+          }
+        },
+        "im:artist": {
+          "label": "Avenged Sevenfold",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/avenged-sevenfold/id6766228?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "21",
+            "term": "Rock",
+            "scheme": "https://itunes.apple.com/us/genre/music-rock/id21?uo=2",
+            "label": "Rock"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-10-13T00:00:00-07:00",
+          "attributes": {
+            "label": "October 13, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Starving (feat. Zedd)"
+        },
+        "im:image": [
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music60/v4/a9/cc/51/a9cc51f2-d50a-cdd9-2811-c4ab09d800c3/UMG_cvrart_00602557111484_01_RGB72_1800x1800_16UMGIM56252.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music60/v4/a9/cc/51/a9cc51f2-d50a-cdd9-2811-c4ab09d800c3/UMG_cvrart_00602557111484_01_RGB72_1800x1800_16UMGIM56252.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music60/v4/a9/cc/51/a9cc51f2-d50a-cdd9-2811-c4ab09d800c3/UMG_cvrart_00602557111484_01_RGB72_1800x1800_16UMGIM56252.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Starving (feat. Zedd) - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/starving-feat.-zedd-single/id1135647121?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Republic Records, a division of UMG Recordings, Inc."
+        },
+        "title": {
+          "label": "Starving (feat. Zedd) - Hailee Steinfeld & Grey"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/starving-feat.-zedd/id1135647121?i=1135647629&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview18/v4/40/9d/f8/409df81a-603e-2245-b35d-a64e8149f3f0/mzaf_4113426876234253371.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/starving-feat.-zedd/id1135647121?i=1135647629&uo=2",
+          "attributes": {
+            "im:id": "1135647629"
+          }
+        },
+        "im:artist": {
+          "label": "Hailee Steinfeld & Grey",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/hailee-steinfeld/id417571723?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-07-22T00:00:00-07:00",
+          "attributes": {
+            "label": "July 22, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "The Internet Is Here"
+        },
+        "im:image": [
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music71/v4/eb/29/66/eb2966d4-8681-0f1c-5c61-0cc1988b349b/859718399896_cover.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music71/v4/eb/29/66/eb2966d4-8681-0f1c-5c61-0cc1988b349b/859718399896_cover.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music71/v4/eb/29/66/eb2966d4-8681-0f1c-5c61-0cc1988b349b/859718399896_cover.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "The Internet Is Here - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/the-internet-is-here-single/id1160332724?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$0.99",
+          "attributes": {
+            "amount": "0.99000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Dan and Phil Productions"
+        },
+        "title": {
+          "label": "The Internet Is Here - Dan and Phil"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/the-internet-is-here/id1160332724?i=1160333415&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/f1/25/0e/f1250e4b-5b2e-366a-5597-299f6e6939cf/mzaf_1772747871492258609.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/the-internet-is-here/id1160332724?i=1160333415&uo=2",
+          "attributes": {
+            "im:id": "1160333415"
+          }
+        },
+        "im:artist": {
+          "label": "Dan and Phil",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/dan-and-phil/id1160333285?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "3",
+            "term": "Comedy",
+            "scheme": "https://itunes.apple.com/us/genre/music-comedy/id3?uo=2",
+            "label": "Comedy"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-10-12T00:00:00-07:00",
+          "attributes": {
+            "label": "October 12, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Love Me Now"
+        },
+        "im:image": [
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music71/v4/8b/43/f4/8b43f436-e1ff-a585-1b28-3032c48bc282/886446132563.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music71/v4/8b/43/f4/8b43f436-e1ff-a585-1b28-3032c48bc282/886446132563.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music71/v4/8b/43/f4/8b43f436-e1ff-a585-1b28-3032c48bc282/886446132563.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Love Me Now - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/love-me-now-single/id1160843931?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 John Legend Music, Inc. and Columbia Records, a division of Sony Music Entertainment"
+        },
+        "title": {
+          "label": "Love Me Now - John Legend"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/love-me-now/id1160843931?i=1160844100&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview71/v4/79/e6/c2/79e6c2db-18a1-6319-2ac7-5a52dbdbbe52/mzaf_48307946484666417.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/love-me-now/id1160843931?i=1160844100&uo=2",
+          "attributes": {
+            "im:id": "1160844100"
+          }
+        },
+        "im:artist": {
+          "label": "John Legend",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/john-legend/id16586443?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "15",
+            "term": "R&B/Soul",
+            "scheme": "https://itunes.apple.com/us/genre/music-r-b-soul/id15?uo=2",
+            "label": "R&B/Soul"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-10-07T00:00:00-07:00",
+          "attributes": {
+            "label": "October 7, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "You Don't Own Me (feat. G-Eazy)"
+        },
+        "im:image": [
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music7/v4/ea/b6/bc/eab6bc98-2e9d-84e1-66fe-027173415aba/886445265637.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music7/v4/ea/b6/bc/eab6bc98-2e9d-84e1-66fe-027173415aba/886445265637.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music7/v4/ea/b6/bc/eab6bc98-2e9d-84e1-66fe-027173415aba/886445265637.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Memo - EP"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/memo-ep/id996676274?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2015 RCA Records, a division of Sony Music Entertainment"
+        },
+        "title": {
+          "label": "You Don't Own Me (feat. G-Eazy) - Grace"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/you-dont-own-me-feat.-g-eazy/id996676274?i=996676495&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://a592.phobos.apple.com/us/r1000/001/Music3/v4/fe/ae/01/feae01a2-462a-b6ea-d5b0-a7078666609e/mzaf_9158882536722295042.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/you-dont-own-me-feat.-g-eazy/id996676274?i=996676495&uo=2",
+          "attributes": {
+            "im:id": "996676495"
+          }
+        },
+        "im:artist": {
+          "label": "Grace",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/grace/id1014754272?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2015-05-26T00:00:00-07:00",
+          "attributes": {
+            "label": "May 26, 2015"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Setting the World on Fire (with P!nk)"
+        },
+        "im:image": [
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music62/v4/16/df/69/16df69de-8d04-4405-b58e-bb2c75ebc91a/886445927788.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music62/v4/16/df/69/16df69de-8d04-4405-b58e-bb2c75ebc91a/886445927788.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music62/v4/16/df/69/16df69de-8d04-4405-b58e-bb2c75ebc91a/886445927788.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Cosmic Hallelujah"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/cosmic-hallelujah/id1157695723?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Blue Chair Records, LLC, under exclusive license to Sony Music Nashville, a division of Sony Music Entertainment"
+        },
+        "title": {
+          "label": "Setting the World on Fire (with P!nk) - Kenny Chesney"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/setting-world-on-fire-p!nk/id1157695723?i=1157695733&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/bd/cc/79/bdcc79cd-ef8e-8756-fd2c-9c5f38a32eee/mzaf_6450707200468596955.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/setting-world-on-fire-p!nk/id1157695723?i=1157695733&uo=2",
+          "attributes": {
+            "im:id": "1157695733"
+          }
+        },
+        "im:artist": {
+          "label": "Kenny Chesney",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/kenny-chesney/id205322?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "6",
+            "term": "Country",
+            "scheme": "https://itunes.apple.com/us/genre/music-country/id6?uo=2",
+            "label": "Country"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-10-28T00:00:00-07:00",
+          "attributes": {
+            "label": "October 28, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Today"
+        },
+        "im:image": [
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music71/v4/53/f8/c6/53f8c6a5-a99b-a8fb-60d6-d20522e7c642/886446130361.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music71/v4/53/f8/c6/53f8c6a5-a99b-a8fb-60d6-d20522e7c642/886446130361.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music71/v4/53/f8/c6/53f8c6a5-a99b-a8fb-60d6-d20522e7c642/886446130361.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Today - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/today-single/id1160860303?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Sony Music Entertainment"
+        },
+        "title": {
+          "label": "Today - Brad Paisley"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/today/id1160860303?i=1160860328&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/39/58/9e/39589ec5-ee22-6fc8-e774-7229bba75094/mzaf_8460347152059625260.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/today/id1160860303?i=1160860328&uo=2",
+          "attributes": {
+            "im:id": "1160860328"
+          }
+        },
+        "im:artist": {
+          "label": "Brad Paisley",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/brad-paisley/id203739?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "6",
+            "term": "Country",
+            "scheme": "https://itunes.apple.com/us/genre/music-country/id6?uo=2",
+            "label": "Country"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-10-07T00:00:00-07:00",
+          "attributes": {
+            "label": "October 7, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "CAN'T STOP THE FEELING!"
+        },
+        "im:image": [
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music71/v4/24/0e/9d/240e9d71-9861-e7b5-a4f5-ef9fe856048d/886445915211.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music71/v4/24/0e/9d/240e9d71-9861-e7b5-a4f5-ef9fe856048d/886445915211.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music71/v4/24/0e/9d/240e9d71-9861-e7b5-a4f5-ef9fe856048d/886445915211.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Trolls (Original Motion Picture Soundtrack)"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/trolls-original-motion-picture/id1154238159?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ This Compilation (P) 2016 RCA Records, a division of Sony Music Entertainment"
+        },
+        "title": {
+          "label": "CAN'T STOP THE FEELING! - Justin Timberlake"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/cant-stop-the-feeling!/id1154238159?i=1154239184&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/b1/3f/10/b13f10dd-faeb-5408-2461-576c085c5b8a/mzaf_7914502261875146567.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/cant-stop-the-feeling!/id1154238159?i=1154239184&uo=2",
+          "attributes": {
+            "im:id": "1154239184"
+          }
+        },
+        "im:artist": {
+          "label": "Justin Timberlake",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/justin-timberlake/id398128?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-09-23T00:00:00-07:00",
+          "attributes": {
+            "label": "September 23, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "This Town"
+        },
+        "im:image": [
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music62/v4/22/1f/c4/221fc417-ecb1-5f96-1fe0-dc50da93b446/UMG_cvrart_00602557202434_01_RGB72_1800x1800_16UMGIM68281.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music62/v4/22/1f/c4/221fc417-ecb1-5f96-1fe0-dc50da93b446/UMG_cvrart_00602557202434_01_RGB72_1800x1800_16UMGIM68281.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music62/v4/22/1f/c4/221fc417-ecb1-5f96-1fe0-dc50da93b446/UMG_cvrart_00602557202434_01_RGB72_1800x1800_16UMGIM68281.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "This Town - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/this-town-single/id1158990311?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Neon Haze Music Ltd Under Exclusive License To Capitol Records"
+        },
+        "title": {
+          "label": "This Town - Niall Horan"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/this-town/id1158990311?i=1158990336&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview71/v4/8f/da/d6/8fdad68e-5185-d690-aa4f-2f383dfb24e5/mzaf_3658275144155165904.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/this-town/id1158990311?i=1158990336&uo=2",
+          "attributes": {
+            "im:id": "1158990336"
+          }
+        },
+        "im:artist": {
+          "label": "Niall Horan",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/niall-horan/id471260298?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-09-29T00:00:00-07:00",
+          "attributes": {
+            "label": "September 29, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Hymn for the Weekend"
+        },
+        "im:image": [
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music62/v4/11/07/84/110784e8-c486-2cba-1935-7fc79997c6e0/mzm.lasidxkv.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music62/v4/11/07/84/110784e8-c486-2cba-1935-7fc79997c6e0/mzm.lasidxkv.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music62/v4/11/07/84/110784e8-c486-2cba-1935-7fc79997c6e0/mzm.lasidxkv.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "A Head Full of Dreams"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/a-head-full-of-dreams/id1053933969?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$0.69",
+          "attributes": {
+            "amount": "0.69000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2015 Parlophone Records Limited, a Warner Music Group Company"
+        },
+        "title": {
+          "label": "Hymn for the Weekend - Coldplay"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/hymn-for-the-weekend/id1053933969?i=1053934844&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://a377.phobos.apple.com/us/r1000/171/Music69/v4/6a/76/d1/6a76d10b-965f-dbbd-2ef1-b7db312a09e4/mzaf_6073198344394750772.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/hymn-for-the-weekend/id1053933969?i=1053934844&uo=2",
+          "attributes": {
+            "im:id": "1053934844"
+          }
+        },
+        "im:artist": {
+          "label": "Coldplay",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/coldplay/id471744?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "20",
+            "term": "Alternative",
+            "scheme": "https://itunes.apple.com/us/genre/music-alternative/id20?uo=2",
+            "label": "Alternative"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2015-12-04T00:00:00-07:00",
+          "attributes": {
+            "label": "December 4, 2015"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "May We All (feat. Tim McGraw)"
+        },
+        "im:image": [
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music20/v4/10/f6/33/10f633a6-dea5-5a8a-b5a9-65d01f0c8d88/UMG_cvrart_00843930024827_01_RGB72_1800x1800_16UMGIM31012.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music20/v4/10/f6/33/10f633a6-dea5-5a8a-b5a9-65d01f0c8d88/UMG_cvrart_00843930024827_01_RGB72_1800x1800_16UMGIM31012.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music20/v4/10/f6/33/10f633a6-dea5-5a8a-b5a9-65d01f0c8d88/UMG_cvrart_00843930024827_01_RGB72_1800x1800_16UMGIM31012.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Dig Your Roots"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/dig-your-roots/id1131835987?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Big Machine Label Group, LLC"
+        },
+        "title": {
+          "label": "May We All (feat. Tim McGraw) - Florida Georgia Line"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/may-we-all-feat.-tim-mcgraw/id1131835987?i=1131836321&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview20/v4/0d/d7/5c/0dd75ccf-cc39-a183-1d1f-839c6b948d6c/mzaf_3150115323256374822.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/may-we-all-feat.-tim-mcgraw/id1131835987?i=1131836321&uo=2",
+          "attributes": {
+            "im:id": "1131836321"
+          }
+        },
+        "im:artist": {
+          "label": "Florida Georgia Line",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/florida-georgia-line/id399241518?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "6",
+            "term": "Country",
+            "scheme": "https://itunes.apple.com/us/genre/music-country/id6?uo=2",
+            "label": "Country"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-08-26T00:00:00-07:00",
+          "attributes": {
+            "label": "August 26, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "The Greatest (feat. Kendrick Lamar)"
+        },
+        "im:image": [
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music71/v4/5c/75/ad/5c75ad39-a76c-6668-4ae1-64ac35965832/886446014821.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music71/v4/5c/75/ad/5c75ad39-a76c-6668-4ae1-64ac35965832/886446014821.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music71/v4/5c/75/ad/5c75ad39-a76c-6668-4ae1-64ac35965832/886446014821.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "The Greatest (feat. Kendrick Lamar) - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/greatest-feat.-kendrick-lamar/id1149503804?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Monkey Puzzle Records, under exclusive license to RCA Records"
+        },
+        "title": {
+          "label": "The Greatest (feat. Kendrick Lamar) - Sia"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/greatest-feat.-kendrick-lamar/id1149503804?i=1149503816&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview71/v4/50/7b/f5/507bf572-5a4d-20f5-2ea5-f43eab1aa270/mzaf_7190952495575496247.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/greatest-feat.-kendrick-lamar/id1149503804?i=1149503816&uo=2",
+          "attributes": {
+            "im:id": "1149503816"
+          }
+        },
+        "im:artist": {
+          "label": "Sia",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/sia/id13493906?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-09-06T00:00:00-07:00",
+          "attributes": {
+            "label": "September 6, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Cold Water (feat. Justin Bieber & MØ)"
+        },
+        "im:image": [
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music30/v4/20/c3/6b/20c36b48-38ba-c2dc-b15a-763a5d29515c/UMG_cvrart_00602557105834_01_RGB72_1800x1800_16UMGIM55601.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music30/v4/20/c3/6b/20c36b48-38ba-c2dc-b15a-763a5d29515c/UMG_cvrart_00602557105834_01_RGB72_1800x1800_16UMGIM55601.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music30/v4/20/c3/6b/20c36b48-38ba-c2dc-b15a-763a5d29515c/UMG_cvrart_00602557105834_01_RGB72_1800x1800_16UMGIM55601.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Cold Water (feat. Justin Bieber & MØ) - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/cold-water-feat.-justin-bieber/id1135662256?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Mad Decent under exclusive license in the United States to Def Jam Recordings, a division of UMG Recordings, Inc."
+        },
+        "title": {
+          "label": "Cold Water (feat. Justin Bieber & MØ) - Major Lazer"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/cold-water-feat.-justin-bieber/id1135662256?i=1135662318&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview30/v4/f2/d7/d6/f2d7d656-4a30-0544-a3a0-426d5e16bce4/mzaf_6746844700915861113.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/cold-water-feat.-justin-bieber/id1135662256?i=1135662318&uo=2",
+          "attributes": {
+            "im:id": "1135662318"
+          }
+        },
+        "im:artist": {
+          "label": "Major Lazer",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/major-lazer/id315761934?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-07-22T00:00:00-07:00",
+          "attributes": {
+            "label": "July 22, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "My Way"
+        },
+        "im:image": [
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music71/v4/0e/8c/64/0e8c646a-c147-ec17-fe20-31eb864bb34c/886446102962.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music71/v4/0e/8c/64/0e8c646a-c147-ec17-fe20-31eb864bb34c/886446102962.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music71/v4/0e/8c/64/0e8c646a-c147-ec17-fe20-31eb864bb34c/886446102962.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "My Way - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/my-way-single/id1153704473?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Sony Music Entertainment UK Limited"
+        },
+        "title": {
+          "label": "My Way - Calvin Harris"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/my-way/id1153704473?i=1153704956&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/e6/83/5b/e6835b0d-2ffc-e7a2-944d-3d30d28a8f53/mzaf_2040910147611651644.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/my-way/id1153704473?i=1153704956&uo=2",
+          "attributes": {
+            "im:id": "1153704956"
+          }
+        },
+        "im:artist": {
+          "label": "Calvin Harris",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/calvin-harris/id201955086?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "17",
+            "term": "Dance",
+            "scheme": "https://itunes.apple.com/us/genre/music-dance/id17?uo=2",
+            "label": "Dance"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-09-19T00:00:00-07:00",
+          "attributes": {
+            "label": "September 19, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Forever Country"
+        },
+        "im:image": [
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music62/v4/df/6f/3a/df6f3a89-8da3-8ef0-b4e1-53e76f8d6492/UMG_cvrart_00602557207156_01_RGB72_1800x1800_16UMGIM67288.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music62/v4/df/6f/3a/df6f3a89-8da3-8ef0-b4e1-53e76f8d6492/UMG_cvrart_00602557207156_01_RGB72_1800x1800_16UMGIM67288.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music62/v4/df/6f/3a/df6f3a89-8da3-8ef0-b4e1-53e76f8d6492/UMG_cvrart_00602557207156_01_RGB72_1800x1800_16UMGIM67288.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Forever Country - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/forever-country-single/id1154283796?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Country Music Association, Inc."
+        },
+        "title": {
+          "label": "Forever Country - Artists Of Then, Now & Forever"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/forever-country/id1154283796?i=1154284002&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview71/v4/af/55/9b/af559b25-43c6-910c-0786-bfc5d57a1b1f/mzaf_3195766126001481154.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/forever-country/id1154283796?i=1154284002&uo=2",
+          "attributes": {
+            "im:id": "1154284002"
+          }
+        },
+        "im:artist": {
+          "label": "Artists Of Then, Now & Forever",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/artists-of-then-now-forever/id1151644947?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "6",
+            "term": "Country",
+            "scheme": "https://itunes.apple.com/us/genre/music-country/id6?uo=2",
+            "label": "Country"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-09-16T00:00:00-07:00",
+          "attributes": {
+            "label": "September 16, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "HandClap"
+        },
+        "im:image": [
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music69/v4/43/89/93/43899367-6b77-4dfb-6f49-65ef818a50ea/075679913753.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music69/v4/43/89/93/43899367-6b77-4dfb-6f49-65ef818a50ea/075679913753.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music69/v4/43/89/93/43899367-6b77-4dfb-6f49-65ef818a50ea/075679913753.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Fitz & The Tantrums"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/fitz-the-tantrums/id1094696189?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$0.69",
+          "attributes": {
+            "amount": "0.69000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Elektra Records for the United States and WEA International Inc. for the world outside of the United States. A Warner Music Group Company"
+        },
+        "title": {
+          "label": "HandClap - Fitz & The Tantrums"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/handclap/id1094696189?i=1094696191&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview20/v4/6c/e9/09/6ce9094d-e466-1f7e-80c4-3d2a9a41d2eb/mzaf_1813275433325749932.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/handclap/id1094696189?i=1094696191&uo=2",
+          "attributes": {
+            "im:id": "1094696191"
+          }
+        },
+        "im:artist": {
+          "label": "Fitz & The Tantrums",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/fitz-the-tantrums/id321144807?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "20",
+            "term": "Alternative",
+            "scheme": "https://itunes.apple.com/us/genre/music-alternative/id20?uo=2",
+            "label": "Alternative"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-06-10T00:00:00-07:00",
+          "attributes": {
+            "label": "June 10, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Ride"
+        },
+        "im:image": [
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music1/v4/5e/a1/8f/5ea18f97-ad34-ab4a-122d-c1e4cec51497/dj.hrcgnvji.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music1/v4/5e/a1/8f/5ea18f97-ad34-ab4a-122d-c1e4cec51497/dj.hrcgnvji.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music1/v4/5e/a1/8f/5ea18f97-ad34-ab4a-122d-c1e4cec51497/dj.hrcgnvji.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Blurryface"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/blurryface/id974485462?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2015 Fueled By Ramen LLC for the United States and WEA International Inc. for the world outside of the United States. A Warner Music Group Company"
+        },
+        "title": {
+          "label": "Ride - twenty one pilots"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/ride/id974485462?i=974485805&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://a965.phobos.apple.com/us/r1000/157/Music7/v4/74/d4/11/74d41192-3f7c-4591-21ad-acf8d2d38cde/mzaf_7422057954899302311.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/ride/id974485462?i=974485805&uo=2",
+          "attributes": {
+            "im:id": "974485805"
+          }
+        },
+        "im:artist": {
+          "label": "twenty one pilots",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/twenty-one-pilots/id349736311?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "20",
+            "term": "Alternative",
+            "scheme": "https://itunes.apple.com/us/genre/music-alternative/id20?uo=2",
+            "label": "Alternative"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2015-05-19T00:00:00-07:00",
+          "attributes": {
+            "label": "May 19, 2015"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Million Reasons"
+        },
+        "im:image": [
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music71/v4/19/e8/1e/19e81e2f-9585-f18d-f190-ddffdfb47bda/UMG_cvrart_00602557205145_01_RGB72_1800x1800_16UMGIM68302.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music71/v4/19/e8/1e/19e81e2f-9585-f18d-f190-ddffdfb47bda/UMG_cvrart_00602557205145_01_RGB72_1800x1800_16UMGIM68302.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music71/v4/19/e8/1e/19e81e2f-9585-f18d-f190-ddffdfb47bda/UMG_cvrart_00602557205145_01_RGB72_1800x1800_16UMGIM68302.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Joanne (Deluxe)"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/joanne-deluxe/id1161510321?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Interscope Records"
+        },
+        "title": {
+          "label": "Million Reasons - Lady Gaga"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/million-reasons/id1161510321?i=1161510328&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/c2/1c/46/c21c460b-5aaf-adcc-7435-177a5c5298b5/mzaf_7736898159380320448.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/million-reasons/id1161510321?i=1161510328&uo=2",
+          "attributes": {
+            "im:id": "1161510328"
+          }
+        },
+        "im:artist": {
+          "label": "Lady Gaga",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/lady-gaga/id277293880?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-10-21T00:00:00-07:00",
+          "attributes": {
+            "label": "October 21, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Unsteady"
+        },
+        "im:image": [
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music5/v4/fd/87/a1/fd87a19e-c422-42d6-a475-d57d413ac107/UMG_cvrart_00602547369338_01_RGB72_1500x1500_15UMGIM23181.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music5/v4/fd/87/a1/fd87a19e-c422-42d6-a475-d57d413ac107/UMG_cvrart_00602547369338_01_RGB72_1500x1500_15UMGIM23181.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music5/v4/fd/87/a1/fd87a19e-c422-42d6-a475-d57d413ac107/UMG_cvrart_00602547369338_01_RGB72_1500x1500_15UMGIM23181.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "VHS"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/vhs/id988868005?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2015 KIDinaKORNER/Interscope Records"
+        },
+        "title": {
+          "label": "Unsteady - X Ambassadors"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/unsteady/id988868005?i=988868010&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://a1180.phobos.apple.com/us/r1000/165/Music1/v4/52/e2/5b/52e25b68-4724-3bd5-766a-e8fefaa01f16/mzaf_392227700806149594.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/unsteady/id988868005?i=988868010&uo=2",
+          "attributes": {
+            "im:id": "988868010"
+          }
+        },
+        "im:artist": {
+          "label": "X Ambassadors",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/x-ambassadors/id622429974?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "20",
+            "term": "Alternative",
+            "scheme": "https://itunes.apple.com/us/genre/music-alternative/id20?uo=2",
+            "label": "Alternative"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2015-06-30T00:00:00-07:00",
+          "attributes": {
+            "label": "June 30, 2015"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Kids"
+        },
+        "im:image": [
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music71/v4/f1/db/5b/f1db5b86-fe56-a586-bb9a-3d41aed7dcc0/UMG_cvrart_00602557100099_01_RGB72_1800x1800_16UMGIM64331.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music71/v4/f1/db/5b/f1db5b86-fe56-a586-bb9a-3d41aed7dcc0/UMG_cvrart_00602557100099_01_RGB72_1800x1800_16UMGIM64331.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music71/v4/f1/db/5b/f1db5b86-fe56-a586-bb9a-3d41aed7dcc0/UMG_cvrart_00602557100099_01_RGB72_1800x1800_16UMGIM64331.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Oh My My"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/oh-my-my/id1151608594?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Mosley Music/Interscope Records"
+        },
+        "title": {
+          "label": "Kids - OneRepublic"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/kids/id1151608594?i=1151608677&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/77/03/5b/77035bee-0d18-b8fa-fc25-9fd01dff3e85/mzaf_2572954950460997946.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/kids/id1151608594?i=1151608677&uo=2",
+          "attributes": {
+            "im:id": "1151608677"
+          }
+        },
+        "im:artist": {
+          "label": "OneRepublic",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/onerepublic/id260414340?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-10-07T00:00:00-07:00",
+          "attributes": {
+            "label": "October 7, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Treat You Better"
+        },
+        "im:image": [
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music62/v4/cb/5a/40/cb5a408b-a079-39de-754d-b59ae0dbe569/dj.lvdyxptl.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music62/v4/cb/5a/40/cb5a408b-a079-39de-754d-b59ae0dbe569/dj.lvdyxptl.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music62/v4/cb/5a/40/cb5a408b-a079-39de-754d-b59ae0dbe569/dj.lvdyxptl.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Illuminate (Deluxe)"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/illuminate-deluxe/id1131419391?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Island Records, a division of UMG Recordings, Inc."
+        },
+        "title": {
+          "label": "Treat You Better - Shawn Mendes"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/treat-you-better/id1131419391?i=1131419445&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview30/v4/93/af/ae/93afae8d-a676-449b-db8e-13089ba3b24a/mzaf_5490962991527915297.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/treat-you-better/id1131419391?i=1131419445&uo=2",
+          "attributes": {
+            "im:id": "1131419445"
+          }
+        },
+        "im:artist": {
+          "label": "Shawn Mendes",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/shawn-mendes/id890403665?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-09-23T00:00:00-07:00",
+          "attributes": {
+            "label": "September 23, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Don't Let Me Down (feat. Daya)"
+        },
+        "im:image": [
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music69/v4/08/62/c4/0862c46e-f091-3007-830d-690eccbaa238/886445700848.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music69/v4/08/62/c4/0862c46e-f091-3007-830d-690eccbaa238/886445700848.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music69/v4/08/62/c4/0862c46e-f091-3007-830d-690eccbaa238/886445700848.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Don't Let Me Down (feat. Daya) - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/dont-let-me-down-feat.-daya/id1079537189?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2015 Disruptor Records/Columbia Records"
+        },
+        "title": {
+          "label": "Don't Let Me Down (feat. Daya) - The Chainsmokers"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/dont-let-me-down-feat.-daya/id1079537189?i=1079537192&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://a739.phobos.apple.com/us/r1000/129/Music49/v4/ed/15/2c/ed152c7c-f39e-fb32-ba51-804247f34257/mzaf_2543246308414346712.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/dont-let-me-down-feat.-daya/id1079537189?i=1079537192&uo=2",
+          "attributes": {
+            "im:id": "1079537192"
+          }
+        },
+        "im:artist": {
+          "label": "The Chainsmokers",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/the-chainsmokers/id580391756?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "17",
+            "term": "Dance",
+            "scheme": "https://itunes.apple.com/us/genre/music-dance/id17?uo=2",
+            "label": "Dance"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-02-05T00:00:00-07:00",
+          "attributes": {
+            "label": "February 5, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Vice"
+        },
+        "im:image": [
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music20/v4/29/6a/07/296a07dc-90ce-f382-0d44-fc968445ab0c/886445997156.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music20/v4/29/6a/07/296a07dc-90ce-f382-0d44-fc968445ab0c/886445997156.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music20/v4/29/6a/07/296a07dc-90ce-f382-0d44-fc968445ab0c/886445997156.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Vice - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/vice-single/id1133309487?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Vanner Records, LLC, under exclusive license to Sony Music Nashville, a division of Sony Music Entertainment"
+        },
+        "title": {
+          "label": "Vice - Miranda Lambert"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/vice/id1133309487?i=1133309778&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview20/v4/d6/0e/24/d60e249c-4958-580e-70ca-07a35aa0707f/mzaf_5767366593362445430.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/vice/id1133309487?i=1133309778&uo=2",
+          "attributes": {
+            "im:id": "1133309778"
+          }
+        },
+        "im:artist": {
+          "label": "Miranda Lambert",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/miranda-lambert/id18732261?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "6",
+            "term": "Country",
+            "scheme": "https://itunes.apple.com/us/genre/music-country/id6?uo=2",
+            "label": "Country"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-07-20T00:00:00-07:00",
+          "attributes": {
+            "label": "July 20, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "I Know Somebody"
+        },
+        "im:image": [
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music18/v4/fe/71/53/fe71531e-4601-8881-b4fd-a2625d23ea06/886445904130.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music18/v4/fe/71/53/fe71531e-4601-8881-b4fd-a2625d23ea06/886445904130.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music18/v4/fe/71/53/fe71531e-4601-8881-b4fd-a2625d23ea06/886445904130.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "The Fighters"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/the-fighters/id1113103130?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$0.69",
+          "attributes": {
+            "amount": "0.69000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Reviver Records"
+        },
+        "title": {
+          "label": "I Know Somebody - LOCASH"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/i-know-somebody/id1113103130?i=1113103331&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview18/v4/f6/23/14/f623140b-2a61-83e2-19de-f7f145c378e1/mzaf_7383427780808738503.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/i-know-somebody/id1113103130?i=1113103331&uo=2",
+          "attributes": {
+            "im:id": "1113103331"
+          }
+        },
+        "im:artist": {
+          "label": "LOCASH",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/locash/id377628448?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "6",
+            "term": "Country",
+            "scheme": "https://itunes.apple.com/us/genre/music-country/id6?uo=2",
+            "label": "Country"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-06-17T00:00:00-07:00",
+          "attributes": {
+            "label": "June 17, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Sit Still, Look Pretty"
+        },
+        "im:image": [
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music71/v4/e5/4d/85/e54d85fa-7ced-b650-4811-7b61698a16c6/886446115962.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music71/v4/e5/4d/85/e54d85fa-7ced-b650-4811-7b61698a16c6/886446115962.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music71/v4/e5/4d/85/e54d85fa-7ced-b650-4811-7b61698a16c6/886446115962.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Sit Still, Look Pretty"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/sit-still-look-pretty/id1153787466?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$0.69",
+          "attributes": {
+            "amount": "0.69000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 ARTBEATZ Entertainment LLC. Distributed by RED, a SONY Company"
+        },
+        "title": {
+          "label": "Sit Still, Look Pretty - Daya"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/sit-still-look-pretty/id1153787466?i=1153788147&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview71/v4/13/5c/1d/135c1d82-f193-9254-5072-da174ecaa01d/mzaf_5053338041383406916.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/sit-still-look-pretty/id1153787466?i=1153788147&uo=2",
+          "attributes": {
+            "im:id": "1153788147"
+          }
+        },
+        "im:artist": {
+          "label": "Daya",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/daya/id1037160430?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-10-07T00:00:00-07:00",
+          "attributes": {
+            "label": "October 7, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Rise Up"
+        },
+        "im:image": [
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music7/v4/2b/34/e6/2b34e60d-a0c5-a9cf-131f-faac9b06ab92/dj.jnvitiaq.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music7/v4/2b/34/e6/2b34e60d-a0c5-a9cf-131f-faac9b06ab92/dj.jnvitiaq.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music7/v4/2b/34/e6/2b34e60d-a0c5-a9cf-131f-faac9b06ab92/dj.jnvitiaq.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Cheers to the Fall"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/cheers-to-the-fall/id996787628?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2015 Warner Bros. Records Inc."
+        },
+        "title": {
+          "label": "Rise Up - Andra Day"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/rise-up/id996787628?i=996788062&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://a1036.phobos.apple.com/us/r1000/142/Music7/v4/ed/88/6e/ed886ee5-8b1a-d8d0-7061-2b0a39e88927/mzaf_6541725816985423280.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/rise-up/id996787628?i=996788062&uo=2",
+          "attributes": {
+            "im:id": "996788062"
+          }
+        },
+        "im:artist": {
+          "label": "Andra Day",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/andra-day/id677081663?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "15",
+            "term": "R&B/Soul",
+            "scheme": "https://itunes.apple.com/us/genre/music-r-b-soul/id15?uo=2",
+            "label": "R&B/Soul"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2015-08-28T00:00:00-07:00",
+          "attributes": {
+            "label": "August 28, 2015"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Cheap Thrills (feat. Sean Paul)"
+        },
+        "im:image": [
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music49/v4/66/4f/3a/664f3a16-22bb-1aaa-ab99-51ce6e520f26/886445739930.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music49/v4/66/4f/3a/664f3a16-22bb-1aaa-ab99-51ce6e520f26/886445739930.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music49/v4/66/4f/3a/664f3a16-22bb-1aaa-ab99-51ce6e520f26/886445739930.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Cheap Thrills (feat. Sean Paul) - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/cheap-thrills-feat.-sean-paul/id1082505789?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2015 Monkey Puzzle Records, under exclusive license to RCA Records"
+        },
+        "title": {
+          "label": "Cheap Thrills (feat. Sean Paul) - Sia"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/cheap-thrills-feat.-sean-paul/id1082505789?i=1082506273&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://a28.phobos.apple.com/us/r1000/125/Music49/v4/a9/00/8f/a9008f19-d3a6-fa54-4c82-72549b86dbe6/mzaf_5675832891042605544.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/cheap-thrills-feat.-sean-paul/id1082505789?i=1082506273&uo=2",
+          "attributes": {
+            "im:id": "1082506273"
+          }
+        },
+        "im:artist": {
+          "label": "Sia",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/sia/id13493906?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-02-11T00:00:00-07:00",
+          "attributes": {
+            "label": "February 11, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "It Don't Hurt Like It Used To"
+        },
+        "im:image": [
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music7/v4/37/96/e2/3796e2d8-b771-454f-980e-cade2a73988b/UMG_cvrart_00602547364289_01_RGB72_1500x1500_15UMGIM22456.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music7/v4/37/96/e2/3796e2d8-b771-454f-980e-cade2a73988b/UMG_cvrart_00602547364289_01_RGB72_1500x1500_15UMGIM22456.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music7/v4/37/96/e2/3796e2d8-b771-454f-980e-cade2a73988b/UMG_cvrart_00602547364289_01_RGB72_1500x1500_15UMGIM22456.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Summer Forever"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/summer-forever/id991396298?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2015 Mercury Records, a Division of UMG Recordings, Inc."
+        },
+        "title": {
+          "label": "It Don't Hurt Like It Used To - Billy Currington"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/it-dont-hurt-like-it-used-to/id991396298?i=991396321&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://a624.phobos.apple.com/us/r1000/153/Music7/v4/cb/80/6a/cb806a33-d468-ab02-303b-27a9181610b2/mzaf_1200131393791770014.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/it-dont-hurt-like-it-used-to/id991396298?i=991396321&uo=2",
+          "attributes": {
+            "im:id": "991396321"
+          }
+        },
+        "im:artist": {
+          "label": "Billy Currington",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/billy-currington/id203875?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "6",
+            "term": "Country",
+            "scheme": "https://itunes.apple.com/us/genre/music-country/id6?uo=2",
+            "label": "Country"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2015-06-02T00:00:00-07:00",
+          "attributes": {
+            "label": "June 2, 2015"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "In the Name of Love"
+        },
+        "im:image": [
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music20/v4/c9/4c/1a/c94c1abe-bc57-8796-6879-e0f5200b3cbe/886446028088.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music20/v4/c9/4c/1a/c94c1abe-bc57-8796-6879-e0f5200b3cbe/886446028088.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music20/v4/c9/4c/1a/c94c1abe-bc57-8796-6879-e0f5200b3cbe/886446028088.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "In the Name of Love - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/in-the-name-of-love-single/id1137640898?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 STMPD RCRDS B.V. exclusively licensed to Epic Amsterdam, a divison of Sony Music Entertainment Netherlands B.V."
+        },
+        "title": {
+          "label": "In the Name of Love - Martin Garrix & Bebe Rexha"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/in-the-name-of-love/id1137640898?i=1137641426&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview18/v4/0f/78/19/0f78191a-c976-7d27-3ab3-f84324ace25e/mzaf_3467223182293187450.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/in-the-name-of-love/id1137640898?i=1137641426&uo=2",
+          "attributes": {
+            "im:id": "1137641426"
+          }
+        },
+        "im:artist": {
+          "label": "Martin Garrix & Bebe Rexha",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/martin-garrix/id430932944?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "17",
+            "term": "Dance",
+            "scheme": "https://itunes.apple.com/us/genre/music-dance/id17?uo=2",
+            "label": "Dance"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-07-29T00:00:00-07:00",
+          "attributes": {
+            "label": "July 29, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Let's Hurt Tonight"
+        },
+        "im:image": [
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music71/v4/f1/db/5b/f1db5b86-fe56-a586-bb9a-3d41aed7dcc0/UMG_cvrart_00602557100099_01_RGB72_1800x1800_16UMGIM64331.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music71/v4/f1/db/5b/f1db5b86-fe56-a586-bb9a-3d41aed7dcc0/UMG_cvrart_00602557100099_01_RGB72_1800x1800_16UMGIM64331.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music71/v4/f1/db/5b/f1db5b86-fe56-a586-bb9a-3d41aed7dcc0/UMG_cvrart_00602557100099_01_RGB72_1800x1800_16UMGIM64331.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Oh My My"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/oh-my-my/id1151608594?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Mosley Music/Interscope Records"
+        },
+        "title": {
+          "label": "Let's Hurt Tonight - OneRepublic"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/lets-hurt-tonight/id1151608594?i=1151608674&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/7b/cf/5f/7bcf5f31-c396-1159-e3e4-5334a7b0c1d1/mzaf_5918036336348533702.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/lets-hurt-tonight/id1151608594?i=1151608674&uo=2",
+          "attributes": {
+            "im:id": "1151608674"
+          }
+        },
+        "im:artist": {
+          "label": "OneRepublic",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/onerepublic/id260414340?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-10-07T00:00:00-07:00",
+          "attributes": {
+            "label": "October 7, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Fresh Eyes"
+        },
+        "im:image": [
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music20/v4/36/ef/c4/36efc4b4-4541-5ea9-61ab-68ae025284fa/UMG_cvrart_04050538236484_01_RGB72_1800x1800_16UMGIM56463.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music20/v4/36/ef/c4/36efc4b4-4541-5ea9-61ab-68ae025284fa/UMG_cvrart_04050538236484_01_RGB72_1800x1800_16UMGIM56463.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music20/v4/36/ef/c4/36efc4b4-4541-5ea9-61ab-68ae025284fa/UMG_cvrart_04050538236484_01_RGB72_1800x1800_16UMGIM56463.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Fresh Eyes - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/fresh-eyes-single/id1136336963?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 BMG Rights Management (US) LLC d/b/a S-Curve Records"
+        },
+        "title": {
+          "label": "Fresh Eyes - Andy Grammer"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/fresh-eyes/id1136336963?i=1136337586&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview30/v4/b4/e6/79/b4e679fc-bce2-7d7d-f9c7-21b5fe6aa25c/mzaf_1684487425575704321.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/fresh-eyes/id1136336963?i=1136337586&uo=2",
+          "attributes": {
+            "im:id": "1136337586"
+          }
+        },
+        "im:artist": {
+          "label": "Andy Grammer",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/andy-grammer/id395772279?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-07-29T00:00:00-07:00",
+          "attributes": {
+            "label": "July 29, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Scars to Your Beautiful"
+        },
+        "im:image": [
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music6/v4/77/dd/95/77dd9576-4195-834f-0282-0eb274ce4895/UMG_cvrart_00602547585677_01_RGB72_1800x1800_15UMGIM55240.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music6/v4/77/dd/95/77dd9576-4195-834f-0282-0eb274ce4895/UMG_cvrart_00602547585677_01_RGB72_1800x1800_15UMGIM55240.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music6/v4/77/dd/95/77dd9576-4195-834f-0282-0eb274ce4895/UMG_cvrart_00602547585677_01_RGB72_1800x1800_15UMGIM55240.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Know-It-All (Deluxe)"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/know-it-all-deluxe/id1050275063?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2015 Def Jam Recordings, a division of UMG Recordings, Inc."
+        },
+        "title": {
+          "label": "Scars to Your Beautiful - Alessia Cara"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/scars-to-your-beautiful/id1050275063?i=1050275078&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://a886.phobos.apple.com/us/r1000/122/Music6/v4/af/59/3b/af593b3a-5913-1ac9-526a-762fd8b8e280/mzaf_7980658166189419780.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/scars-to-your-beautiful/id1050275063?i=1050275078&uo=2",
+          "attributes": {
+            "im:id": "1050275078"
+          }
+        },
+        "im:artist": {
+          "label": "Alessia Cara",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/alessia-cara/id991444375?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2015-11-13T00:00:00-07:00",
+          "attributes": {
+            "label": "November 13, 2015"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "We Don’t Talk Anymore (feat. Selena Gomez)"
+        },
+        "im:image": [
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music60/v4/9e/b5/a0/9eb5a0f4-6640-51e5-ce9f-e7693d696a68/mzm.omtrmqdi.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music60/v4/9e/b5/a0/9eb5a0f4-6640-51e5-ce9f-e7693d696a68/mzm.omtrmqdi.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music60/v4/9e/b5/a0/9eb5a0f4-6640-51e5-ce9f-e7693d696a68/mzm.omtrmqdi.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Nine Track Mind"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/nine-track-mind/id1031416178?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Artist Partners for the United States and WEA International Inc. for the world outside of the United States. A Warner Music Group Company."
+        },
+        "title": {
+          "label": "We Don’t Talk Anymore (feat. Selena Gomez) - Charlie Puth"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/we-dont-talk-anymore-feat./id1031416178?i=1031416185&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://a1846.phobos.apple.com/us/r1000/146/Music69/v4/e4/6a/bd/e46abd0d-0732-ae08-e89f-6c93a18dacc0/mzaf_1827991663826163479.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/we-dont-talk-anymore-feat./id1031416178?i=1031416185&uo=2",
+          "attributes": {
+            "im:id": "1031416185"
+          }
+        },
+        "im:artist": {
+          "label": "Charlie Puth",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/charlie-puth/id336249253?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-01-29T00:00:00-07:00",
+          "attributes": {
+            "label": "January 29, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Dirty Laundry"
+        },
+        "im:image": [
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music6/v4/17/1d/9e/171d9e09-f28c-c1c9-c671-edeef819835f/dj.nyzvtavs.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music6/v4/17/1d/9e/171d9e09-f28c-c1c9-c671-edeef819835f/dj.nyzvtavs.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music6/v4/17/1d/9e/171d9e09-f28c-c1c9-c671-edeef819835f/dj.nyzvtavs.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Storyteller"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/storyteller/id1038916173?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2015 19 Recordings Limited, under exclusive license to Sony Music Nashville, a division of Sony Music Entertainment"
+        },
+        "title": {
+          "label": "Dirty Laundry - Carrie Underwood"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/dirty-laundry/id1038916173?i=1038916751&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://a1550.phobos.apple.com/us/r1000/141/Music6/v4/d7/4a/c7/d74ac7dd-99c3-ee09-00ab-275e22dd90ab/mzaf_939342970155796228.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/dirty-laundry/id1038916173?i=1038916751&uo=2",
+          "attributes": {
+            "im:id": "1038916751"
+          }
+        },
+        "im:artist": {
+          "label": "Carrie Underwood",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/carrie-underwood/id63399334?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "6",
+            "term": "Country",
+            "scheme": "https://itunes.apple.com/us/genre/music-country/id6?uo=2",
+            "label": "Country"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2015-10-23T00:00:00-07:00",
+          "attributes": {
+            "label": "October 23, 2015"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Sleep Without You"
+        },
+        "im:image": [
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music49/v4/f7/3b/42/f73b4258-f106-9dc1-8486-8b1cd110bd3c/UMG_cvrart_00843930023011_01_RGB72_1800x1800_16UMGIM06944.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music49/v4/f7/3b/42/f73b4258-f106-9dc1-8486-8b1cd110bd3c/UMG_cvrart_00843930023011_01_RGB72_1800x1800_16UMGIM06944.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music49/v4/f7/3b/42/f73b4258-f106-9dc1-8486-8b1cd110bd3c/UMG_cvrart_00843930023011_01_RGB72_1800x1800_16UMGIM06944.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Brett Young - EP"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/brett-young-ep/id1083302413?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$0.69",
+          "attributes": {
+            "amount": "0.69000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Big Machine Label Group, LLC"
+        },
+        "title": {
+          "label": "Sleep Without You - Brett Young"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/sleep-without-you/id1083302413?i=1083302414&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://a309.phobos.apple.com/us/r1000/178/Music69/v4/8a/04/38/8a043866-7eb7-d933-44e1-ca95516081a0/mzaf_4573477438815862633.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/sleep-without-you/id1083302413?i=1083302414&uo=2",
+          "attributes": {
+            "im:id": "1083302414"
+          }
+        },
+        "im:artist": {
+          "label": "Brett Young",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/brett-young/id1084576956?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "6",
+            "term": "Country",
+            "scheme": "https://itunes.apple.com/us/genre/music-country/id6?uo=2",
+            "label": "Country"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-02-12T00:00:00-07:00",
+          "attributes": {
+            "label": "February 12, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "H.O.L.Y."
+        },
+        "im:image": [
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music20/v4/10/f6/33/10f633a6-dea5-5a8a-b5a9-65d01f0c8d88/UMG_cvrart_00843930024827_01_RGB72_1800x1800_16UMGIM31012.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music20/v4/10/f6/33/10f633a6-dea5-5a8a-b5a9-65d01f0c8d88/UMG_cvrart_00843930024827_01_RGB72_1800x1800_16UMGIM31012.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music20/v4/10/f6/33/10f633a6-dea5-5a8a-b5a9-65d01f0c8d88/UMG_cvrart_00843930024827_01_RGB72_1800x1800_16UMGIM31012.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Dig Your Roots"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/dig-your-roots/id1131835987?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Big Machine Label Group, LLC"
+        },
+        "title": {
+          "label": "H.O.L.Y. - Florida Georgia Line"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/h.o.l.y./id1131835987?i=1131836199&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview60/v4/50/70/64/507064be-47d5-77b5-7d4a-84d60bd4cc74/mzaf_549668504288677574.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/h.o.l.y./id1131835987?i=1131836199&uo=2",
+          "attributes": {
+            "im:id": "1131836199"
+          }
+        },
+        "im:artist": {
+          "label": "Florida Georgia Line",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/florida-georgia-line/id399241518?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "6",
+            "term": "Country",
+            "scheme": "https://itunes.apple.com/us/genre/music-country/id6?uo=2",
+            "label": "Country"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-08-26T00:00:00-07:00",
+          "attributes": {
+            "label": "August 26, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Send My Love (To Your New Lover)"
+        },
+        "im:image": [
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music6/v4/49/05/0a/49050af2-82dd-1a7c-547d-c7fda91ba271/886445568219.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music6/v4/49/05/0a/49050af2-82dd-1a7c-547d-c7fda91ba271/886445568219.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music6/v4/49/05/0a/49050af2-82dd-1a7c-547d-c7fda91ba271/886445568219.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "25"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/25/id1051394208?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2015 XL Recordings Ltd., under exclusive license to Columbia Records, a Division of Sony Music Entertainment"
+        },
+        "title": {
+          "label": "Send My Love (To Your New Lover) - Adele"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/send-my-love-to-your-new-lover/id1051394208?i=1051394219&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://a1673.phobos.apple.com/us/r1000/156/Music69/v4/d6/19/7f/d6197fe1-629b-96a2-a0d0-34cf7f968538/mzaf_6123298197326321883.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/send-my-love-to-your-new-lover/id1051394208?i=1051394219&uo=2",
+          "attributes": {
+            "im:id": "1051394219"
+          }
+        },
+        "im:artist": {
+          "label": "Adele",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/adele/id262836961?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2015-11-20T00:00:00-07:00",
+          "attributes": {
+            "label": "November 20, 2015"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "All We Know (feat. Phoebe Ryan)"
+        },
+        "im:image": [
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music71/v4/70/5c/5b/705c5bc6-c05f-4ba7-d478-be2e8c514d63/886446102061.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music71/v4/70/5c/5b/705c5bc6-c05f-4ba7-d478-be2e8c514d63/886446102061.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music71/v4/70/5c/5b/705c5bc6-c05f-4ba7-d478-be2e8c514d63/886446102061.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "All We Know (feat. Phoebe Ryan) - Single"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/all-we-know-feat.-phoebe-ryan/id1157626056?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Disruptor Records/Columbia Records"
+        },
+        "title": {
+          "label": "All We Know (feat. Phoebe Ryan) - The Chainsmokers"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/all-we-know-feat.-phoebe-ryan/id1157626056?i=1157626113&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/3a/63/a2/3a63a250-7e7b-0dad-6853-10bc2ffb063b/mzaf_4879201560962600845.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/all-we-know-feat.-phoebe-ryan/id1157626056?i=1157626113&uo=2",
+          "attributes": {
+            "im:id": "1157626113"
+          }
+        },
+        "im:artist": {
+          "label": "The Chainsmokers",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/the-chainsmokers/id580391756?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "17",
+            "term": "Dance",
+            "scheme": "https://itunes.apple.com/us/genre/music-dance/id17?uo=2",
+            "label": "Dance"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-09-30T00:00:00-07:00",
+          "attributes": {
+            "label": "September 30, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "I Met a Girl"
+        },
+        "im:image": [
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music62/v4/33/22/21/332221bf-f835-fa99-0f16-81c6dd50ee00/093624917007.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music62/v4/33/22/21/332221bf-f835-fa99-0f16-81c6dd50ee00/093624917007.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is5.mzstatic.com/image/thumb/Music62/v4/33/22/21/332221bf-f835-fa99-0f16-81c6dd50ee00/093624917007.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Vinyl"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/vinyl/id1144549937?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$0.69",
+          "attributes": {
+            "amount": "0.69000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2015, 2016 Warner Music Nashville LLC"
+        },
+        "title": {
+          "label": "I Met a Girl - William Michael Morgan"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/i-met-a-girl/id1144549937?i=1144549945&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview42/v4/b9/02/86/b90286af-e69f-5b1a-c52b-fcee45fee624/mzaf_3622795091737079231.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/i-met-a-girl/id1144549937?i=1144549945&uo=2",
+          "attributes": {
+            "im:id": "1144549945"
+          }
+        },
+        "im:artist": {
+          "label": "William Michael Morgan",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/william-michael-morgan/id210860079?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "6",
+            "term": "Country",
+            "scheme": "https://itunes.apple.com/us/genre/music-country/id6?uo=2",
+            "label": "Country"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-09-30T00:00:00-07:00",
+          "attributes": {
+            "label": "September 30, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Move"
+        },
+        "im:image": [
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music7/v4/21/81/93/2181930b-360e-16c4-9e5c-f3c2362900f8/UMG_cvrart_00602547444516_01_RGB72_1500x1500_15UMGIM34395.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music7/v4/21/81/93/2181930b-360e-16c4-9e5c-f3c2362900f8/UMG_cvrart_00602547444516_01_RGB72_1500x1500_15UMGIM34395.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music7/v4/21/81/93/2181930b-360e-16c4-9e5c-f3c2362900f8/UMG_cvrart_00602547444516_01_RGB72_1500x1500_15UMGIM34395.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Kill the Lights"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/kill-the-lights/id1018422616?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2015 Capitol Records Nashville"
+        },
+        "title": {
+          "label": "Move - Luke Bryan"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/move/id1018422616?i=1018422633&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://a379.phobos.apple.com/us/r1000/180/Music5/v4/d3/a5/5e/d3a55ea2-a3b1-ea0d-d051-4b2775018743/mzaf_5351473072947032230.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/move/id1018422616?i=1018422633&uo=2",
+          "attributes": {
+            "im:id": "1018422633"
+          }
+        },
+        "im:artist": {
+          "label": "Luke Bryan",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/luke-bryan/id20131064?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "6",
+            "term": "Country",
+            "scheme": "https://itunes.apple.com/us/genre/music-country/id6?uo=2",
+            "label": "Country"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2015-08-07T00:00:00-07:00",
+          "attributes": {
+            "label": "August 7, 2015"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Into You"
+        },
+        "im:image": [
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music49/v4/39/9a/39/399a39cd-98fe-e6c1-fb4f-e6b8c4719ee1/UMG_cvrart_00602547860132_01_RGB72_1800x1800_16UMGIM12432.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music49/v4/39/9a/39/399a39cd-98fe-e6c1-fb4f-e6b8c4719ee1/UMG_cvrart_00602547860132_01_RGB72_1800x1800_16UMGIM12432.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is2.mzstatic.com/image/thumb/Music49/v4/39/9a/39/399a39cd-98fe-e6c1-fb4f-e6b8c4719ee1/UMG_cvrart_00602547860132_01_RGB72_1800x1800_16UMGIM12432.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "Dangerous Woman"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/dangerous-woman/id1091145606?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2016 Republic Records, a division of UMG Recordings, Inc."
+        },
+        "title": {
+          "label": "Into You - Ariana Grande"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/into-you/id1091145606?i=1091145643&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview30/v4/f7/4e/0c/f74e0c3f-94f2-a965-8f8e-bfa0e9484e66/mzaf_7454085730091929537.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/into-you/id1091145606?i=1091145643&uo=2",
+          "attributes": {
+            "im:id": "1091145643"
+          }
+        },
+        "im:artist": {
+          "label": "Ariana Grande",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/ariana-grande/id412778295?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "14",
+            "term": "Pop",
+            "scheme": "https://itunes.apple.com/us/genre/music-pop/id14?uo=2",
+            "label": "Pop"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-05-20T00:00:00-07:00",
+          "attributes": {
+            "label": "May 20, 2016"
+          }
+        }
+      },
+      {
+        "im:name": {
+          "label": "Middle of a Memory"
+        },
+        "im:image": [
+          {
+            "label": "http://is3.mzstatic.com/image/thumb/Music49/v4/52/cc/88/52cc884e-4907-d261-d324-eeec501430cc/093624920274.jpg/55x55bb-85.jpg",
+            "attributes": {
+              "height": "55"
+            }
+          },
+          {
+            "label": "http://is4.mzstatic.com/image/thumb/Music49/v4/52/cc/88/52cc884e-4907-d261-d324-eeec501430cc/093624920274.jpg/60x60bb-85.jpg",
+            "attributes": {
+              "height": "60"
+            }
+          },
+          {
+            "label": "http://is1.mzstatic.com/image/thumb/Music49/v4/52/cc/88/52cc884e-4907-d261-d324-eeec501430cc/093624920274.jpg/170x170bb-85.jpg",
+            "attributes": {
+              "height": "170"
+            }
+          }
+        ],
+        "im:collection": {
+          "im:name": {
+            "label": "You Should Be Here"
+          },
+          "link": {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/you-should-be-here/id1098026539?uo=2"
+            }
+          },
+          "im:contentType": {
+            "im:contentType": {
+              "attributes": {
+                "term": "Album",
+                "label": "Album"
+              }
+            },
+            "attributes": {
+              "term": "Music",
+              "label": "Music"
+            }
+          }
+        },
+        "im:price": {
+          "label": "$1.29",
+          "attributes": {
+            "amount": "1.29000",
+            "currency": "USD"
+          }
+        },
+        "im:contentType": {
+          "im:contentType": {
+            "attributes": {
+              "term": "Track",
+              "label": "Track"
+            }
+          },
+          "attributes": {
+            "term": "Music",
+            "label": "Music"
+          }
+        },
+        "rights": {
+          "label": "℗ 2015, 2016 Warner Music Nashville LLC for the U.S. and WEA International Inc. for the world outside the U.S."
+        },
+        "title": {
+          "label": "Middle of a Memory - Cole Swindell"
+        },
+        "link": [
+          {
+            "attributes": {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://itunes.apple.com/us/album/middle-of-a-memory/id1098026539?i=1098026546&uo=2"
+            }
+          },
+          {
+            "im:duration": {
+              "label": "301000"
+            },
+            "attributes": {
+              "title": "Preview",
+              "rel": "enclosure",
+              "type": "audio/x-m4a",
+              "href": "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview20/v4/9a/f5/89/9af5898e-2d9d-7c33-4b12-68101c3bb60f/mzaf_927601795478304773.plus.aac.p.m4a",
+              "im:assetType": "preview"
+            }
+          }
+        ],
+        "id": {
+          "label": "https://itunes.apple.com/us/album/middle-of-a-memory/id1098026539?i=1098026546&uo=2",
+          "attributes": {
+            "im:id": "1098026546"
+          }
+        },
+        "im:artist": {
+          "label": "Cole Swindell",
+          "attributes": {
+            "href": "https://itunes.apple.com/us/artist/cole-swindell/id354625084?uo=2"
+          }
+        },
+        "category": {
+          "attributes": {
+            "im:id": "6",
+            "term": "Country",
+            "scheme": "https://itunes.apple.com/us/genre/music-country/id6?uo=2",
+            "label": "Country"
+          }
+        },
+        "im:releaseDate": {
+          "label": "2016-05-06T00:00:00-07:00",
+          "attributes": {
+            "label": "May 6, 2016"
+          }
+        }
+      }
+    ],
+    "updated": {
+      "label": "2016-10-13T20:55:48-07:00"
+    },
+    "rights": {
+      "label": "Copyright 2008 Apple Inc."
+    },
+    "title": {
+      "label": "iTunes Store: Top Songs"
+    },
+    "icon": {
+      "label": "http://itunes.apple.com/favicon.ico"
+    },
+    "link": [
+      {
+        "attributes": {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?cc=us&id=1&popId=1"
+        }
+      },
+      {
+        "attributes": {
+          "rel": "self",
+          "href": "https://itunes.apple.com/us/rss/topsongs/limit=50/json"
+        }
+      }
+    ],
+    "id": {
+      "label": "https://itunes.apple.com/us/rss/topsongs/limit=50/json"
+    }
+  }
+}
