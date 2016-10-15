@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		75D482B11DB0A9CE002ECD43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B01DB0A9CE002ECD43 /* main.m */; };
 		75D482B41DB0A9CE002ECD43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B31DB0A9CE002ECD43 /* AppDelegate.m */; };
-		75D482B71DB0A9CE002ECD43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B61DB0A9CE002ECD43 /* ViewController.m */; };
-		75D482BA1DB0A9CE002ECD43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D482B81DB0A9CE002ECD43 /* Main.storyboard */; };
+		75D482B71DB0A9CE002ECD43 /* FeaturedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B61DB0A9CE002ECD43 /* FeaturedViewController.m */; };
 		75D482BC1DB0A9CE002ECD43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D482BB1DB0A9CE002ECD43 /* Assets.xcassets */; };
 		75D482BF1DB0A9CE002ECD43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D482BD1DB0A9CE002ECD43 /* LaunchScreen.storyboard */; };
 		75D482CA1DB0A9CE002ECD43 /* iTunes_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482C91DB0A9CE002ECD43 /* iTunes_TopTests.m */; };
+		75D482DE1DB0AFD2002ECD43 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482DD1DB0AFD2002ECD43 /* RootTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +31,16 @@
 		75D482B01DB0A9CE002ECD43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75D482B21DB0A9CE002ECD43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75D482B31DB0A9CE002ECD43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		75D482B51DB0A9CE002ECD43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		75D482B61DB0A9CE002ECD43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		75D482B91DB0A9CE002ECD43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75D482B51DB0A9CE002ECD43 /* FeaturedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeaturedViewController.h; sourceTree = "<group>"; };
+		75D482B61DB0A9CE002ECD43 /* FeaturedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeaturedViewController.m; sourceTree = "<group>"; };
 		75D482BB1DB0A9CE002ECD43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75D482BE1DB0A9CE002ECD43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75D482C01DB0A9CE002ECD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75D482C51DB0A9CE002ECD43 /* iTunes-TopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iTunes-TopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D482C91DB0A9CE002ECD43 /* iTunes_TopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunes_TopTests.m; sourceTree = "<group>"; };
 		75D482CB1DB0A9CE002ECD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D482DC1DB0AFD2002ECD43 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		75D482DD1DB0AFD2002ECD43 /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +82,11 @@
 		75D482AE1DB0A9CE002ECD43 /* iTunes-Top */ = {
 			isa = PBXGroup;
 			children = (
-				75D482B21DB0A9CE002ECD43 /* AppDelegate.h */,
-				75D482B31DB0A9CE002ECD43 /* AppDelegate.m */,
-				75D482B51DB0A9CE002ECD43 /* ViewController.h */,
-				75D482B61DB0A9CE002ECD43 /* ViewController.m */,
-				75D482B81DB0A9CE002ECD43 /* Main.storyboard */,
+				75D482D41DB0AB57002ECD43 /* App Global */,
+				75D482D81DB0AB75002ECD43 /* Data Service */,
+				75D482D51DB0AB61002ECD43 /* Model */,
+				75D482D61DB0AB68002ECD43 /* View */,
+				75D482D71DB0AB6E002ECD43 /* Controller */,
 				75D482BB1DB0A9CE002ECD43 /* Assets.xcassets */,
 				75D482BD1DB0A9CE002ECD43 /* LaunchScreen.storyboard */,
 				75D482C01DB0A9CE002ECD43 /* Info.plist */,
@@ -109,6 +110,47 @@
 				75D482CB1DB0A9CE002ECD43 /* Info.plist */,
 			);
 			path = "iTunes-TopTests";
+			sourceTree = "<group>";
+		};
+		75D482D41DB0AB57002ECD43 /* App Global */ = {
+			isa = PBXGroup;
+			children = (
+				75D482B21DB0A9CE002ECD43 /* AppDelegate.h */,
+				75D482B31DB0A9CE002ECD43 /* AppDelegate.m */,
+			);
+			name = "App Global";
+			sourceTree = "<group>";
+		};
+		75D482D51DB0AB61002ECD43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		75D482D61DB0AB68002ECD43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		75D482D71DB0AB6E002ECD43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75D482DC1DB0AFD2002ECD43 /* RootTabBarController.h */,
+				75D482DD1DB0AFD2002ECD43 /* RootTabBarController.m */,
+				75D482B51DB0A9CE002ECD43 /* FeaturedViewController.h */,
+				75D482B61DB0A9CE002ECD43 /* FeaturedViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		75D482D81DB0AB75002ECD43 /* Data Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Data Service";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +237,6 @@
 			files = (
 				75D482BF1DB0A9CE002ECD43 /* LaunchScreen.storyboard in Resources */,
 				75D482BC1DB0A9CE002ECD43 /* Assets.xcassets in Resources */,
-				75D482BA1DB0A9CE002ECD43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +254,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75D482B71DB0A9CE002ECD43 /* ViewController.m in Sources */,
+				75D482B71DB0A9CE002ECD43 /* FeaturedViewController.m in Sources */,
+				75D482DE1DB0AFD2002ECD43 /* RootTabBarController.m in Sources */,
 				75D482B41DB0A9CE002ECD43 /* AppDelegate.m in Sources */,
 				75D482B11DB0A9CE002ECD43 /* main.m in Sources */,
 			);
@@ -238,14 +280,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		75D482B81DB0A9CE002ECD43 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75D482B91DB0A9CE002ECD43 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		75D482BD1DB0A9CE002ECD43 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -410,6 +444,7 @@
 				75D482D01DB0A9CE002ECD43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75D482D11DB0A9CE002ECD43 /* Build configuration list for PBXNativeTarget "iTunes-TopTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +453,7 @@
 				75D482D31DB0A9CE002ECD43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

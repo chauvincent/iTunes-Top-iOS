@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootTabBarController.h
 //  iTunes-Top
 //
 //  Created by Vincent Chau on 10/13/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootTabBarController : UITabBarController <UITabBarControllerDelegate>
 
 @end
-
