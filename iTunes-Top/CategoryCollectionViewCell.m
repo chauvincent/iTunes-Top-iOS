@@ -26,8 +26,9 @@ static NSString * const cellId = @"ItemCell";
     if (!_collectionView)
     {
         UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+        layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         _collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
-        _collectionView.backgroundColor = [UIColor blueColor];
+        _collectionView.backgroundColor = [UIColor clearColor];
         _collectionView.translatesAutoresizingMaskIntoConstraints = false;
     }
     return _collectionView;
@@ -50,13 +51,13 @@ static NSString * const cellId = @"ItemCell";
 
 - (void)setupView
 {
-    self.backgroundColor = [UIColor redColor];
+    self.backgroundColor = [UIColor clearColor];
     
     self.collectionView.delegate = self;
     self.collectionView.dataSource = self;
     [self.collectionView registerClass:[ItemCollectionViewCell class] forCellWithReuseIdentifier:cellId];
-    [self addSubview:self.collectionView];
     
+    [self addSubview:self.collectionView];
     [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-8-[v0]-8-|"
                                                                  options:0
                                                                  metrics:nil
@@ -74,8 +75,9 @@ static NSString * const cellId = @"ItemCell";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-
-    return nil;
+    ItemCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellId forIndexPath:indexPath];
+    
+    return cell;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
@@ -83,10 +85,15 @@ static NSString * const cellId = @"ItemCell";
     return 5;
 }
 
-//- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    
-//}
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    return CGSizeMake(150.0f, self.frame.size.height);
+}
+
+- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
+{
+    return UIEdgeInsetsMake(0, 10, 0, 10);
+}
 
 #pragma mark - Rotation
 
