@@ -11,6 +11,11 @@
 		7586EBD71DB3115900398237 /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBD61DB3115900398237 /* UIView+Constraints.m */; };
 		7586EBDA1DB315A000398237 /* ItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBD91DB315A000398237 /* ItemCollectionViewCell.m */; };
 		7586EBDC1DB3191400398237 /* testData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7586EBDB1DB3191400398237 /* testData.json */; };
+		7586EBDF1DB3813300398237 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBDE1DB3813300398237 /* NetworkManager.m */; };
+		7586EBE51DB4232500398237 /* BaseStoreItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBE41DB4232500398237 /* BaseStoreItem.m */; };
+		7586EBE81DB4240300398237 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBE71DB4240300398237 /* Song.m */; };
+		7586EBEB1DB4241400398237 /* AudioBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBEA1DB4241400398237 /* AudioBook.m */; };
+		7586EBEE1DB4242D00398237 /* iTunesUCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBED1DB4242D00398237 /* iTunesUCollection.m */; };
 		75D482B11DB0A9CE002ECD43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B01DB0A9CE002ECD43 /* main.m */; };
 		75D482B41DB0A9CE002ECD43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B31DB0A9CE002ECD43 /* AppDelegate.m */; };
 		75D482B71DB0A9CE002ECD43 /* FeaturedCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B61DB0A9CE002ECD43 /* FeaturedCollectionViewController.m */; };
@@ -38,6 +43,16 @@
 		7586EBD81DB315A000398237 /* ItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCollectionViewCell.h; sourceTree = "<group>"; };
 		7586EBD91DB315A000398237 /* ItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCollectionViewCell.m; sourceTree = "<group>"; };
 		7586EBDB1DB3191400398237 /* testData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testData.json; sourceTree = SOURCE_ROOT; };
+		7586EBDD1DB3813300398237 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		7586EBDE1DB3813300398237 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		7586EBE31DB4232500398237 /* BaseStoreItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStoreItem.h; sourceTree = "<group>"; };
+		7586EBE41DB4232500398237 /* BaseStoreItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStoreItem.m; sourceTree = "<group>"; };
+		7586EBE61DB4240300398237 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		7586EBE71DB4240300398237 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		7586EBE91DB4241400398237 /* AudioBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioBook.h; sourceTree = "<group>"; };
+		7586EBEA1DB4241400398237 /* AudioBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioBook.m; sourceTree = "<group>"; };
+		7586EBEC1DB4242D00398237 /* iTunesUCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunesUCollection.h; sourceTree = "<group>"; };
+		7586EBED1DB4242D00398237 /* iTunesUCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTunesUCollection.m; sourceTree = "<group>"; };
 		75D482AC1DB0A9CE002ECD43 /* iTunes-Top.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes-Top.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D482B01DB0A9CE002ECD43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75D482B21DB0A9CE002ECD43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -137,6 +152,14 @@
 		75D482D51DB0AB61002ECD43 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7586EBE31DB4232500398237 /* BaseStoreItem.h */,
+				7586EBE41DB4232500398237 /* BaseStoreItem.m */,
+				7586EBE61DB4240300398237 /* Song.h */,
+				7586EBE71DB4240300398237 /* Song.m */,
+				7586EBE91DB4241400398237 /* AudioBook.h */,
+				7586EBEA1DB4241400398237 /* AudioBook.m */,
+				7586EBEC1DB4242D00398237 /* iTunesUCollection.h */,
+				7586EBED1DB4242D00398237 /* iTunesUCollection.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -166,6 +189,8 @@
 		75D482D81DB0AB75002ECD43 /* Data Service */ = {
 			isa = PBXGroup;
 			children = (
+				7586EBDD1DB3813300398237 /* NetworkManager.h */,
+				7586EBDE1DB3813300398237 /* NetworkManager.m */,
 			);
 			name = "Data Service";
 			sourceTree = "<group>";
@@ -281,13 +306,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7586EBE81DB4240300398237 /* Song.m in Sources */,
+				7586EBDF1DB3813300398237 /* NetworkManager.m in Sources */,
 				75D482B71DB0A9CE002ECD43 /* FeaturedCollectionViewController.m in Sources */,
 				75D482DE1DB0AFD2002ECD43 /* RootTabBarController.m in Sources */,
 				75D482B41DB0A9CE002ECD43 /* AppDelegate.m in Sources */,
+				7586EBEB1DB4241400398237 /* AudioBook.m in Sources */,
 				7586EBD71DB3115900398237 /* UIView+Constraints.m in Sources */,
+				7586EBEE1DB4242D00398237 /* iTunesUCollection.m in Sources */,
 				7586EBDA1DB315A000398237 /* ItemCollectionViewCell.m in Sources */,
 				75D482B11DB0A9CE002ECD43 /* main.m in Sources */,
 				7586EBD01DB2F81F00398237 /* CategoryCollectionViewCell.m in Sources */,
+				7586EBE51DB4232500398237 /* BaseStoreItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,11 +11,27 @@
 
 @interface FeaturedCollectionViewController () <UICollectionViewDelegateFlowLayout>
 
+@property (strong, nonatomic) NSArray *categoryTitles;
+
 @end
 
 @implementation FeaturedCollectionViewController
 
 static NSString * const cellId = @"CategoryCell";
+
+#pragma mark - Lazy Init
+
+- (NSArray *)categoryTitles
+{
+    
+    if (!_categoryTitles)
+    {
+        _categoryTitles = @[@"Top 10 Songs",@"Top 10 AudioBooks",@"Top 10 iTunes U Collection"];
+    }
+    
+    return _categoryTitles;
+}
+
 
 #pragma mark - View Lifecycle
 
@@ -23,8 +39,6 @@ static NSString * const cellId = @"CategoryCell";
 {
     [super viewDidLoad];
     [self setupView];
-    [self setupCollectionView];
-
 }
 
 #pragma mark - Setup View
@@ -33,10 +47,7 @@ static NSString * const cellId = @"CategoryCell";
 {
     self.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFeatured tag:0];
     self.navigationItem.title = @"Featured";
-}
-
-- (void)setupCollectionView
-{
+    
     self.collectionView.backgroundColor = [UIColor whiteColor];
     [self.collectionView registerClass:[CategoryCollectionViewCell class] forCellWithReuseIdentifier:cellId];
 }
@@ -47,12 +58,14 @@ static NSString * const cellId = @"CategoryCell";
 {
     CategoryCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellId forIndexPath:indexPath];
     
+    cell.categoryLabel.text = self.categoryTitles[indexPath.row];
+    
     return cell;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 3;
+    return [self.categoryTitles count];
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath

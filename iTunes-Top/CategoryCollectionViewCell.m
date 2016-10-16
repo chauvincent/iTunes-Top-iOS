@@ -13,7 +13,7 @@
 @interface CategoryCollectionViewCell () <UICollectionViewDelegateFlowLayout, UICollectionViewDelegate, UICollectionViewDataSource>
 
 @property (strong, nonatomic) UICollectionView *collectionView;
-@property (strong, nonatomic) UILabel *categoryLabel;
+
 
 @end
 
@@ -94,7 +94,7 @@ static NSString * const cellId = @"ItemCell";
     
     // Category Title and Collection View Constraints
     [self addVisualConstraintWithFormat:@"V:|[v0(30)][v1]|" andView:@[self.categoryLabel, self.collectionView]];
-    [self addVisualConstraintWithFormat:@"H:|[v0]|" andView:@[self.categoryLabel]];
+    [self addVisualConstraintWithFormat:@"H:|-8-[v0]|" andView:@[self.categoryLabel]];
     
 }
 

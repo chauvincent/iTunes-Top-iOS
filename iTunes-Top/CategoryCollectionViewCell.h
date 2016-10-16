@@ -10,4 +10,6 @@
 
 @interface CategoryCollectionViewCell : UICollectionViewCell
 
+@property (strong, nonatomic) UILabel *categoryLabel;
+
 @end

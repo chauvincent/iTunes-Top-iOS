@@ -33,9 +33,10 @@
     UINavigationController *featuredNav = [[UINavigationController alloc] initWithRootViewController:featuredVC];
  
     
+
     
+    // Add All Navigation Controllers
     self.viewControllers = @[featuredNav];
-    
 }
 
 @end
