@@ -87,7 +87,7 @@ static NSString * const cellId = @"ItemCell";
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    return CGSizeMake(150.0f, self.frame.size.height);
+    return CGSizeMake(100.0f, self.frame.size.height);
 }
 
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
@@ -97,10 +97,10 @@ static NSString * const cellId = @"ItemCell";
 
 #pragma mark - Rotation
 
-- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
-{
-    [self.collectionView.collectionViewLayout invalidateLayout];
-    [self.collectionView setNeedsDisplay];
-}
+//- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
+//{
+//    [self.collectionView.collectionViewLayout invalidateLayout];
+//    [self.collectionView setNeedsDisplay];
+//}
 
 @end
