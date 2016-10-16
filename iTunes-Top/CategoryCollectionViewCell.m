@@ -7,7 +7,7 @@
 //
 
 #import "CategoryCollectionViewCell.h"
-#import "ItemCollectionViewCell.h"
+#import "CategoryItemCollectionViewCell.h"
 #import "UIView+Constraints.h"
 
 @interface CategoryCollectionViewCell () <UICollectionViewDelegateFlowLayout, UICollectionViewDelegate, UICollectionViewDataSource>
@@ -73,7 +73,7 @@ static NSString * const cellId = @"ItemCell";
     
     self.collectionView.delegate = self;
     self.collectionView.dataSource = self;
-    [self.collectionView registerClass:[ItemCollectionViewCell class] forCellWithReuseIdentifier:cellId];
+    [self.collectionView registerClass:[CategoryItemCollectionViewCell class] forCellWithReuseIdentifier:cellId];
     [self addSubview:self.collectionView];
     
     // Collection View Constraints
@@ -102,7 +102,7 @@ static NSString * const cellId = @"ItemCell";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    ItemCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellId forIndexPath:indexPath];
+    CategoryItemCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellId forIndexPath:indexPath];
     
     return cell;
 }

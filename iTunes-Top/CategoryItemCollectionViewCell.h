@@ -1,5 +1,5 @@
 //
-//  ItemCollectionViewCell.h
+//  CategoryItemCollectionViewCell.h
 //  iTunes-Top
 //
 //  Created by Vincent Chau on 10/15/16.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ItemCollectionViewCell : UICollectionViewCell
+@interface CategoryItemCollectionViewCell : UICollectionViewCell
 
 @end

@@ -1,14 +1,14 @@
 //
-//  ItemCollectionViewCell.m
+//  CategoryItemCollectionViewCell.m
 //  iTunes-Top
 //
 //  Created by Vincent Chau on 10/15/16.
 //  Copyright © 2016 Vincent Chau. All rights reserved.
 //
 
-#import "ItemCollectionViewCell.h"
+#import "CategoryItemCollectionViewCell.h"
 
-@interface ItemCollectionViewCell ()
+@interface CategoryItemCollectionViewCell ()
 
 @property (strong, nonatomic) UIImageView *imageView;
 @property (strong, nonatomic) UILabel *titleLabel;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation ItemCollectionViewCell
+@implementation CategoryItemCollectionViewCell
 
 #pragma mark - Lazy Init
 

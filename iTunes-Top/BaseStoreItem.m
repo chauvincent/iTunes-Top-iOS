@@ -11,20 +11,20 @@
 @implementation BaseStoreItem
 
 
-- (instancetype)initWithName:(NSString *)name
-                   andAuthor:(NSString *)author
-                   withPrice:(NSString *)price
-                  andContent:(NSString *)contentType
-                  inCategory:(NSString *)categoryType
+- (instancetype)initWithName:(NSString *)itemName
+                   andAuthor:(NSString *)itemAuthor
+                   withPrice:(NSString *)itemPrice
+                  andContent:(NSString *)itemContentType
+                  inCategory:(NSString *)itemCategoryType
 {
     
     if (self = [super init])
     {
-        _name = name;
-        _author = author;
-        _price = price;
-        _contentType = contentType;
-        _categoryType = categoryType;
+        name = itemName;
+        author = itemAuthor;
+        price = itemPrice;
+        contentType = itemContentType;
+        categoryType = itemCategoryType;
     }
     
     return self;

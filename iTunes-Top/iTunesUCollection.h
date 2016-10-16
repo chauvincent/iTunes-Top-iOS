@@ -9,9 +9,17 @@
 #import "BaseStoreItem.h"
 
 @interface iTunesUCollection : BaseStoreItem
+{
+    NSString *summary;
+    NSString *imageLink;
+}
 
-@property (strong, nonatomic) NSString *summary;
-@property (strong, nonatomic) NSString *imageLink;
-
+- (instancetype)initWithName:(NSString *)itemName
+                   andAuthor:(NSString *)itemAuthor
+                   withPrice:(NSString *)itemPrice
+                  andContent:(NSString *)itemContentType
+                  inCategory:(NSString *)itemCategoryType
+                    andImage:(NSString *)itemImageLink
+                 withPreview:(NSString *)itemSummary;
 
 @end

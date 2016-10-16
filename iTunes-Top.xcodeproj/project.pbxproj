@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		7586EBD01DB2F81F00398237 /* CategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBCF1DB2F81F00398237 /* CategoryCollectionViewCell.m */; };
 		7586EBD71DB3115900398237 /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBD61DB3115900398237 /* UIView+Constraints.m */; };
-		7586EBDA1DB315A000398237 /* ItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBD91DB315A000398237 /* ItemCollectionViewCell.m */; };
-		7586EBDC1DB3191400398237 /* testData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7586EBDB1DB3191400398237 /* testData.json */; };
+		7586EBDA1DB315A000398237 /* CategoryItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBD91DB315A000398237 /* CategoryItemCollectionViewCell.m */; };
 		7586EBDF1DB3813300398237 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBDE1DB3813300398237 /* NetworkManager.m */; };
 		7586EBE51DB4232500398237 /* BaseStoreItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBE41DB4232500398237 /* BaseStoreItem.m */; };
 		7586EBE81DB4240300398237 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBE71DB4240300398237 /* Song.m */; };
 		7586EBEB1DB4241400398237 /* AudioBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBEA1DB4241400398237 /* AudioBook.m */; };
 		7586EBEE1DB4242D00398237 /* iTunesUCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBED1DB4242D00398237 /* iTunesUCollection.m */; };
+		7586EBF21DB43F6F00398237 /* topCollection.json in Resources */ = {isa = PBXBuildFile; fileRef = 7586EBEF1DB43F6F00398237 /* topCollection.json */; };
+		7586EBF31DB43F6F00398237 /* topAudioBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 7586EBF01DB43F6F00398237 /* topAudioBooks.json */; };
+		7586EBF41DB43F6F00398237 /* topSongs.json in Resources */ = {isa = PBXBuildFile; fileRef = 7586EBF11DB43F6F00398237 /* topSongs.json */; };
 		75D482B11DB0A9CE002ECD43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B01DB0A9CE002ECD43 /* main.m */; };
 		75D482B41DB0A9CE002ECD43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B31DB0A9CE002ECD43 /* AppDelegate.m */; };
 		75D482B71DB0A9CE002ECD43 /* FeaturedCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B61DB0A9CE002ECD43 /* FeaturedCollectionViewController.m */; };
@@ -40,9 +42,8 @@
 		7586EBCF1DB2F81F00398237 /* CategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewCell.m; sourceTree = "<group>"; };
 		7586EBD51DB3115900398237 /* UIView+Constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constraints.h"; sourceTree = "<group>"; };
 		7586EBD61DB3115900398237 /* UIView+Constraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constraints.m"; sourceTree = "<group>"; };
-		7586EBD81DB315A000398237 /* ItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCollectionViewCell.h; sourceTree = "<group>"; };
-		7586EBD91DB315A000398237 /* ItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCollectionViewCell.m; sourceTree = "<group>"; };
-		7586EBDB1DB3191400398237 /* testData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testData.json; sourceTree = SOURCE_ROOT; };
+		7586EBD81DB315A000398237 /* CategoryItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryItemCollectionViewCell.h; sourceTree = "<group>"; };
+		7586EBD91DB315A000398237 /* CategoryItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryItemCollectionViewCell.m; sourceTree = "<group>"; };
 		7586EBDD1DB3813300398237 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		7586EBDE1DB3813300398237 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		7586EBE31DB4232500398237 /* BaseStoreItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStoreItem.h; sourceTree = "<group>"; };
@@ -53,6 +54,9 @@
 		7586EBEA1DB4241400398237 /* AudioBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioBook.m; sourceTree = "<group>"; };
 		7586EBEC1DB4242D00398237 /* iTunesUCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunesUCollection.h; sourceTree = "<group>"; };
 		7586EBED1DB4242D00398237 /* iTunesUCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTunesUCollection.m; sourceTree = "<group>"; };
+		7586EBEF1DB43F6F00398237 /* topCollection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = topCollection.json; path = ../../topCollection.json; sourceTree = "<group>"; };
+		7586EBF01DB43F6F00398237 /* topAudioBooks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = topAudioBooks.json; path = ../../topAudioBooks.json; sourceTree = "<group>"; };
+		7586EBF11DB43F6F00398237 /* topSongs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = topSongs.json; path = ../../topSongs.json; sourceTree = "<group>"; };
 		75D482AC1DB0A9CE002ECD43 /* iTunes-Top.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes-Top.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D482B01DB0A9CE002ECD43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75D482B21DB0A9CE002ECD43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,8 +129,10 @@
 		75D482AF1DB0A9CE002ECD43 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7586EBEF1DB43F6F00398237 /* topCollection.json */,
+				7586EBF01DB43F6F00398237 /* topAudioBooks.json */,
+				7586EBF11DB43F6F00398237 /* topSongs.json */,
 				75D482B01DB0A9CE002ECD43 /* main.m */,
-				7586EBDB1DB3191400398237 /* testData.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -169,8 +175,8 @@
 			children = (
 				7586EBCE1DB2F81F00398237 /* CategoryCollectionViewCell.h */,
 				7586EBCF1DB2F81F00398237 /* CategoryCollectionViewCell.m */,
-				7586EBD81DB315A000398237 /* ItemCollectionViewCell.h */,
-				7586EBD91DB315A000398237 /* ItemCollectionViewCell.m */,
+				7586EBD81DB315A000398237 /* CategoryItemCollectionViewCell.h */,
+				7586EBD91DB315A000398237 /* CategoryItemCollectionViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -286,9 +292,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7586EBDC1DB3191400398237 /* testData.json in Resources */,
+				7586EBF41DB43F6F00398237 /* topSongs.json in Resources */,
 				75D482BF1DB0A9CE002ECD43 /* LaunchScreen.storyboard in Resources */,
+				7586EBF31DB43F6F00398237 /* topAudioBooks.json in Resources */,
 				75D482BC1DB0A9CE002ECD43 /* Assets.xcassets in Resources */,
+				7586EBF21DB43F6F00398237 /* topCollection.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +322,7 @@
 				7586EBEB1DB4241400398237 /* AudioBook.m in Sources */,
 				7586EBD71DB3115900398237 /* UIView+Constraints.m in Sources */,
 				7586EBEE1DB4242D00398237 /* iTunesUCollection.m in Sources */,
-				7586EBDA1DB315A000398237 /* ItemCollectionViewCell.m in Sources */,
+				7586EBDA1DB315A000398237 /* CategoryItemCollectionViewCell.m in Sources */,
 				75D482B11DB0A9CE002ECD43 /* main.m in Sources */,
 				7586EBD01DB2F81F00398237 /* CategoryCollectionViewCell.m in Sources */,
 				7586EBE51DB4232500398237 /* BaseStoreItem.m in Sources */,

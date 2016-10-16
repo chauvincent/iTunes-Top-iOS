@@ -10,4 +10,28 @@
 
 @implementation iTunesUCollection
 
+- (instancetype)initWithName:(NSString *)itemName
+                   andAuthor:(NSString *)itemAuthor
+                   withPrice:(NSString *)itemPrice
+                  andContent:(NSString *)itemContentType
+                  inCategory:(NSString *)itemCategoryType
+                    andImage:(NSString *)itemImageLink
+                 withPreview:(NSString *)itemSummary
+{
+    
+    if (self = [super init])
+    {
+        name = itemName;
+        author = itemAuthor;
+        price = itemPrice;
+        contentType = itemContentType;
+        categoryType = itemCategoryType;
+        imageLink = itemImageLink;
+        summary = itemSummary;
+    }
+    
+    return self;
+}
+
+
 @end

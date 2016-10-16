@@ -9,12 +9,20 @@
 #import <Foundation/Foundation.h>
 
 @interface BaseStoreItem : NSObject
+{
+    NSString *name;
+    NSString *author;
+    NSString *price;
+    NSString *contentType;
+    NSString *categoryType;
+    NSString *iTunesLink;
+}
 
-@property (strong, nonatomic) NSString *name;
-@property (strong, nonatomic) NSString *author;
-@property (strong, nonatomic) NSString *price;
-@property (strong, nonatomic) NSString *contentType;
-@property (strong, nonatomic) NSString *categoryType;
-@property (strong, nonatomic) NSString *iTunesLink;
+
+- (instancetype)initWithName:(NSString *)itemName
+                   andAuthor:(NSString *)itemAuthor
+                   withPrice:(NSString *)itemPrice
+                  andContent:(NSString *)itemContentType
+                  inCategory:(NSString *)itemCategoryType;
 
 @end

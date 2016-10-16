@@ -9,8 +9,17 @@
 #import "BaseStoreItem.h"
 
 @interface Song : BaseStoreItem
+{
+    NSString *imageLink;
+    NSString *previewLink;
+}
 
-@property (strong, nonatomic) NSString *imageLink;
-@property (strong, nonatomic) NSString *previewLink;
+- (instancetype)initWithName:(NSString *)itemName
+                   andAuthor:(NSString *)itemAuthor
+                   withPrice:(NSString *)itemPrice
+                  andContent:(NSString *)itemContentType
+                  inCategory:(NSString *)itemCategoryType
+                    andImage:(NSString *)itemImageLink
+                 withPreview:(NSString *)itemPreviewLink;
 
 @end
