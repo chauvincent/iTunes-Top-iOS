@@ -8,10 +8,12 @@
 
 #import "CategoryCollectionViewCell.h"
 #import "ItemCollectionViewCell.h"
+#import "UIView+Constraints.h"
 
 @interface CategoryCollectionViewCell () <UICollectionViewDelegateFlowLayout, UICollectionViewDelegate, UICollectionViewDataSource>
 
 @property (strong, nonatomic) UICollectionView *collectionView;
+@property (strong, nonatomic) UILabel *categoryLabel;
 
 @end
 
@@ -34,6 +36,20 @@ static NSString * const cellId = @"ItemCell";
     return _collectionView;
 }
 
+- (UILabel *)categoryLabel
+{
+    if (!_categoryLabel)
+    {
+        _categoryLabel = [[UILabel alloc] init];
+        _categoryLabel.font = [UIFont systemFontOfSize:15.0f];
+        _categoryLabel.backgroundColor = [UIColor whiteColor];
+        _categoryLabel.text = @"Category";
+        _categoryLabel.numberOfLines = 2;
+        _categoryLabel.translatesAutoresizingMaskIntoConstraints = false;
+    }
+    
+    return _categoryLabel;
+}
 
 #pragma mark - View Lifecycle
 
@@ -49,6 +65,8 @@ static NSString * const cellId = @"ItemCell";
     return self;
 }
 
+#pragma mark - View Setup
+
 - (void)setupView
 {
     self.backgroundColor = [UIColor clearColor];
@@ -56,18 +74,27 @@ static NSString * const cellId = @"ItemCell";
     self.collectionView.delegate = self;
     self.collectionView.dataSource = self;
     [self.collectionView registerClass:[ItemCollectionViewCell class] forCellWithReuseIdentifier:cellId];
-    
     [self addSubview:self.collectionView];
-    [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-8-[v0]-8-|"
-                                                                 options:0
-                                                                 metrics:nil
-                                                                   views:@{@"v0":self.collectionView}]];
     
-    [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[v0]|"
-                                                                 options:0
-                                                                 metrics:nil
-                                                                   views:@{@"v0":self.collectionView}]];
+    // Collection View Constraints
+    [self addVisualConstraintWithFormat:@"H:|-8-[v0]-8-|" andView:@[self.collectionView]];
 
+    // Add Bottom Hairline to Bottom of Cell
+    UIView *bottomHairline = [[UIView alloc] init];
+    [self addSubview:bottomHairline];
+    bottomHairline.backgroundColor = [UIColor grayColor];
+    bottomHairline.translatesAutoresizingMaskIntoConstraints = false;
+    
+    // Hairline Constraints
+    [bottomHairline.bottomAnchor constraintEqualToAnchor:self.bottomAnchor].active = YES;
+    [bottomHairline.heightAnchor constraintEqualToConstant:0.4f].active = YES;
+    [bottomHairline.widthAnchor constraintEqualToAnchor:self.widthAnchor].active = YES;
+    
+    [self addSubview:self.categoryLabel];
+    
+    // Category Title and Collection View Constraints
+    [self addVisualConstraintWithFormat:@"V:|[v0(30)][v1]|" andView:@[self.categoryLabel, self.collectionView]];
+    [self addVisualConstraintWithFormat:@"H:|[v0]|" andView:@[self.categoryLabel]];
     
 }
 
@@ -87,20 +114,12 @@ static NSString * const cellId = @"ItemCell";
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    return CGSizeMake(100.0f, self.frame.size.height);
+    return CGSizeMake(100.0f, self.frame.size.height - 32);
 }
 
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
 {
     return UIEdgeInsetsMake(0, 10, 0, 10);
 }
-
-#pragma mark - Rotation
-
-//- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
-//{
-//    [self.collectionView.collectionViewLayout invalidateLayout];
-//    [self.collectionView setNeedsDisplay];
-//}
 
 @end

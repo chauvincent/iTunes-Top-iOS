@@ -19,7 +19,7 @@
 
 @implementation ItemCollectionViewCell
 
-#pragma mark - Lazy Inits
+#pragma mark - Lazy Init
 
 - (UIImageView *)imageView
 {
