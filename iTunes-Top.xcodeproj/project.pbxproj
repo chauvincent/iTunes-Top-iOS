@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7586EBD01DB2F81F00398237 /* CategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBCF1DB2F81F00398237 /* CategoryCollectionViewCell.m */; };
+		7586EBD71DB3115900398237 /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBD61DB3115900398237 /* UIView+Constraints.m */; };
+		7586EBDA1DB315A000398237 /* ItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBD91DB315A000398237 /* ItemCollectionViewCell.m */; };
 		75D482B11DB0A9CE002ECD43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B01DB0A9CE002ECD43 /* main.m */; };
 		75D482B41DB0A9CE002ECD43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B31DB0A9CE002ECD43 /* AppDelegate.m */; };
-		75D482B71DB0A9CE002ECD43 /* FeaturedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B61DB0A9CE002ECD43 /* FeaturedViewController.m */; };
+		75D482B71DB0A9CE002ECD43 /* FeaturedCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B61DB0A9CE002ECD43 /* FeaturedCollectionViewController.m */; };
 		75D482BC1DB0A9CE002ECD43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D482BB1DB0A9CE002ECD43 /* Assets.xcassets */; };
 		75D482BF1DB0A9CE002ECD43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D482BD1DB0A9CE002ECD43 /* LaunchScreen.storyboard */; };
 		75D482CA1DB0A9CE002ECD43 /* iTunes_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482C91DB0A9CE002ECD43 /* iTunes_TopTests.m */; };
@@ -27,12 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7586EBCE1DB2F81F00398237 /* CategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		7586EBCF1DB2F81F00398237 /* CategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		7586EBD51DB3115900398237 /* UIView+Constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constraints.h"; sourceTree = "<group>"; };
+		7586EBD61DB3115900398237 /* UIView+Constraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constraints.m"; sourceTree = "<group>"; };
+		7586EBD81DB315A000398237 /* ItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCollectionViewCell.h; sourceTree = "<group>"; };
+		7586EBD91DB315A000398237 /* ItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCollectionViewCell.m; sourceTree = "<group>"; };
 		75D482AC1DB0A9CE002ECD43 /* iTunes-Top.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes-Top.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D482B01DB0A9CE002ECD43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75D482B21DB0A9CE002ECD43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75D482B31DB0A9CE002ECD43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		75D482B51DB0A9CE002ECD43 /* FeaturedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeaturedViewController.h; sourceTree = "<group>"; };
-		75D482B61DB0A9CE002ECD43 /* FeaturedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeaturedViewController.m; sourceTree = "<group>"; };
+		75D482B51DB0A9CE002ECD43 /* FeaturedCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeaturedCollectionViewController.h; sourceTree = "<group>"; };
+		75D482B61DB0A9CE002ECD43 /* FeaturedCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeaturedCollectionViewController.m; sourceTree = "<group>"; };
 		75D482BB1DB0A9CE002ECD43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75D482BE1DB0A9CE002ECD43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75D482C01DB0A9CE002ECD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,6 +93,7 @@
 			children = (
 				75D482D41DB0AB57002ECD43 /* App Global */,
 				75D482D81DB0AB75002ECD43 /* Data Service */,
+				75D482E61DB25871002ECD43 /* Category */,
 				75D482D51DB0AB61002ECD43 /* Model */,
 				75D482D61DB0AB68002ECD43 /* View */,
 				75D482D71DB0AB6E002ECD43 /* Controller */,
@@ -131,6 +141,10 @@
 		75D482D61DB0AB68002ECD43 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7586EBCE1DB2F81F00398237 /* CategoryCollectionViewCell.h */,
+				7586EBCF1DB2F81F00398237 /* CategoryCollectionViewCell.m */,
+				7586EBD81DB315A000398237 /* ItemCollectionViewCell.h */,
+				7586EBD91DB315A000398237 /* ItemCollectionViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -140,8 +154,8 @@
 			children = (
 				75D482DC1DB0AFD2002ECD43 /* RootTabBarController.h */,
 				75D482DD1DB0AFD2002ECD43 /* RootTabBarController.m */,
-				75D482B51DB0A9CE002ECD43 /* FeaturedViewController.h */,
-				75D482B61DB0A9CE002ECD43 /* FeaturedViewController.m */,
+				75D482B51DB0A9CE002ECD43 /* FeaturedCollectionViewController.h */,
+				75D482B61DB0A9CE002ECD43 /* FeaturedCollectionViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -151,6 +165,15 @@
 			children = (
 			);
 			name = "Data Service";
+			sourceTree = "<group>";
+		};
+		75D482E61DB25871002ECD43 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7586EBD51DB3115900398237 /* UIView+Constraints.h */,
+				7586EBD61DB3115900398237 /* UIView+Constraints.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,10 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75D482B71DB0A9CE002ECD43 /* FeaturedViewController.m in Sources */,
+				75D482B71DB0A9CE002ECD43 /* FeaturedCollectionViewController.m in Sources */,
 				75D482DE1DB0AFD2002ECD43 /* RootTabBarController.m in Sources */,
 				75D482B41DB0A9CE002ECD43 /* AppDelegate.m in Sources */,
+				7586EBD71DB3115900398237 /* UIView+Constraints.m in Sources */,
+				7586EBDA1DB315A000398237 /* ItemCollectionViewCell.m in Sources */,
 				75D482B11DB0A9CE002ECD43 /* main.m in Sources */,
+				7586EBD01DB2F81F00398237 /* CategoryCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

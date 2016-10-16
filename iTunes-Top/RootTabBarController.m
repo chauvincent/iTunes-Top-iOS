@@ -7,7 +7,7 @@
 //
 
 #import "RootTabBarController.h"
-#import "FeaturedViewController.h"
+#import "FeaturedCollectionViewController.h"
 
 @interface RootTabBarController ()
 
@@ -20,7 +20,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     [self setupControllers];
 }
 
@@ -28,12 +27,14 @@
 
 - (void)setupControllers
 {
-    FeaturedViewController *vc = [[FeaturedViewController alloc] init];
-    UINavigationController *vcNav = [[UINavigationController alloc] initWithRootViewController:vc];
+    // Featured View Controller
+    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+    FeaturedCollectionViewController *featuredVC = [[FeaturedCollectionViewController alloc] initWithCollectionViewLayout:layout];
+    UINavigationController *featuredNav = [[UINavigationController alloc] initWithRootViewController:featuredVC];
  
     
     
-    self.viewControllers = @[vcNav];
+    self.viewControllers = @[featuredNav];
     
 }
 
