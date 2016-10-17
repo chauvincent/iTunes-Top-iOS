@@ -10,7 +10,8 @@
 
 @interface JSONParser : NSObject
 
-
+- (void)parseAudioBookJSONWithEntry:(NSArray *)entries withCompletion:(void (^)(NSMutableArray *allAudioBooks))block;
+- (void)parseSongJSONWithEntry:(NSArray *)entries withCompletion:(void (^)(NSMutableArray *allSongs))block;
 - (void)parseCollectionJSONWithEntry:(NSArray *)entries withCompletion:(void (^)(NSMutableArray *collection))block;
 
 @end

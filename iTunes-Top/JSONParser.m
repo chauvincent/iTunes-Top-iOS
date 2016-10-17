@@ -24,7 +24,52 @@
     return self;
 }
 
+- (void)parseAudioBookJSONWithEntry:(NSArray *)entries withCompletion:(void (^)(NSMutableArray *allAudioBooks))block
+{
+    NSMutableArray *allAudioBooks = [NSMutableArray array];
+    for (NSDictionary *dict in entries)
+    {
+        BaseStoreItem *item = [self parseForBaseComponent:dict];
+        
+        // Preview Link
+        NSArray *linkInfo = ((NSArray *)dict[@"link"]);
+        NSDictionary *attributes = ((NSDictionary *)linkInfo.lastObject)[@"attributes"];
+        NSString *previewLink = attributes[@"href"];
+        
+        // Image Link
+        NSArray *imageInfo = (NSArray *)(dict[@"im:image"]);
+        NSDictionary *largeImageInfo = imageInfo.lastObject;
+        NSString *imageLink = largeImageInfo[@"label"];
+        
+        Song *newSong = [[Song alloc] initWithName:item.name andAuthor:item.author withPrice:item.price andContent:item.contentType inCategory:item.categoryType andItunes:item.iTunesLink andImage:imageLink withPreview:previewLink];
+        [allAudioBooks addObject:newSong];
+    }
+    block(allAudioBooks);
+}
 
+
+- (void)parseSongJSONWithEntry:(NSArray *)entries withCompletion:(void (^)(NSMutableArray *allSongs))block
+{
+    NSMutableArray *allSongs = [NSMutableArray array];
+    for (NSDictionary *dict in entries)
+    {
+        BaseStoreItem *item = [self parseForBaseComponent:dict];
+        
+        // Preview Link
+        NSArray *linkInfo = ((NSArray *)dict[@"link"]);
+        NSDictionary *attributes = ((NSDictionary *)linkInfo.lastObject)[@"attributes"];
+        NSString *previewLink = attributes[@"href"];
+ 
+        // Image Link
+        NSArray *imageInfo = (NSArray *)(dict[@"im:image"]);
+        NSDictionary *largeImageInfo = imageInfo.lastObject;
+        NSString *imageLink = largeImageInfo[@"label"];
+        
+        Song *newSong = [[Song alloc] initWithName:item.name andAuthor:item.author withPrice:item.price andContent:item.contentType inCategory:item.categoryType andItunes:item.iTunesLink andImage:imageLink withPreview:previewLink];
+        [allSongs addObject:newSong];
+    }
+    block(allSongs);
+}
 
 - (void)parseCollectionJSONWithEntry:(NSArray *)entries withCompletion:(void (^)(NSMutableArray *collection))block
 {
