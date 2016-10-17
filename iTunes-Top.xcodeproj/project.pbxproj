@@ -21,6 +21,8 @@
 		7586EBF91DB449D200398237 /* JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBF81DB449D200398237 /* JSONParser.m */; };
 		7586EBFC1DB49FFB00398237 /* NSString+Price.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBFB1DB49FFB00398237 /* NSString+Price.m */; };
 		7586EC051DB4B31600398237 /* SongTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EC041DB4B31600398237 /* SongTableViewController.m */; };
+		7586EC081DB4C16600398237 /* AudioBookTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EC071DB4C16600398237 /* AudioBookTableViewController.m */; };
+		7586EC0B1DB4C1AB00398237 /* CollectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EC0A1DB4C1AB00398237 /* CollectionTableViewController.m */; };
 		75D482B11DB0A9CE002ECD43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B01DB0A9CE002ECD43 /* main.m */; };
 		75D482B41DB0A9CE002ECD43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B31DB0A9CE002ECD43 /* AppDelegate.m */; };
 		75D482B71DB0A9CE002ECD43 /* FeaturedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B61DB0A9CE002ECD43 /* FeaturedViewController.m */; };
@@ -66,6 +68,10 @@
 		7586EBFB1DB49FFB00398237 /* NSString+Price.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Price.m"; sourceTree = "<group>"; };
 		7586EC031DB4B31600398237 /* SongTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongTableViewController.h; sourceTree = "<group>"; };
 		7586EC041DB4B31600398237 /* SongTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongTableViewController.m; sourceTree = "<group>"; };
+		7586EC061DB4C16600398237 /* AudioBookTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioBookTableViewController.h; sourceTree = "<group>"; };
+		7586EC071DB4C16600398237 /* AudioBookTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioBookTableViewController.m; sourceTree = "<group>"; };
+		7586EC091DB4C1AB00398237 /* CollectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionTableViewController.h; sourceTree = "<group>"; };
+		7586EC0A1DB4C1AB00398237 /* CollectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionTableViewController.m; sourceTree = "<group>"; };
 		75D482AC1DB0A9CE002ECD43 /* iTunes-Top.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes-Top.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D482B01DB0A9CE002ECD43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75D482B21DB0A9CE002ECD43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -212,6 +218,10 @@
 				75D482B61DB0A9CE002ECD43 /* FeaturedViewController.m */,
 				7586EC031DB4B31600398237 /* SongTableViewController.h */,
 				7586EC041DB4B31600398237 /* SongTableViewController.m */,
+				7586EC061DB4C16600398237 /* AudioBookTableViewController.h */,
+				7586EC071DB4C16600398237 /* AudioBookTableViewController.m */,
+				7586EC091DB4C1AB00398237 /* CollectionTableViewController.h */,
+				7586EC0A1DB4C1AB00398237 /* CollectionTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -336,12 +346,14 @@
 				75D482DE1DB0AFD2002ECD43 /* RootTabBarController.m in Sources */,
 				75D482B41DB0A9CE002ECD43 /* AppDelegate.m in Sources */,
 				7586EC051DB4B31600398237 /* SongTableViewController.m in Sources */,
+				7586EC0B1DB4C1AB00398237 /* CollectionTableViewController.m in Sources */,
 				7586EBEB1DB4241400398237 /* AudioBook.m in Sources */,
 				7586EBD71DB3115900398237 /* UIView+Constraints.m in Sources */,
 				7586EBEE1DB4242D00398237 /* iTunesUCollection.m in Sources */,
 				7586EBDA1DB315A000398237 /* CategoryItemCollectionViewCell.m in Sources */,
 				75D482B11DB0A9CE002ECD43 /* main.m in Sources */,
 				7586EBD01DB2F81F00398237 /* CategoryCollectionViewCell.m in Sources */,
+				7586EC081DB4C16600398237 /* AudioBookTableViewController.m in Sources */,
 				7586EBE51DB4232500398237 /* BaseStoreItem.m in Sources */,
 				7586EBF91DB449D200398237 /* JSONParser.m in Sources */,
 			);
@@ -473,6 +485,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vincent-Chau.iTunes-Top";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -484,6 +497,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vincent-Chau.iTunes-Top";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

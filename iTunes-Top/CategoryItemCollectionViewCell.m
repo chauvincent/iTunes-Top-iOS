@@ -76,7 +76,6 @@
         _priceLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, self.frame.size.width + self.descriptionLabel.frame.size.height + self.titleLabel.frame.size.height, self.frame.size.width, 10.0f)];
         _priceLabel.font = [UIFont systemFontOfSize:10.0f];
         _priceLabel.textColor = [UIColor grayColor];
-        _priceLabel.text = @"FREE";
         _priceLabel.numberOfLines = 1;
         
     }

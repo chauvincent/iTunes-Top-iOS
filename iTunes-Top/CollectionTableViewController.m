@@ -1,48 +1,40 @@
 //
-//  SongTableViewController.m
+//  CollectionTableViewController.m
 //  iTunes-Top
 //
 //  Created by Vincent Chau on 10/17/16.
 //  Copyright © 2016 Vincent Chau. All rights reserved.
 //
 
-#import "SongTableViewController.h"
+#import "CollectionTableViewController.h"
 
-@interface SongTableViewController ()
+@interface CollectionTableViewController ()
 
 @end
 
-@implementation SongTableViewController
+@implementation CollectionTableViewController
 
-#pragma mark - View Lifecycle
-
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    [self setupView];
+    
 }
 
-#pragma mark - Setup View
 
-- (void)setupView
-{
+#pragma mark - Table view data source
 
-    self.navigationItem.title = @"Top 100 Songs";
-}
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 0;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 0;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SongCell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CollectionCell" forIndexPath:indexPath];
+    
+    // Configure the cell...
     
     return cell;
 }
