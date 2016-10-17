@@ -19,6 +19,8 @@
 
 @implementation CollectionTableViewController
 
+#pragma mark Lazy Init
+
 - (ItemDetailView *)itemView
 {
     if (!_itemView)
@@ -53,6 +55,7 @@
     [super viewDidLoad];
     
     [self setupView];
+    
     [self.tableView registerClass:[StoreItemTableViewCell class] forCellReuseIdentifier:@"CollectionCell"];
 }
 
@@ -61,13 +64,13 @@
 - (void)setupView
 {
     self.navigationItem.title = @"Top iTunes U Collection";
+
 }
 
 #pragma mark - NSNotificationCenter
 
 - (void)finishedCollection:(NSNotification *)notification
 {
-    NSLog(@"called");
     if ([notification.object isKindOfClass:[NSMutableArray class]])
     {
         NSMutableArray *allObjects = [[notification object] mutableCopy];
@@ -93,7 +96,7 @@
     return [self.allCollections count];
 }
 
--(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 120.0f;
 }

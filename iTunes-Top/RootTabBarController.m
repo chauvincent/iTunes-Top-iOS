@@ -157,6 +157,8 @@
         self.allCategory = [@[self.allSongs, self.allAudio, self.allCollection] mutableCopy];
         [[NSNotificationCenter defaultCenter] postNotificationName:kObserverFinishedAll object:self.allCategory];
         [[NSNotificationCenter defaultCenter] postNotificationName:kObserverFinishedCollection object:self.allCollection];
+        [[NSNotificationCenter defaultCenter] postNotificationName:kObserverFinishedSongs object:self.allSongs];
+        [[NSNotificationCenter defaultCenter] postNotificationName:kObserverFinishedAudioBook object:self.allAudio];
         
     });
     
