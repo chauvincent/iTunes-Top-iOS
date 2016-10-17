@@ -8,16 +8,27 @@
 
 #import "CollectionTableViewController.h"
 #import "Constants.h"
+#import "ItemDetailView.h"
 
 @interface CollectionTableViewController ()
 
 @property (strong, nonatomic) NSMutableArray *allCollections;
+@property (strong, nonatomic) ItemDetailView *itemView;
 
 @end
 
 @implementation CollectionTableViewController
 
--(NSMutableArray *)allCollections
+- (ItemDetailView *)itemView
+{
+    if (!_itemView)
+    {
+        _itemView = [[ItemDetailView alloc] init];
+    }
+    return _itemView;
+}
+
+- (NSMutableArray *)allCollections
 {
     if (!_allCollections)
     {
@@ -26,7 +37,7 @@
     return _allCollections;
 }
 
--(instancetype)init
+- (instancetype)init
 {
     if (self = [super init])
     {
@@ -61,7 +72,6 @@
     {
         NSMutableArray *allObjects = [[notification object] mutableCopy];
         self.allCollections = allObjects;
-        NSLog(@"CAUGHT");
         [self.tableView reloadData];
     }
     else
@@ -70,7 +80,7 @@
     }
 }
 
-#pragma mark - Table view data source
+#pragma mark - <UITableViewDelegate>
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -88,6 +98,11 @@
     return 120.0f;
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self.itemView showMenu:self.allCollections[indexPath.row]];
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *cellIdentifier = @"CollectionCell";
@@ -102,6 +117,8 @@
     iTunesUCollection *collection = self.allCollections[indexPath.row];
     cell.numberLabel.text = [NSString stringWithFormat:@"%ld.", indexPath.row + 1];
     cell.nameLabel.text = collection.name;
+    
+    
     [cell setImage:collection.imageLink];
     
     return cell;

@@ -44,7 +44,7 @@ static NSString * const cellId = @"ItemCell";
     return _previewView;
 }
 
--(ItemDetailView *)itemView
+- (ItemDetailView *)itemView
 {
     if (!_itemView)
     {

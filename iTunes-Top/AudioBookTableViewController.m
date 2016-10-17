@@ -8,16 +8,30 @@
 
 #import "AudioBookTableViewController.h"
 #import "Constants.h"
+#import "StoreItemTableViewCell.h"
 
 @interface AudioBookTableViewController ()
+
+@property (strong, nonatomic) NSMutableArray *allSongs;
 
 @end
 
 @implementation AudioBookTableViewController
 
+- (instancetype)init
+{
+    if (self = [super init])
+    {
+        // Subscribe to RootTabBar's Finished All Downloads Notification
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(finishedAllSongs:) name:kObserverFinishedSongs object:nil];
+    }
+    
+    return self;
+}
+
+
 - (void)viewDidLoad
 {
-
     [super viewDidLoad];
     [self setupView];
 }
@@ -27,6 +41,7 @@
 - (void)setupView
 {
     self.navigationItem.title = @"Top Audio";
+    [self.tableView registerClass:[StoreItemTableViewCell class] forCellReuseIdentifier:@"AudioCell"];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView

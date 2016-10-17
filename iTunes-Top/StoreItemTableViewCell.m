@@ -80,7 +80,7 @@
 - (void)setImage:(NSString *)imageLink
 {
     [NetworkManager downloadImagesWithUrl:imageLink withCompletion:^(UIImage *image, bool success) {
-        self.imageView.image = image;
+        self.itemImageView.image = image;
         
     }];
 }
