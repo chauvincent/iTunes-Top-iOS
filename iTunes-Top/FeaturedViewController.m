@@ -52,6 +52,9 @@ static NSString * const cellId = @"CategoryCell";
 {
     [super viewDidLoad];
     [self setupView];
+    
+    // Subscribe to RootTabBar's Finished All Downloads Notification
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(finishedDownload:) name:kObserverFinishedAll object:nil];
 }
 
 - (void)dealloc
@@ -68,8 +71,6 @@ static NSString * const cellId = @"CategoryCell";
     self.collectionView.backgroundColor = [UIColor whiteColor];
     [self.collectionView registerClass:[CategoryCollectionViewCell class] forCellWithReuseIdentifier:cellId];
     
-    // Subscribe to RootTabBar's Notification
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(finishedDownload:) name:kObserverFinishedAll object:nil];
 }
 
 

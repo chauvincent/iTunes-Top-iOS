@@ -24,6 +24,7 @@
 		7586EC081DB4C16600398237 /* AudioBookTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EC071DB4C16600398237 /* AudioBookTableViewController.m */; };
 		7586EC0B1DB4C1AB00398237 /* CollectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EC0A1DB4C1AB00398237 /* CollectionTableViewController.m */; };
 		7586EC0E1DB4CFF200398237 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EC0D1DB4CFF200398237 /* Constants.m */; };
+		7586EC111DB4DBED00398237 /* PreviewAudioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EC101DB4DBED00398237 /* PreviewAudioView.m */; };
 		75D482B11DB0A9CE002ECD43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B01DB0A9CE002ECD43 /* main.m */; };
 		75D482B41DB0A9CE002ECD43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B31DB0A9CE002ECD43 /* AppDelegate.m */; };
 		75D482B71DB0A9CE002ECD43 /* FeaturedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B61DB0A9CE002ECD43 /* FeaturedViewController.m */; };
@@ -75,6 +76,8 @@
 		7586EC0A1DB4C1AB00398237 /* CollectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionTableViewController.m; sourceTree = "<group>"; };
 		7586EC0C1DB4CFF200398237 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		7586EC0D1DB4CFF200398237 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		7586EC0F1DB4DBED00398237 /* PreviewAudioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewAudioView.h; sourceTree = "<group>"; };
+		7586EC101DB4DBED00398237 /* PreviewAudioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewAudioView.m; sourceTree = "<group>"; };
 		75D482AC1DB0A9CE002ECD43 /* iTunes-Top.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes-Top.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D482B01DB0A9CE002ECD43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75D482B21DB0A9CE002ECD43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -208,6 +211,8 @@
 				7586EBCF1DB2F81F00398237 /* CategoryCollectionViewCell.m */,
 				7586EBD81DB315A000398237 /* CategoryItemCollectionViewCell.h */,
 				7586EBD91DB315A000398237 /* CategoryItemCollectionViewCell.m */,
+				7586EC0F1DB4DBED00398237 /* PreviewAudioView.h */,
+				7586EC101DB4DBED00398237 /* PreviewAudioView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -357,6 +362,7 @@
 				7586EBEE1DB4242D00398237 /* iTunesUCollection.m in Sources */,
 				7586EBDA1DB315A000398237 /* CategoryItemCollectionViewCell.m in Sources */,
 				75D482B11DB0A9CE002ECD43 /* main.m in Sources */,
+				7586EC111DB4DBED00398237 /* PreviewAudioView.m in Sources */,
 				7586EBD01DB2F81F00398237 /* CategoryCollectionViewCell.m in Sources */,
 				7586EC081DB4C16600398237 /* AudioBookTableViewController.m in Sources */,
 				7586EBE51DB4232500398237 /* BaseStoreItem.m in Sources */,

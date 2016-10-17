@@ -33,17 +33,15 @@
     {
         _allCategory = [NSMutableArray array];
     }
-    
     return _allCategory;
-    
 }
+
 - (NSMutableArray *)allSongs
 {
     if (!_allSongs)
     {
         _allSongs = [NSMutableArray array];
     }
-    
     return _allSongs;
 }
 
@@ -53,7 +51,6 @@
     {
         _allAudio = [NSMutableArray array];
     }
-    
     return _allAudio;
 }
 
@@ -63,7 +60,6 @@
     {
         _allCollection = [NSMutableArray array];
     }
-    
     return _allCollection;
 }
 
@@ -72,7 +68,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     [self setupControllers];
+
+    // Download and Setup Model For Entire App
     [self downloadAll];
 }
 
@@ -101,9 +100,11 @@
     UINavigationController *collectionNav = [[UINavigationController alloc] initWithRootViewController:collectionVC];
     collectionNav.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Top Collection" image:[UIImage imageNamed:@"collection_icon"] tag:3];
     
-    // Add All Navigation Controllers
+    // Add All Navigation Controllers to TabBarController
     self.viewControllers = @[featuredNav, songNav, audioNav, collectionNav];
 }
+
+#pragma mark - Setup Model
 
 - (void)downloadAll
 {

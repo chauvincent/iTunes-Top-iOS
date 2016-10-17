@@ -9,11 +9,16 @@
 #import "CategoryCollectionViewCell.h"
 #import "CategoryItemCollectionViewCell.h"
 #import "UIView+Constraints.h"
+#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
+#import "PreviewAudioView.h"
 
 @interface CategoryCollectionViewCell () <UICollectionViewDelegateFlowLayout, UICollectionViewDelegate, UICollectionViewDataSource>
 
 @property (strong, nonatomic) UICollectionView *collectionView;
 @property (strong, nonatomic) NSMutableArray *items;
+@property (strong, nonatomic) AVAudioPlayer *player;
+@property (strong, nonatomic) PreviewAudioView *previewView;
 
 @end
 
@@ -22,6 +27,15 @@
 static NSString * const cellId = @"ItemCell";
 
 #pragma mark - Lazy Init
+
+- (PreviewAudioView *)previewView
+{
+    if (!_previewView) {
+        _previewView = [[PreviewAudioView alloc] init];
+    }
+    return _previewView;
+}
+
 
 - (UICollectionView *)collectionView
 {
@@ -118,7 +132,7 @@ static NSString * const cellId = @"ItemCell";
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    [self.previewView showMenu];
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
