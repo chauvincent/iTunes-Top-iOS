@@ -6,12 +6,13 @@
 //  Copyright © 2016 Vincent Chau. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface NetworkManager : NSObject
 {
     NetworkManager *sharedInstance;
 }
 
++ (void)downloadImagesWithUrl:(NSString *)url withCompletion:(void (^)(UIImage *image, bool success))block;
 
 @end

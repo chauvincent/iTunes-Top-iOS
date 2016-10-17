@@ -111,6 +111,7 @@ static NSString * const cellId = @"ItemCell";
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     CategoryItemCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellId forIndexPath:indexPath];
+    [cell configureItemInfo:self.items[indexPath.row]];
     
     return cell;
 }

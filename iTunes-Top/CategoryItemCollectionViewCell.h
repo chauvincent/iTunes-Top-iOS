@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseStoreItem.h"
 
 @interface CategoryItemCollectionViewCell : UICollectionViewCell
+
+- (void)configureItemInfo:(BaseStoreItem *)item;
 
 @end
