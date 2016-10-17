@@ -99,7 +99,7 @@
     CollectionTableViewController *collectionVC = [[CollectionTableViewController alloc] init];
     UINavigationController *collectionNav = [[UINavigationController alloc] initWithRootViewController:collectionVC];
     collectionNav.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Top Collection" image:[UIImage imageNamed:@"collection_icon"] tag:3];
-    
+
     // Add All Navigation Controllers to TabBarController
     self.viewControllers = @[featuredNav, songNav, audioNav, collectionNav];
 }
@@ -119,7 +119,6 @@
             
             self.allCollection = collection;
             dispatch_group_leave(serviceGroup);
-            
         }];
 
     }];
@@ -157,7 +156,8 @@
         
         self.allCategory = [@[self.allSongs, self.allAudio, self.allCollection] mutableCopy];
         [[NSNotificationCenter defaultCenter] postNotificationName:kObserverFinishedAll object:self.allCategory];
-    
+        [[NSNotificationCenter defaultCenter] postNotificationName:kObserverFinishedCollection object:self.allCollection];
+        
     });
     
 }

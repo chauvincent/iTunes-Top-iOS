@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StoreItemTableViewCell.h"
+#import "iTunesUCollection.h"
 
 @interface CollectionTableViewController : UITableViewController
 

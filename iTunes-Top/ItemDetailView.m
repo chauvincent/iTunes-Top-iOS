@@ -165,6 +165,7 @@
     [self.summaryTextView.topAnchor constraintEqualToAnchor:bottomHairline.bottomAnchor].active = YES;
     [self.informationContainer addVisualConstraintWithFormat:@"H:|-10-[v0]-10-|" andView:@[self.summaryTextView]];
     [self.summaryTextView.bottomAnchor constraintEqualToAnchor:self.informationContainer.bottomAnchor].active = YES;
+    
     // Setup Item
     if ([item isKindOfClass:[iTunesUCollection class]])
     {
@@ -206,8 +207,6 @@
         
         if (finished)
         {
-
-            
             [self.dimBackground removeFromSuperview];
             [self.informationContainer removeFromSuperview];
         }

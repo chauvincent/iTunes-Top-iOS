@@ -122,6 +122,8 @@ static NSString * const cellId = @"CategoryCell";
     {
         NSMutableArray *allObjects = [notification object];
         self.allCategory = allObjects;
+        [[NSNotificationCenter defaultCenter] postNotificationName:kObserverFinishedCollection object:self.allCategory.lastObject];
+        
         [self.collectionView reloadData];
     }
     else
