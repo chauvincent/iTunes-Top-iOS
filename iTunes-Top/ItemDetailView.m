@@ -8,6 +8,7 @@
 
 #import "ItemDetailView.h"
 #import "UIView+Constraints.h"
+#import "NetworkManager.h"
 
 @interface ItemDetailView()
 
@@ -16,10 +17,66 @@
 @property (strong, nonatomic) UIImageView *imageView;
 @property (strong, nonatomic) UILabel *titleLabel;
 @property (strong, nonatomic) UILabel *descriptionLabel;
+@property (strong, nonatomic) UITextView *summaryTextView;
 
 @end
 
 @implementation ItemDetailView
+
+#pragma mark - Lazy Init
+
+- (UITextView *)summaryTextView
+{
+    if (!_summaryTextView)
+    {
+        _summaryTextView = [[UITextView alloc] initWithFrame:CGRectZero];
+        _summaryTextView.translatesAutoresizingMaskIntoConstraints = false;
+        _summaryTextView.selectable = false;
+        _summaryTextView.editable = false;
+    }
+    return _summaryTextView;
+}
+
+- (UILabel *)descriptionLabel
+{
+    if (!_descriptionLabel)
+    {
+        _descriptionLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+        _descriptionLabel.font = [UIFont systemFontOfSize:10.0f];
+        _descriptionLabel.text = @"Author";
+        _descriptionLabel.textColor = [UIColor grayColor];
+        _descriptionLabel.translatesAutoresizingMaskIntoConstraints = false;
+        _descriptionLabel.numberOfLines = 1;
+    }
+    return _descriptionLabel;
+}
+
+- (UILabel *)titleLabel
+{
+    if (!_titleLabel)
+    {
+        _titleLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+        _titleLabel.font = [UIFont boldSystemFontOfSize:13.0f];
+        _titleLabel.numberOfLines = 2;
+        _titleLabel.text = @"Really Long Song Name Like This";
+        _titleLabel.translatesAutoresizingMaskIntoConstraints = false;
+    }
+    return _titleLabel;
+}
+
+- (UIImageView *)imageView
+{
+    if (!_imageView)
+    {
+        _imageView = [[UIImageView alloc] initWithFrame:CGRectZero];
+        _imageView.contentMode = UIViewContentModeScaleAspectFill;
+        _imageView.layer.cornerRadius = 20.0f;
+        _imageView.layer.masksToBounds = true;
+        _imageView.backgroundColor = [UIColor grayColor];
+        _imageView.translatesAutoresizingMaskIntoConstraints = false;
+    }
+    return _imageView;
+}
 
 #pragma mark - View Lifecycle
 
@@ -100,13 +157,39 @@
     [bottomHairline.leftAnchor constraintEqualToAnchor:self.informationContainer.leftAnchor].active = YES;
     [bottomHairline.widthAnchor constraintEqualToAnchor:self.informationContainer.widthAnchor].active = YES;
     
+    // Setup Summary Text View
+    self.summaryTextView = [[UITextView alloc] initWithFrame:CGRectZero];
+    [self.informationContainer addSubview:self.summaryTextView];
+    
+    // Summary Text View Constraints
+    [self.summaryTextView.topAnchor constraintEqualToAnchor:bottomHairline.bottomAnchor].active = YES;
+    [self.informationContainer addVisualConstraintWithFormat:@"H:|-10-[v0]-10-|" andView:@[self.summaryTextView]];
+    [self.summaryTextView.bottomAnchor constraintEqualToAnchor:self.informationContainer.bottomAnchor].active = YES;
+    // Setup Item
+    if ([item isKindOfClass:[iTunesUCollection class]])
+    {
+        iTunesUCollection *collection = (iTunesUCollection *)item;
+        self.titleLabel.text = collection.name;
+        self.descriptionLabel.text = collection.author;
+        self.summaryTextView.text = collection.summary;
+        [self setupImageView:collection.imageLink];
+    }
+    
     self.dimBackground.alpha = 0;
     [UIView animateWithDuration:0.5 animations:^{
         self.dimBackground.alpha = 1.0f;
     }];
 }
 
+#pragma mark - Helpers
 
+- (void)setupImageView:(NSString *)url
+{
+    // Image should already be in cache. Look up and download if not in cache just incase.
+    [NetworkManager downloadImagesWithUrl:url withCompletion:^(UIImage *image, bool success) {
+        self.imageView.image = image;
+    }];
+}
 #pragma mark - Dismiss Action
 
 - (void)dismissMenu:(id)sender

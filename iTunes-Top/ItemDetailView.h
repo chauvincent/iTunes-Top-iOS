@@ -12,4 +12,6 @@
 
 @interface ItemDetailView : UIView
 
+- (void)showMenu:(BaseStoreItem *)item;
+
 @end

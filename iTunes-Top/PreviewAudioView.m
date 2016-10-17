@@ -245,6 +245,7 @@
 }
 
 #pragma mark - Helpers
+
 - (void)setupImageView:(NSString *)url
 {
     // Image should already be in cache. Look up and download if not in cache just incase.

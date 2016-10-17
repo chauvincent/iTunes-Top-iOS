@@ -157,7 +157,7 @@ static NSString * const cellId = @"ItemCell";
     }
     else
     {
-        NSLog(@"show course");
+        [self.itemView showMenu:item];
     }
 }
 
