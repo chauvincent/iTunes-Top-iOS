@@ -19,11 +19,25 @@
 @property (strong, nonatomic) UILabel *descriptionLabel;
 @property (strong, nonatomic) UITextView *summaryTextView;
 
+@property (strong, nonatomic) UIButton *closeButton;
+
 @end
 
 @implementation ItemDetailView
 
 #pragma mark - Lazy Init
+
+- (UIButton *)closeButton
+{
+    if (!_closeButton)
+    {
+        _closeButton = [[UIButton alloc] initWithFrame:CGRectZero];
+        _closeButton.tintColor = [UIColor grayColor];
+        _closeButton.translatesAutoresizingMaskIntoConstraints = false;
+    }
+    return _closeButton;
+}
+
 
 - (UITextView *)summaryTextView
 {
@@ -136,8 +150,7 @@
     // Setup Name Label
     [self.titleLabel.leftAnchor constraintEqualToAnchor:self.imageView.rightAnchor constant:10.0f].active = YES;
     [self.titleLabel.topAnchor constraintEqualToAnchor:self.imageView.topAnchor].active = true;
-    [self.titleLabel.rightAnchor constraintEqualToAnchor:self.informationContainer.rightAnchor].active = YES;
-    
+    [self.titleLabel.rightAnchor constraintEqualToAnchor:self.informationContainer.rightAnchor constant:-10.0f].active = YES;
     // Setup Author Label
     [self.informationContainer addSubview:self.descriptionLabel];
     [self.descriptionLabel.topAnchor constraintEqualToAnchor:self.titleLabel.bottomAnchor].active = YES;
@@ -165,6 +178,16 @@
     [self.summaryTextView.topAnchor constraintEqualToAnchor:bottomHairline.bottomAnchor].active = YES;
     [self.informationContainer addVisualConstraintWithFormat:@"H:|-10-[v0]-10-|" andView:@[self.summaryTextView]];
     [self.summaryTextView.bottomAnchor constraintEqualToAnchor:self.informationContainer.bottomAnchor].active = YES;
+    
+    // Close Button
+    [self.informationContainer addSubview:self.closeButton];
+    UIImage *closeImage = [[UIImage imageNamed:@"dismiss_btn"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+    [self.closeButton addTarget:self action:@selector(dismissMenu:) forControlEvents:UIControlEventTouchUpInside];
+    [self.closeButton.bottomAnchor constraintEqualToAnchor:self.informationContainer.bottomAnchor constant:-10.0f].active = YES;
+    [self.closeButton.centerXAnchor constraintEqualToAnchor:self.informationContainer.centerXAnchor].active = YES;
+    [self.closeButton.heightAnchor constraintEqualToConstant:30.0f].active = YES;
+    [self.closeButton.widthAnchor constraintEqualToConstant:30.0f].active = YES;
+    [self.closeButton setBackgroundImage:closeImage forState:UIControlStateNormal];
     
     // Setup Item
     if ([item isKindOfClass:[iTunesUCollection class]])
