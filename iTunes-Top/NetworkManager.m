@@ -7,6 +7,7 @@
 //
 
 #import "NetworkManager.h"
+#import "AppDelegate.h"
 
 @implementation NetworkManager
 
@@ -54,7 +55,11 @@
 
 + (void)downloadImagesWithUrl:(NSString *)url withCompletion:(void (^)(UIImage *image, bool success))block
 {
-
+    NSCache *imgCache = ((AppDelegate *)[UIApplication sharedApplication].delegate).imgCache;
+    UIImage *cachedImg = [imgCache objectForKey:url];
+    
+    if (!cachedImg) // Not in cache
+    {
         NSURLSessionTask *task = [[NSURLSession sharedSession] dataTaskWithURL:[NSURL URLWithString:url] completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
             
             if (response)
@@ -66,12 +71,12 @@
                         if (image != nil)
                         {
                             block(image, true);
-                            //[imgCache setObject:image forKey:url];
+                            [imgCache setObject:image forKey:url];
                         }
                         else
                         {
                             UIImage *badImage = [UIImage imageNamed:@"badImage"];
-                            //[imgCache setObject:badImage forKey:url];
+                            [imgCache setObject:badImage forKey:url];
                             block(badImage, false);
                         }
                     });
@@ -79,7 +84,12 @@
             }
         }];
         [task resume];
-        
+    }
+    else // In Cache
+    {
+        block(cachedImg, true);
+    }
+
     
 }
 

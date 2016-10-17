@@ -6,19 +6,19 @@
 //  Copyright © 2016 Vincent Chau. All rights reserved.
 //
 
-#import "FeaturedCollectionViewController.h"
+#import "FeaturedViewController.h"
 #import "CategoryCollectionViewCell.h"
 #import "JSONParser.h"
 #import "NetworkManager.h"
 
-@interface FeaturedCollectionViewController () <UICollectionViewDelegateFlowLayout>
+@interface FeaturedViewController () <UICollectionViewDelegateFlowLayout>
 
 @property (strong, nonatomic) NSArray *categoryTitles;
 @property (strong, nonatomic) NSMutableArray *allCategory;
 
 @end
 
-@implementation FeaturedCollectionViewController
+@implementation FeaturedViewController
 
 static NSString * const cellId = @"CategoryCell";
 
@@ -58,7 +58,7 @@ static NSString * const cellId = @"CategoryCell";
 
 - (void)setupView
 {
-    self.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFeatured tag:0];
+    self.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Featured" image:[UIImage imageNamed:@"home_btn"] tag:0];
     self.navigationItem.title = @"Featured";
     
     self.collectionView.backgroundColor = [UIColor whiteColor];
@@ -72,15 +72,28 @@ static NSString * const cellId = @"CategoryCell";
     CategoryCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellId forIndexPath:indexPath];
     
     cell.categoryLabel.text = self.categoryTitles[indexPath.row];
-    if ([_allCategory count] != 0) {
+    
+    NSLog(@"COUNT: %lu", (unsigned long)[self.allCategory[indexPath.row] count]);
+    
+    if ([self.allCategory count] != 0)
+    {
+        
         [cell configureItems:self.allCategory[indexPath.row]];
+        
     }
+    
+    
     
     return cell;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
+    if ([self.allCategory count] == 0)
+    {
+        return 0;
+    }
+    
     return [self.categoryTitles count];
 }
 
@@ -98,128 +111,121 @@ static NSString * const cellId = @"CategoryCell";
 }
 
 #pragma mark - Setup Model
-
+/*
 - (void)setupModel
 {
     JSONParser *parser = [[JSONParser alloc] init];
     
     dispatch_group_t group = dispatch_group_create();
     
-    dispatch_group_async(group,dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
-
+    // Top iTunesU Collection
+    dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
         [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topitunesucollections/limit=10/json" withCompletion:^(bool success, NSArray *entry) {
            
             [parser parseCollectionJSONWithEntry:entry withCompletion:^(NSMutableArray *collection) {
                 
                 dispatch_async(dispatch_get_main_queue(), ^{
                     [self.allCategory addObject:collection];
+                    NSLog(@"finished1");
                 });
             }];
         }];
     });
     
-    dispatch_group_async(group,dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
+    // Top Songs
+    dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
         [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topsongs/limit=10/json" withCompletion:^(bool success, NSArray *entry) {
             [parser parseSongJSONWithEntry:entry withCompletion:^(NSMutableArray *allSongs) {
                 dispatch_async(dispatch_get_main_queue(), ^{
                     [self.allCategory addObject:allSongs];
+                    NSLog(@"finished2");
                 });
             }];
         }];
     });
     
-    dispatch_group_async(group,dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
+    
+    // Top AudioBooks
+    dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
         [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topaudiobooks/limit=10/json" withCompletion:^(bool success, NSArray *entry) {
             [parser parseAudioBookJSONWithEntry:entry withCompletion:^(NSMutableArray *allAudioBooks) {
                 dispatch_async(dispatch_get_main_queue(), ^{
                     [self.allCategory addObject:allAudioBooks];
+                    NSLog(@"finished3");
                 });
             }];
             
         }];
     });
     
+    // All Tasks Finished
     dispatch_group_notify(group,dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
         dispatch_async(dispatch_get_main_queue(), ^{
+            NSLog(@"finished");
             [self.collectionView reloadData];
         });
     });
 
 }
-/*
-#pragma mark - Test JSON
+*/
 
-- (void)loadTestJSON
+- (void)setupModel
 {
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"topCollection" ofType:@"json"];
-    NSString *myJSON = [[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:NULL];
-    NSDictionary *jsonDict = [NSJSONSerialization JSONObjectWithData:[myJSON dataUsingEncoding:NSUTF8StringEncoding] options:0 error:NULL];
-    NSDictionary *feedDict = jsonDict[@"feed"];
-    NSArray *entry = feedDict[@"entry"];
-    
     JSONParser *parser = [[JSONParser alloc] init];
     
-    dispatch_group_t group = dispatch_group_create();
-    
-    dispatch_group_async(group,dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
 
-        [parser parseCollectionJSONWithEntry:entry withCompletion:^(NSMutableArray *collection) {
+    // Create the dispatch group
+    dispatch_group_t serviceGroup = dispatch_group_create();
+    
+    // Start the first service
+    dispatch_group_enter(serviceGroup);
+ 
+        [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topitunesucollections/limit=10/json" withCompletion:^(bool success, NSArray *entry) {
             
-            dispatch_async(dispatch_get_main_queue(), ^{
-                self.topCollection = collection;
-            });
-            
-        }];
-
-    });
-    
-    
-    NSString *filePath2 = [[NSBundle mainBundle] pathForResource:@"topSongs" ofType:@"json"];
-    NSString *myJSON2 = [[NSString alloc] initWithContentsOfFile:filePath2 encoding:NSUTF8StringEncoding error:NULL];
-    NSDictionary *jsonDict2 = [NSJSONSerialization JSONObjectWithData:[myJSON2 dataUsingEncoding:NSUTF8StringEncoding] options:0 error:NULL];
-    NSDictionary *feedDict2 = jsonDict2[@"feed"];
-    NSArray *entry2 = feedDict2[@"entry"];
-    
-    
-    dispatch_group_async(group,dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
-        [parser parseSongJSONWithEntry:entry2 withCompletion:^(NSMutableArray *allSongs) {
-            dispatch_async(dispatch_get_main_queue(), ^{
-                self.topSongs = allSongs;
-            });
+            [parser parseCollectionJSONWithEntry:entry withCompletion:^(NSMutableArray *collection) {
+                
+            [self.allCategory addObject:collection];
+                    
+                dispatch_group_leave(serviceGroup);
+                NSLog(@"finished1");
+            }];
         }];
     
     
-    });
-    
-    NSString *filePath3 = [[NSBundle mainBundle] pathForResource:@"topAudioBooks" ofType:@"json"];
-    NSString *myJSON3 = [[NSString alloc] initWithContentsOfFile:filePath3 encoding:NSUTF8StringEncoding error:NULL];
-    NSDictionary *jsonDict3 = [NSJSONSerialization JSONObjectWithData:[myJSON3 dataUsingEncoding:NSUTF8StringEncoding] options:0 error:NULL];
-    NSDictionary *feedDict3 = jsonDict3[@"feed"];
-    NSArray *entry3 = feedDict3[@"entry"];
+    // Start the second service
+    dispatch_group_enter(serviceGroup);
     
     
-    dispatch_group_async(group,dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
-        [parser parseAudioBookJSONWithEntry:entry3 withCompletion:^(NSMutableArray *allAudioBooks) {
-            dispatch_async(dispatch_get_main_queue(), ^{
-                self.topAudioBooks = allAudioBooks;
-            });
+    // Top Songs
+        [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topsongs/limit=10/json" withCompletion:^(bool success, NSArray *entry) {
+            [parser parseSongJSONWithEntry:entry withCompletion:^(NSMutableArray *allSongs) {
+                    [self.allCategory addObject:allSongs];
+                    NSLog(@"finished2");
+                dispatch_group_leave(serviceGroup);
+                
+            }];
         }];
-        
-        
-    });
     
-    dispatch_group_notify(group,dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
-        
-        dispatch_async(dispatch_get_main_queue(), ^{
-            self.allCategory = @[self.topSongs, self.topAudioBooks, self.topCollection];
-            [self.collectionView reloadData];
-            
-        });
-        
-        
-    });
+    // Start the second service
+    dispatch_group_enter(serviceGroup);
     
+    
+    // Top AudioBooks
+        [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topaudiobooks/limit=10/json" withCompletion:^(bool success, NSArray *entry) {
+            [parser parseAudioBookJSONWithEntry:entry withCompletion:^(NSMutableArray *allAudioBooks) {
+                    [self.allCategory addObject:allAudioBooks];
+                    NSLog(@"finished3");
+                dispatch_group_leave(serviceGroup);
+            }];
+        }];
+    
+    
+    
+    dispatch_group_notify(serviceGroup,dispatch_get_main_queue(),^{
+        [self.collectionView reloadData];
+    });
+ 
 }
 
-*/
+
 @end

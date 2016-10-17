@@ -7,7 +7,8 @@
 //
 
 #import "RootTabBarController.h"
-#import "FeaturedCollectionViewController.h"
+#import "FeaturedViewController.h"
+#import "SongTableViewController.h"
 
 @interface RootTabBarController ()
 
@@ -29,10 +30,12 @@
 {
     // Featured View Controller
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
-    FeaturedCollectionViewController *featuredVC = [[FeaturedCollectionViewController alloc] initWithCollectionViewLayout:layout];
+    FeaturedViewController *featuredVC = [[FeaturedViewController alloc] initWithCollectionViewLayout:layout];
     UINavigationController *featuredNav = [[UINavigationController alloc] initWithRootViewController:featuredVC];
  
-    
+//    SongTableViewController *songVC = [[SongTableViewController alloc] init];
+//    UINavigationController *songNav = [[UINavigationController alloc] initWithRootViewController:songVC];
+//    
 
     
     // Add All Navigation Controllers

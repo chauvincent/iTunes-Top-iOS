@@ -29,6 +29,13 @@
     self.window.rootViewController = self.rootTabBarVC;
     [self.window makeKeyAndVisible];
     
+    // Image Cache Setup
+    if (!self.imgCache)
+    {
+        self.imgCache = [[NSCache alloc] init];
+    }
+
+    
     return YES;
 }
 
