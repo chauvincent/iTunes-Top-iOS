@@ -22,6 +22,36 @@
     return _sharedInstance;
 }
 
+
++ (void)getDataFromEndpoint:(NSString *)endpointString withCompletion:(void (^)(bool success, NSArray *entry))block
+{
+    NSURL *url = [NSURL URLWithString:endpointString];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    request.HTTPMethod = @"GET";
+    
+    NSURLSession *session = [NSURLSession sharedSession];
+    NSURLSessionDataTask *dataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        
+        if (!error)
+        {
+            NSError *error;
+            NSDictionary *responseJSON = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
+            NSDictionary *feedDict = responseJSON[@"feed"];
+            NSArray *entry = feedDict[@"entry"];
+            block(true, entry);
+        }
+        else
+        {
+            NSLog(@"%@",error.localizedDescription);
+            block(false, nil);
+        }
+        
+    }];
+    
+    [dataTask resume];
+    
+}
+
 + (void)downloadImagesWithUrl:(NSString *)url withCompletion:(void (^)(UIImage *image, bool success))block
 {
 

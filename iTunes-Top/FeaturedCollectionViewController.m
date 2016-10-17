@@ -9,15 +9,12 @@
 #import "FeaturedCollectionViewController.h"
 #import "CategoryCollectionViewCell.h"
 #import "JSONParser.h"
+#import "NetworkManager.h"
 
 @interface FeaturedCollectionViewController () <UICollectionViewDelegateFlowLayout>
 
 @property (strong, nonatomic) NSArray *categoryTitles;
-
-@property (strong, nonatomic) NSMutableArray *topSongs;
-@property (strong, nonatomic) NSMutableArray *topAudioBooks;
-@property (strong, nonatomic) NSMutableArray *topCollection;
-@property (strong, nonatomic) NSArray *allCategory;
+@property (strong, nonatomic) NSMutableArray *allCategory;
 
 @end
 
@@ -26,6 +23,16 @@
 static NSString * const cellId = @"CategoryCell";
 
 #pragma mark - Lazy Init
+
+- (NSMutableArray *)allCategory
+{
+    if (!_allCategory)
+    {
+        _allCategory = [NSMutableArray array];
+    }
+    return _allCategory;
+}
+
 
 - (NSArray *)categoryTitles
 {
@@ -44,7 +51,7 @@ static NSString * const cellId = @"CategoryCell";
 {
     [super viewDidLoad];
     [self setupView];
-    [self loadTestJSON];
+    [self setupModel];
 }
 
 #pragma mark - Setup View
@@ -65,7 +72,9 @@ static NSString * const cellId = @"CategoryCell";
     CategoryCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellId forIndexPath:indexPath];
     
     cell.categoryLabel.text = self.categoryTitles[indexPath.row];
-    [cell configureItems:self.topCollection];
+    if ([_allCategory count] != 0) {
+        [cell configureItems:self.allCategory[indexPath.row]];
+    }
     
     return cell;
 }
@@ -88,6 +97,56 @@ static NSString * const cellId = @"CategoryCell";
     [self.collectionView setNeedsDisplay];
 }
 
+#pragma mark - Setup Model
+
+- (void)setupModel
+{
+    JSONParser *parser = [[JSONParser alloc] init];
+    
+    dispatch_group_t group = dispatch_group_create();
+    
+    dispatch_group_async(group,dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
+
+        [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topitunesucollections/limit=10/json" withCompletion:^(bool success, NSArray *entry) {
+           
+            [parser parseCollectionJSONWithEntry:entry withCompletion:^(NSMutableArray *collection) {
+                
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [self.allCategory addObject:collection];
+                });
+            }];
+        }];
+    });
+    
+    dispatch_group_async(group,dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
+        [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topsongs/limit=10/json" withCompletion:^(bool success, NSArray *entry) {
+            [parser parseSongJSONWithEntry:entry withCompletion:^(NSMutableArray *allSongs) {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [self.allCategory addObject:allSongs];
+                });
+            }];
+        }];
+    });
+    
+    dispatch_group_async(group,dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
+        [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topaudiobooks/limit=10/json" withCompletion:^(bool success, NSArray *entry) {
+            [parser parseAudioBookJSONWithEntry:entry withCompletion:^(NSMutableArray *allAudioBooks) {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [self.allCategory addObject:allAudioBooks];
+                });
+            }];
+            
+        }];
+    });
+    
+    dispatch_group_notify(group,dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.collectionView reloadData];
+        });
+    });
+
+}
+/*
 #pragma mark - Test JSON
 
 - (void)loadTestJSON
@@ -141,12 +200,13 @@ static NSString * const cellId = @"CategoryCell";
     
     dispatch_group_async(group,dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
         [parser parseAudioBookJSONWithEntry:entry3 withCompletion:^(NSMutableArray *allAudioBooks) {
-            self.topAudioBooks = allAudioBooks;
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.topAudioBooks = allAudioBooks;
+            });
         }];
         
         
     });
-    
     
     dispatch_group_notify(group,dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^ {
         
@@ -160,4 +220,6 @@ static NSString * const cellId = @"CategoryCell";
     });
     
 }
+
+*/
 @end

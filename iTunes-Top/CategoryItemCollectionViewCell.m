@@ -13,6 +13,7 @@
 #import "iTunesUCollection.h"
 #import "Song.h"
 
+
 @interface CategoryItemCollectionViewCell ()
 
 @property (strong, nonatomic) UIImageView *imageView;
@@ -24,6 +25,7 @@
 
 @implementation CategoryItemCollectionViewCell
 
+
 #pragma mark - Lazy Init
 
 - (UIImageView *)imageView
@@ -31,7 +33,6 @@
     if (!_imageView)
     {
         _imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.width)];
-//        _imageView.image = [UIImage imageNamed:@"test"];
         _imageView.contentMode = UIViewContentModeScaleAspectFill;
         _imageView.layer.cornerRadius = 20.0f;
         _imageView.layer.masksToBounds = true;
@@ -47,7 +48,6 @@
     {
         _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, self.frame.size.width + 5, self.frame.size.width, 40.0f)];
         _titleLabel.font = [UIFont systemFontOfSize:12.0f];
-        _titleLabel.text = @"PlaceHolder MUsic stuff";
         _titleLabel.numberOfLines = 2;
         
     }
@@ -62,7 +62,6 @@
         _descriptionLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, self.frame.size.width + self.titleLabel.frame.size.height, self.frame.size.width, 10.0f)];
         _descriptionLabel.font = [UIFont systemFontOfSize:10.0f];
         _descriptionLabel.textColor = [UIColor grayColor];
-        _descriptionLabel.text = @"Electronica";
         _descriptionLabel.numberOfLines = 1;
         
     }
@@ -118,13 +117,13 @@
     self.titleLabel.text = item.name;
     self.descriptionLabel.text = item.categoryType;
    
-    if ([item.price isEqualToString: @"0"])
+    if ([item.price isEqualToString: @"$0"])
     {
         self.priceLabel.text = @"FREE";
     }
     else
     {
-        self.priceLabel.text = [NSString stringWithFormat:@"$%@", item.price];
+        self.priceLabel.text = [NSString stringWithFormat:@"%@", item.price];
     }
     
     NSString *imageLink = [self getImageString:item];

@@ -12,7 +12,7 @@
 {
     NetworkManager *sharedInstance;
 }
-
++ (void)getDataFromEndpoint:(NSString *)endpointString withCompletion:(void (^)(bool success, NSArray *entry))block;
 + (void)downloadImagesWithUrl:(NSString *)url withCompletion:(void (^)(UIImage *image, bool success))block;
 
 @end

@@ -19,6 +19,7 @@
 		7586EBF31DB43F6F00398237 /* topAudioBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 7586EBF01DB43F6F00398237 /* topAudioBooks.json */; };
 		7586EBF41DB43F6F00398237 /* topSongs.json in Resources */ = {isa = PBXBuildFile; fileRef = 7586EBF11DB43F6F00398237 /* topSongs.json */; };
 		7586EBF91DB449D200398237 /* JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBF81DB449D200398237 /* JSONParser.m */; };
+		7586EBFC1DB49FFB00398237 /* NSString+Price.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBFB1DB49FFB00398237 /* NSString+Price.m */; };
 		75D482B11DB0A9CE002ECD43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B01DB0A9CE002ECD43 /* main.m */; };
 		75D482B41DB0A9CE002ECD43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B31DB0A9CE002ECD43 /* AppDelegate.m */; };
 		75D482B71DB0A9CE002ECD43 /* FeaturedCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B61DB0A9CE002ECD43 /* FeaturedCollectionViewController.m */; };
@@ -60,6 +61,8 @@
 		7586EBF11DB43F6F00398237 /* topSongs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = topSongs.json; path = ../../topSongs.json; sourceTree = "<group>"; };
 		7586EBF71DB449D200398237 /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
 		7586EBF81DB449D200398237 /* JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParser.m; sourceTree = "<group>"; };
+		7586EBFA1DB49FFB00398237 /* NSString+Price.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Price.h"; sourceTree = "<group>"; };
+		7586EBFB1DB49FFB00398237 /* NSString+Price.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Price.m"; sourceTree = "<group>"; };
 		75D482AC1DB0A9CE002ECD43 /* iTunes-Top.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes-Top.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D482B01DB0A9CE002ECD43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75D482B21DB0A9CE002ECD43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,6 +102,8 @@
 			children = (
 				7586EBD51DB3115900398237 /* UIView+Constraints.h */,
 				7586EBD61DB3115900398237 /* UIView+Constraints.m */,
+				7586EBFA1DB49FFB00398237 /* NSString+Price.h */,
+				7586EBFB1DB49FFB00398237 /* NSString+Price.m */,
 				7586EBF71DB449D200398237 /* JSONParser.h */,
 				7586EBF81DB449D200398237 /* JSONParser.m */,
 			);
@@ -322,6 +327,7 @@
 				7586EBE81DB4240300398237 /* Song.m in Sources */,
 				7586EBDF1DB3813300398237 /* NetworkManager.m in Sources */,
 				75D482B71DB0A9CE002ECD43 /* FeaturedCollectionViewController.m in Sources */,
+				7586EBFC1DB49FFB00398237 /* NSString+Price.m in Sources */,
 				75D482DE1DB0AFD2002ECD43 /* RootTabBarController.m in Sources */,
 				75D482B41DB0A9CE002ECD43 /* AppDelegate.m in Sources */,
 				7586EBEB1DB4241400398237 /* AudioBook.m in Sources */,

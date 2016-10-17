@@ -11,6 +11,7 @@
 #import "Song.h"
 #import "iTunesUCollection.h"
 #import "AudioBook.h"
+#import "NSString+Price.h"
 
 @implementation JSONParser
 
@@ -38,6 +39,7 @@
         
         // Image Link
         NSArray *imageInfo = (NSArray *)(dict[@"im:image"]);
+    
         NSDictionary *largeImageInfo = imageInfo.lastObject;
         NSString *imageLink = largeImageInfo[@"label"];
         
@@ -106,7 +108,8 @@
     
     // Price
     NSDictionary *priceInfo = ((NSDictionary *)dictionary[@"im:price"])[@"attributes"];
-    NSString *price = priceInfo[@"amount"];
+    NSString *longPriceString = priceInfo[@"amount"];
+    NSString *price = [NSString priceFromString:longPriceString];
     
     // CategoryName
     NSDictionary *categoryInfo = ((NSDictionary *)dictionary[@"category"])[@"attributes"];
