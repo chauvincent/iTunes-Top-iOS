@@ -21,7 +21,6 @@
         UIView *view = views[i];
         view.translatesAutoresizingMaskIntoConstraints = false;
         viewsDict[key] = view;
-        
     }
     
     [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:format

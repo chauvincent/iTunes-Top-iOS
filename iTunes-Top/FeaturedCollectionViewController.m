@@ -58,9 +58,10 @@ static NSString * const cellId = @"CategoryCell";
     NSArray *entry = feedDict[@"entry"];
     
     JSONParser *parser = [[JSONParser alloc] init];
+    
     [parser parseCollectionJSONWithEntry:entry withCompletion:^(NSMutableArray *collection) {
-        
-        
+        self.topCollection = collection;
+        [self.collectionView reloadData];
     }];
 }
 
@@ -83,7 +84,7 @@ static NSString * const cellId = @"CategoryCell";
     CategoryCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellId forIndexPath:indexPath];
     
     cell.categoryLabel.text = self.categoryTitles[indexPath.row];
-    
+    [cell configureItems:self.topCollection];
     return cell;
 }
 
@@ -96,6 +97,8 @@ static NSString * const cellId = @"CategoryCell";
 {
     return CGSizeMake(self.view.frame.size.width, 200.0f);
 }
+
+#pragma mark - Rotation
 
 - (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
 {

@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) UILabel *categoryLabel;
 
+- (void)configureItems:(NSMutableArray *)topItems;
+
 @end

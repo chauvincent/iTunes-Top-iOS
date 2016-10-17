@@ -13,6 +13,7 @@
 @interface CategoryCollectionViewCell () <UICollectionViewDelegateFlowLayout, UICollectionViewDelegate, UICollectionViewDataSource>
 
 @property (strong, nonatomic) UICollectionView *collectionView;
+@property (strong, nonatomic) NSMutableArray *items;
 
 @end
 
@@ -97,6 +98,14 @@ static NSString * const cellId = @"ItemCell";
     
 }
 
+#pragma mark - Update Model
+
+- (void)configureItems:(NSMutableArray *)topItems
+{
+    self.items = topItems;
+    [self.collectionView reloadData];
+}
+
 #pragma mark - <UICollectionViewDelegate>
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
@@ -108,7 +117,9 @@ static NSString * const cellId = @"ItemCell";
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 5;
+    NSInteger count = [self.items count];
+    
+    return (count != 0) ? count : 1;
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
@@ -120,5 +131,6 @@ static NSString * const cellId = @"ItemCell";
 {
     return UIEdgeInsetsMake(0, 10, 0, 10);
 }
+
 
 @end

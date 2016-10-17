@@ -14,12 +14,17 @@
     NSString *imageLink;
 }
 
+
+@property (readonly) NSString *imageLink;
+@property (readonly) NSString *summary;
+
 - (instancetype)initWithName:(NSString *)itemName
                    andAuthor:(NSString *)itemAuthor
                    withPrice:(NSString *)itemPrice
                   andContent:(NSString *)itemContentType
                   inCategory:(NSString *)itemCategoryType
+                   andItunes:(NSString *)itemItunesLink
                     andImage:(NSString *)itemImageLink
-                 withPreview:(NSString *)itemSummary;
+                 withSummary:(NSString *)itemSummary;
 
 @end

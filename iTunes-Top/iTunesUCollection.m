@@ -10,13 +10,17 @@
 
 @implementation iTunesUCollection
 
+@synthesize imageLink;
+@synthesize summary;
+
 - (instancetype)initWithName:(NSString *)itemName
                    andAuthor:(NSString *)itemAuthor
                    withPrice:(NSString *)itemPrice
                   andContent:(NSString *)itemContentType
                   inCategory:(NSString *)itemCategoryType
+                   andItunes:(NSString *)itemItunesLink
                     andImage:(NSString *)itemImageLink
-                 withPreview:(NSString *)itemSummary
+                 withSummary:(NSString *)itemSummary
 {
     
     if (self = [super init])
@@ -26,6 +30,7 @@
         price = itemPrice;
         contentType = itemContentType;
         categoryType = itemCategoryType;
+        iTunesLink = itemItunesLink;
         imageLink = itemImageLink;
         summary = itemSummary;
     }

@@ -18,11 +18,18 @@
     NSString *iTunesLink;
 }
 
+@property (readonly) NSString *name;
+@property (readonly) NSString *author;
+@property (readonly) NSString *price;
+@property (readonly) NSString *contentType;
+@property (readonly) NSString *categoryType;
+@property (readonly) NSString *iTunesLink;
+
 
 - (instancetype)initWithName:(NSString *)itemName
                    andAuthor:(NSString *)itemAuthor
                    withPrice:(NSString *)itemPrice
                   andContent:(NSString *)itemContentType
-                  inCategory:(NSString *)itemCategoryType;
-
+                  inCategory:(NSString *)itemCategoryType
+                   andItunes:(NSString *)itemItunesLink;
 @end

@@ -10,12 +10,20 @@
 
 @implementation BaseStoreItem
 
+@synthesize name;
+@synthesize author;
+@synthesize price;
+@synthesize contentType;
+@synthesize categoryType;
+@synthesize iTunesLink;
+
 
 - (instancetype)initWithName:(NSString *)itemName
                    andAuthor:(NSString *)itemAuthor
                    withPrice:(NSString *)itemPrice
                   andContent:(NSString *)itemContentType
                   inCategory:(NSString *)itemCategoryType
+                   andItunes:(NSString *)itemItunesLink
 {
     
     if (self = [super init])
@@ -25,6 +33,7 @@
         price = itemPrice;
         contentType = itemContentType;
         categoryType = itemCategoryType;
+        iTunesLink = itemItunesLink;
     }
     
     return self;

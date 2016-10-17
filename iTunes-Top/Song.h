@@ -14,11 +14,15 @@
     NSString *previewLink;
 }
 
+@property (readonly) NSString *imageLink;
+@property (readonly) NSString *previewLink;
+
 - (instancetype)initWithName:(NSString *)itemName
                    andAuthor:(NSString *)itemAuthor
                    withPrice:(NSString *)itemPrice
                   andContent:(NSString *)itemContentType
                   inCategory:(NSString *)itemCategoryType
+                   andItunes:(NSString *)itemItunesLink
                     andImage:(NSString *)itemImageLink
                  withPreview:(NSString *)itemPreviewLink;
 
