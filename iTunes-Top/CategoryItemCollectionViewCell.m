@@ -128,7 +128,7 @@
     NSString *imageLink = [self getImageString:item];
 
     [NetworkManager downloadImagesWithUrl:imageLink withCompletion:^(UIImage *image, bool success) {
-    
+        
         self.imageView.image = image;
     
     }];

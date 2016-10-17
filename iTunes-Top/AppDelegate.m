@@ -34,7 +34,6 @@
     {
         self.imgCache = [[NSCache alloc] init];
     }
-
     
     return YES;
 }

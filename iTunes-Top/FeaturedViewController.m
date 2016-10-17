@@ -112,7 +112,7 @@ static NSString * const cellId = @"CategoryCell";
     dispatch_group_enter(serviceGroup);
  
     // Top Songs
-    [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topitunesucollections/limit=10/json" withCompletion:^(bool success, NSArray *entry) {
+    [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topitunesucollections/limit=100/json" withCompletion:^(bool success, NSArray *entry) {
             [parser parseCollectionJSONWithEntry:entry withCompletion:^(NSMutableArray *collection) {
                 [self.allCategory addObject:collection];
                 dispatch_group_leave(serviceGroup);
@@ -122,7 +122,7 @@ static NSString * const cellId = @"CategoryCell";
     dispatch_group_enter(serviceGroup);
     
     // Top Songs
-    [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topsongs/limit=10/json" withCompletion:^(bool success, NSArray *entry) {
+    [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topsongs/limit=100/json" withCompletion:^(bool success, NSArray *entry) {
             [parser parseSongJSONWithEntry:entry withCompletion:^(NSMutableArray *allSongs) {
                 [self.allCategory addObject:allSongs];
                 dispatch_group_leave(serviceGroup);
@@ -132,7 +132,7 @@ static NSString * const cellId = @"CategoryCell";
     dispatch_group_enter(serviceGroup);
     
     // Top AudioBooks
-    [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topaudiobooks/limit=10/json" withCompletion:^(bool success, NSArray *entry) {
+    [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topaudiobooks/limit=100/json" withCompletion:^(bool success, NSArray *entry) {
             [parser parseAudioBookJSONWithEntry:entry withCompletion:^(NSMutableArray *allAudioBooks) {
                     [self.allCategory addObject:allAudioBooks];
                 dispatch_group_leave(serviceGroup);

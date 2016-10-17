@@ -125,7 +125,8 @@ static NSString * const cellId = @"ItemCell";
 {
     NSInteger count = [self.items count];
     
-    return (count != 0) ? count : 1;
+    // Show only top 10
+    return (count != 0) ? 10 : 1;
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath

@@ -10,6 +10,5 @@
 
 @interface FeaturedViewController : UICollectionViewController
 
-
 @end
 
