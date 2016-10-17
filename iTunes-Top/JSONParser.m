@@ -46,6 +46,7 @@
         Song *newSong = [[Song alloc] initWithName:item.name andAuthor:item.author withPrice:item.price andContent:item.contentType inCategory:item.categoryType andItunes:item.iTunesLink andImage:imageLink withPreview:previewLink];
         [allAudioBooks addObject:newSong];
     }
+    
     block(allAudioBooks);
 }
 
@@ -70,6 +71,7 @@
         Song *newSong = [[Song alloc] initWithName:item.name andAuthor:item.author withPrice:item.price andContent:item.contentType inCategory:item.categoryType andItunes:item.iTunesLink andImage:imageLink withPreview:previewLink];
         [allSongs addObject:newSong];
     }
+    
     block(allSongs);
 }
 
@@ -91,6 +93,7 @@
         iTunesUCollection *collection = [[iTunesUCollection alloc] initWithName:item.name andAuthor:item.author withPrice:item.price andContent:item.contentType inCategory:item.categoryType andItunes:item.iTunesLink andImage:imageLink withSummary:summary];
         [allCollections addObject:collection];
     }
+    
     block(allCollections);
 }
 

@@ -11,12 +11,61 @@
 #import "SongTableViewController.h"
 #import "AudioBookTableViewController.h"
 #import "CollectionTableViewController.h"
+#import "NetworkManager.h"
+#import "JSONParser.h"
+#import "Constants.h"
 
 @interface RootTabBarController ()
 
+@property (strong, nonatomic) NSArray *allCategory;
+@property (strong, nonatomic) NSMutableArray *allSongs;
+@property (strong, nonatomic) NSMutableArray *allAudio;
+@property (strong, nonatomic) NSMutableArray *allCollection;
 @end
 
 @implementation RootTabBarController
+
+#pragma mark - Lazy Init
+
+- (NSArray *)allCategory
+{
+    if (!_allCategory)
+    {
+        _allCategory = [NSMutableArray array];
+    }
+    
+    return _allCategory;
+    
+}
+- (NSMutableArray *)allSongs
+{
+    if (!_allSongs)
+    {
+        _allSongs = [NSMutableArray array];
+    }
+    
+    return _allSongs;
+}
+
+- (NSMutableArray *)allAudio
+{
+    if (!_allAudio)
+    {
+        _allAudio = [NSMutableArray array];
+    }
+    
+    return _allAudio;
+}
+
+- (NSMutableArray *)allCollection
+{
+    if (!_allCollection)
+    {
+        _allCollection = [NSMutableArray array];
+    }
+    
+    return _allCollection;
+}
 
 #pragma mark - View Life Cycle
 
@@ -24,6 +73,7 @@
 {
     [super viewDidLoad];
     [self setupControllers];
+    [self downloadAll];
 }
 
 #pragma mark - Setup Views
@@ -55,4 +105,59 @@
     self.viewControllers = @[featuredNav, songNav, audioNav, collectionNav];
 }
 
+- (void)downloadAll
+{
+    JSONParser *parser = [[JSONParser alloc] init];
+    dispatch_group_t serviceGroup = dispatch_group_create();
+    dispatch_group_enter(serviceGroup);
+    
+    // Top Collection
+    [NetworkManager getDataFromEndpoint:kEndpointCollection withCompletion:^(bool success, NSArray *entry) {
+        
+        [parser parseCollectionJSONWithEntry:entry withCompletion:^(NSMutableArray *collection) {
+            
+            self.allCollection = collection;
+            dispatch_group_leave(serviceGroup);
+            
+        }];
+
+    }];
+    
+    dispatch_group_enter(serviceGroup);
+    
+    // Top Songs
+    [NetworkManager getDataFromEndpoint:kEndpointSongs withCompletion:^(bool success, NSArray *entry) {
+        
+        [parser parseSongJSONWithEntry:entry withCompletion:^(NSMutableArray *allSongs) {
+            
+            self.allSongs = allSongs;
+            dispatch_group_leave(serviceGroup);
+            
+        }];
+        
+    }];
+    
+    dispatch_group_enter(serviceGroup);
+    
+    // Top AudioBooks
+    [NetworkManager getDataFromEndpoint:kEndpointAudioBook withCompletion:^(bool success, NSArray *entry) {
+        
+        [parser parseAudioBookJSONWithEntry:entry withCompletion:^(NSMutableArray *allAudioBooks) {
+            
+            self.allAudio = allAudioBooks;
+            dispatch_group_leave(serviceGroup);
+            
+        }];
+        
+    }];
+    
+    // All Tasks Finished
+    dispatch_group_notify(serviceGroup,dispatch_get_main_queue(),^{
+        
+        self.allCategory = [@[self.allSongs, self.allAudio, self.allCollection] mutableCopy];
+        [[NSNotificationCenter defaultCenter] postNotificationName:kObserverFinishedAll object:self.allCategory];
+    
+    });
+    
+}
 @end

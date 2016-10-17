@@ -23,6 +23,7 @@
 		7586EC051DB4B31600398237 /* SongTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EC041DB4B31600398237 /* SongTableViewController.m */; };
 		7586EC081DB4C16600398237 /* AudioBookTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EC071DB4C16600398237 /* AudioBookTableViewController.m */; };
 		7586EC0B1DB4C1AB00398237 /* CollectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EC0A1DB4C1AB00398237 /* CollectionTableViewController.m */; };
+		7586EC0E1DB4CFF200398237 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EC0D1DB4CFF200398237 /* Constants.m */; };
 		75D482B11DB0A9CE002ECD43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B01DB0A9CE002ECD43 /* main.m */; };
 		75D482B41DB0A9CE002ECD43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B31DB0A9CE002ECD43 /* AppDelegate.m */; };
 		75D482B71DB0A9CE002ECD43 /* FeaturedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B61DB0A9CE002ECD43 /* FeaturedViewController.m */; };
@@ -72,6 +73,8 @@
 		7586EC071DB4C16600398237 /* AudioBookTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioBookTableViewController.m; sourceTree = "<group>"; };
 		7586EC091DB4C1AB00398237 /* CollectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionTableViewController.h; sourceTree = "<group>"; };
 		7586EC0A1DB4C1AB00398237 /* CollectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionTableViewController.m; sourceTree = "<group>"; };
+		7586EC0C1DB4CFF200398237 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7586EC0D1DB4CFF200398237 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		75D482AC1DB0A9CE002ECD43 /* iTunes-Top.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes-Top.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D482B01DB0A9CE002ECD43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75D482B21DB0A9CE002ECD43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,17 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7586EBF61DB449AF00398237 /* Utilities */ = {
+		7586EBF61DB449AF00398237 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
 				7586EBD51DB3115900398237 /* UIView+Constraints.h */,
 				7586EBD61DB3115900398237 /* UIView+Constraints.m */,
 				7586EBFA1DB49FFB00398237 /* NSString+Price.h */,
 				7586EBFB1DB49FFB00398237 /* NSString+Price.m */,
-				7586EBF71DB449D200398237 /* JSONParser.h */,
-				7586EBF81DB449D200398237 /* JSONParser.m */,
 			);
-			name = Utilities;
+			name = Categories;
 			sourceTree = "<group>";
 		};
 		75D482A31DB0A9CE002ECD43 = {
@@ -142,7 +143,7 @@
 			children = (
 				75D482D41DB0AB57002ECD43 /* App Global */,
 				75D482D81DB0AB75002ECD43 /* Data Service */,
-				7586EBF61DB449AF00398237 /* Utilities */,
+				7586EBF61DB449AF00398237 /* Categories */,
 				75D482D51DB0AB61002ECD43 /* Model */,
 				75D482D61DB0AB68002ECD43 /* View */,
 				75D482D71DB0AB6E002ECD43 /* Controller */,
@@ -179,6 +180,8 @@
 			children = (
 				75D482B21DB0A9CE002ECD43 /* AppDelegate.h */,
 				75D482B31DB0A9CE002ECD43 /* AppDelegate.m */,
+				7586EC0C1DB4CFF200398237 /* Constants.h */,
+				7586EC0D1DB4CFF200398237 /* Constants.m */,
 			);
 			name = "App Global";
 			sourceTree = "<group>";
@@ -231,6 +234,8 @@
 			children = (
 				7586EBDD1DB3813300398237 /* NetworkManager.h */,
 				7586EBDE1DB3813300398237 /* NetworkManager.m */,
+				7586EBF71DB449D200398237 /* JSONParser.h */,
+				7586EBF81DB449D200398237 /* JSONParser.m */,
 			);
 			name = "Data Service";
 			sourceTree = "<group>";
@@ -356,6 +361,7 @@
 				7586EC081DB4C16600398237 /* AudioBookTableViewController.m in Sources */,
 				7586EBE51DB4232500398237 /* BaseStoreItem.m in Sources */,
 				7586EBF91DB449D200398237 /* JSONParser.m in Sources */,
+				7586EC0E1DB4CFF200398237 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

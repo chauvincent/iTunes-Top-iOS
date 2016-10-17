@@ -7,6 +7,7 @@
 //
 
 #import "CollectionTableViewController.h"
+#import "Constants.h"
 
 @interface CollectionTableViewController ()
 

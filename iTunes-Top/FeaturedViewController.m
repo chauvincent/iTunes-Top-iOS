@@ -10,6 +10,7 @@
 #import "CategoryCollectionViewCell.h"
 #import "JSONParser.h"
 #import "NetworkManager.h"
+#import "Constants.h"
 
 @interface FeaturedViewController () <UICollectionViewDelegateFlowLayout>
 
@@ -51,7 +52,11 @@ static NSString * const cellId = @"CategoryCell";
 {
     [super viewDidLoad];
     [self setupView];
-    [self setupModel];
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:kObserverFinishedAll object:nil];
 }
 
 #pragma mark - Setup View
@@ -62,7 +67,11 @@ static NSString * const cellId = @"CategoryCell";
     
     self.collectionView.backgroundColor = [UIColor whiteColor];
     [self.collectionView registerClass:[CategoryCollectionViewCell class] forCellWithReuseIdentifier:cellId];
+    
+    // Subscribe to RootTabBar's Notification
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(finishedDownload:) name:kObserverFinishedAll object:nil];
 }
+
 
 #pragma mark - <UICollectionViewDelegate>
 
@@ -103,46 +112,21 @@ static NSString * const cellId = @"CategoryCell";
     [self.collectionView setNeedsDisplay];
 }
 
-#pragma mark - Setup Model
 
-- (void)setupModel
+#pragma mark - NSNotificationCenter
+
+- (void)finishedDownload:(NSNotification *)notification
 {
-    JSONParser *parser = [[JSONParser alloc] init];
-    dispatch_group_t serviceGroup = dispatch_group_create();
-    dispatch_group_enter(serviceGroup);
- 
-    // Top Songs
-    [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topitunesucollections/limit=100/json" withCompletion:^(bool success, NSArray *entry) {
-            [parser parseCollectionJSONWithEntry:entry withCompletion:^(NSMutableArray *collection) {
-                [self.allCategory addObject:collection];
-                dispatch_group_leave(serviceGroup);
-        }];
-    }];
-    
-    dispatch_group_enter(serviceGroup);
-    
-    // Top Songs
-    [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topsongs/limit=100/json" withCompletion:^(bool success, NSArray *entry) {
-            [parser parseSongJSONWithEntry:entry withCompletion:^(NSMutableArray *allSongs) {
-                [self.allCategory addObject:allSongs];
-                dispatch_group_leave(serviceGroup);
-        }];
-    }];
-    
-    dispatch_group_enter(serviceGroup);
-    
-    // Top AudioBooks
-    [NetworkManager getDataFromEndpoint:@"https://itunes.apple.com/us/rss/topaudiobooks/limit=100/json" withCompletion:^(bool success, NSArray *entry) {
-            [parser parseAudioBookJSONWithEntry:entry withCompletion:^(NSMutableArray *allAudioBooks) {
-                    [self.allCategory addObject:allAudioBooks];
-                dispatch_group_leave(serviceGroup);
-            }];
-    }];
-    
-    // All Tasks Finished
-    dispatch_group_notify(serviceGroup,dispatch_get_main_queue(),^{
+    if ([notification.object isKindOfClass:[NSMutableArray class]])
+    {
+        NSMutableArray *allObjects = [notification object];
+        self.allCategory = allObjects;
         [self.collectionView reloadData];
-    });
+    }
+    else
+    {
+        NSLog(@"Observer Did Not Get Caught");
+    }
 }
 
 

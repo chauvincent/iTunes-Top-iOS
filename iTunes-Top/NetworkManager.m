@@ -65,7 +65,9 @@
             if (response)
             {
                 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+                    
                     UIImage *image = [UIImage imageWithData:data];
+                    
                     dispatch_async(dispatch_get_main_queue(), ^{
                         
                         if (image != nil)
@@ -79,10 +81,14 @@
                             [imgCache setObject:badImage forKey:url];
                             block(badImage, false);
                         }
+                        
                     });
+                
                 });
+            
             }
         }];
+        
         [task resume];
     }
     else // In Cache

@@ -7,6 +7,7 @@
 //
 
 #import "SongTableViewController.h"
+#import "Constants.h"
 
 @interface SongTableViewController ()
 
@@ -22,11 +23,17 @@
     [self setupView];
 }
 
+#pragma mark - NSNotificationCenter
+
+
 #pragma mark - Setup View
 
 - (void)setupView
 {
+    // Setup Navigation
     self.navigationItem.title = @"Top Songs";
+    
+
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
