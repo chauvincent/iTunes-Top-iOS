@@ -17,7 +17,6 @@
 @synthesize categoryType;
 @synthesize iTunesLink;
 
-
 - (instancetype)initWithName:(NSString *)itemName
                    andAuthor:(NSString *)itemAuthor
                    withPrice:(NSString *)itemPrice
@@ -38,6 +37,5 @@
     
     return self;
 }
-
 
 @end

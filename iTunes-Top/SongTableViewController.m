@@ -41,19 +41,18 @@
     return _allSongs;
 }
 
+#pragma mark - View Lifecycle
+
 - (instancetype)init
 {
     if (self = [super init])
     {
-        // Subscribe to RootTabBar's Finished All Downloads Notification
+        // Subscribe to RootTabBar's Song Notification
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(finishedSongs:) name:kObserverFinishedSongs object:nil];
     }
     
     return self;
 }
-
-
-#pragma mark - View Lifecycle
 
 - (void)viewDidLoad
 {
@@ -86,6 +85,8 @@
     self.navigationItem.title = @"Top Songs";
     
 }
+
+#pragma mark - <UITableViewDelegate>
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {

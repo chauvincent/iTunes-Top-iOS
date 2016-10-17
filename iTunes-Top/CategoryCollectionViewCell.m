@@ -18,7 +18,6 @@
 #import "AudioBook.h"
 #import "iTunesUCollection.h"
 
-
 @interface CategoryCollectionViewCell () <UICollectionViewDelegateFlowLayout, UICollectionViewDelegate, UICollectionViewDataSource>
 
 @property (strong, nonatomic) UICollectionView *collectionView;
@@ -52,7 +51,6 @@ static NSString * const cellId = @"ItemCell";
     }
     return _itemView;
 }
-
 
 - (UICollectionView *)collectionView
 {

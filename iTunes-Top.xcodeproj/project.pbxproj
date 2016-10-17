@@ -15,9 +15,9 @@
 		7586EBE81DB4240300398237 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBE71DB4240300398237 /* Song.m */; };
 		7586EBEB1DB4241400398237 /* AudioBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBEA1DB4241400398237 /* AudioBook.m */; };
 		7586EBEE1DB4242D00398237 /* iTunesUCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBED1DB4242D00398237 /* iTunesUCollection.m */; };
-		7586EBF21DB43F6F00398237 /* topCollection.json in Resources */ = {isa = PBXBuildFile; fileRef = 7586EBEF1DB43F6F00398237 /* topCollection.json */; };
-		7586EBF31DB43F6F00398237 /* topAudioBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 7586EBF01DB43F6F00398237 /* topAudioBooks.json */; };
-		7586EBF41DB43F6F00398237 /* topSongs.json in Resources */ = {isa = PBXBuildFile; fileRef = 7586EBF11DB43F6F00398237 /* topSongs.json */; };
+		7586EBF21DB43F6F00398237 /* testTopCollection.json in Resources */ = {isa = PBXBuildFile; fileRef = 7586EBEF1DB43F6F00398237 /* testTopCollection.json */; };
+		7586EBF31DB43F6F00398237 /* testTopAudioBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 7586EBF01DB43F6F00398237 /* testTopAudioBooks.json */; };
+		7586EBF41DB43F6F00398237 /* testTopSongs.json in Resources */ = {isa = PBXBuildFile; fileRef = 7586EBF11DB43F6F00398237 /* testTopSongs.json */; };
 		7586EBF91DB449D200398237 /* JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBF81DB449D200398237 /* JSONParser.m */; };
 		7586EBFC1DB49FFB00398237 /* NSString+Price.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBFB1DB49FFB00398237 /* NSString+Price.m */; };
 		7586EC051DB4B31600398237 /* SongTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EC041DB4B31600398237 /* SongTableViewController.m */; };
@@ -63,9 +63,9 @@
 		7586EBEA1DB4241400398237 /* AudioBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioBook.m; sourceTree = "<group>"; };
 		7586EBEC1DB4242D00398237 /* iTunesUCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunesUCollection.h; sourceTree = "<group>"; };
 		7586EBED1DB4242D00398237 /* iTunesUCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTunesUCollection.m; sourceTree = "<group>"; };
-		7586EBEF1DB43F6F00398237 /* topCollection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = topCollection.json; path = ../../topCollection.json; sourceTree = "<group>"; };
-		7586EBF01DB43F6F00398237 /* topAudioBooks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = topAudioBooks.json; path = ../../topAudioBooks.json; sourceTree = "<group>"; };
-		7586EBF11DB43F6F00398237 /* topSongs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = topSongs.json; path = ../../topSongs.json; sourceTree = "<group>"; };
+		7586EBEF1DB43F6F00398237 /* testTopCollection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = testTopCollection.json; path = ../../testTopCollection.json; sourceTree = "<group>"; };
+		7586EBF01DB43F6F00398237 /* testTopAudioBooks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = testTopAudioBooks.json; path = ../../testTopAudioBooks.json; sourceTree = "<group>"; };
+		7586EBF11DB43F6F00398237 /* testTopSongs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = testTopSongs.json; path = ../../testTopSongs.json; sourceTree = "<group>"; };
 		7586EBF71DB449D200398237 /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
 		7586EBF81DB449D200398237 /* JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParser.m; sourceTree = "<group>"; };
 		7586EBFA1DB49FFB00398237 /* NSString+Price.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Price.h"; sourceTree = "<group>"; };
@@ -167,9 +167,9 @@
 		75D482AF1DB0A9CE002ECD43 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7586EBEF1DB43F6F00398237 /* topCollection.json */,
-				7586EBF01DB43F6F00398237 /* topAudioBooks.json */,
-				7586EBF11DB43F6F00398237 /* topSongs.json */,
+				7586EBEF1DB43F6F00398237 /* testTopCollection.json */,
+				7586EBF01DB43F6F00398237 /* testTopAudioBooks.json */,
+				7586EBF11DB43F6F00398237 /* testTopSongs.json */,
 				75D482B01DB0A9CE002ECD43 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -337,11 +337,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7586EBF41DB43F6F00398237 /* topSongs.json in Resources */,
+				7586EBF41DB43F6F00398237 /* testTopSongs.json in Resources */,
 				75D482BF1DB0A9CE002ECD43 /* LaunchScreen.storyboard in Resources */,
-				7586EBF31DB43F6F00398237 /* topAudioBooks.json in Resources */,
+				7586EBF31DB43F6F00398237 /* testTopAudioBooks.json in Resources */,
 				75D482BC1DB0A9CE002ECD43 /* Assets.xcassets in Resources */,
-				7586EBF21DB43F6F00398237 /* topCollection.json in Resources */,
+				7586EBF21DB43F6F00398237 /* testTopCollection.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

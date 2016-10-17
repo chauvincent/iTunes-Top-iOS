@@ -39,11 +39,13 @@
     return _allCollections;
 }
 
+#pragma mark - View Lifecycle
+
 - (instancetype)init
 {
     if (self = [super init])
     {
-        // Subscribe to RootTabBar's Finished All Downloads Notification
+        // Subscribe to RootTabBar's Finished Collection Notification
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(finishedCollection:) name:kObserverFinishedCollection object:nil];
     }
     

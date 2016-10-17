@@ -23,5 +23,4 @@ extern NSString *const kEndpointSongs;
 extern NSString *const kEndpointAudioBook;
 extern NSString *const kEndpointCollection;
 
-
 @end

@@ -22,7 +22,6 @@
 
 @implementation AudioBookTableViewController
 
-
 #pragma mark Lazy Init
 
 - (PreviewAudioView *)previewView
@@ -43,11 +42,13 @@
     return _allAudio;
 }
 
+#pragma mark - View Lifecycle
+
 - (instancetype)init
 {
     if (self = [super init])
     {
-        // Subscribe to RootTabBar's Finished All Downloads Notification
+        // Subscribe to RootTabBar's Finished Audio Notifications
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(finishedAudio:) name:kObserverFinishedAudioBook object:nil];
     }
     
@@ -86,6 +87,8 @@
     self.navigationItem.title = @"Top Audio";
     [self.tableView registerClass:[StoreItemTableViewCell class] forCellReuseIdentifier:@"AudioCell"];
 }
+
+#pragma mark - <UITableViewDelegate>
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {

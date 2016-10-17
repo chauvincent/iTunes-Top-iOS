@@ -2,7 +2,7 @@
 //  RootTabBarController.m
 //  iTunes-Top
 //
-//  Created by Vincent Chau on 10/13/16.
+//  Created by Vincent Chau on 10/15/16.
 //  Copyright © 2016 Vincent Chau. All rights reserved.
 //
 
@@ -21,6 +21,7 @@
 @property (strong, nonatomic) NSMutableArray *allSongs;
 @property (strong, nonatomic) NSMutableArray *allAudio;
 @property (strong, nonatomic) NSMutableArray *allCollection;
+
 @end
 
 @implementation RootTabBarController
@@ -116,7 +117,7 @@
     [NetworkManager getDataFromEndpoint:kEndpointCollection withCompletion:^(bool success, NSArray *entry) {
         
         [parser parseCollectionJSONWithEntry:entry withCompletion:^(NSMutableArray *collection) {
-            
+
             self.allCollection = collection;
             dispatch_group_leave(serviceGroup);
         }];
@@ -155,12 +156,14 @@
     dispatch_group_notify(serviceGroup,dispatch_get_main_queue(),^{
         
         self.allCategory = [@[self.allSongs, self.allAudio, self.allCollection] mutableCopy];
+    
+        // Notify all VC's
         [[NSNotificationCenter defaultCenter] postNotificationName:kObserverFinishedAll object:self.allCategory];
         [[NSNotificationCenter defaultCenter] postNotificationName:kObserverFinishedCollection object:self.allCollection];
         [[NSNotificationCenter defaultCenter] postNotificationName:kObserverFinishedSongs object:self.allSongs];
         [[NSNotificationCenter defaultCenter] postNotificationName:kObserverFinishedAudioBook object:self.allAudio];
         
     });
-    
 }
+
 @end
