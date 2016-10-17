@@ -7,6 +7,7 @@
 //
 
 #import "PreviewAudioView.h"
+#import "NetworkManager.h"
 #import "UIView+Constraints.h"
 #import <AudioToolbox/AudioToolbox.h>
 #import <AVFoundation/AVFoundation.h>
@@ -22,6 +23,7 @@
 @property (strong, nonatomic) UIButton *forwardButton;
 @property (strong, nonatomic) UIButton *rewindButton;
 @property (strong, nonatomic) AVAudioPlayer *player;
+@property (strong, nonatomic) NSString *previewString;
 @property (assign) BOOL isPlaying;
 
 @end
@@ -116,7 +118,7 @@
     return self;
 }
 
-- (void)showMenu
+- (void)showMenu:(BaseStoreItem *)item
 {
     
     // Dim Background
@@ -217,9 +219,37 @@
     UIImage *rewindImage = [[UIImage imageNamed:@"rewind_btn"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
     [self.rewindButton setBackgroundImage:rewindImage forState:UIControlStateNormal];
     
+    
+    // Configure for item
+    if ([item isKindOfClass:[Song class]])
+    {
+        Song *song = (Song *)item;
+        self.titleLabel.text = song.name;
+        self.descriptionLabel.text = song.author;
+        self.previewString = song.previewLink;
+        [self setupImageView:song.imageLink];
+    }
+    else
+    {
+        AudioBook *audioBook = (AudioBook *)item;
+        self.titleLabel.text = audioBook.name;
+        self.descriptionLabel.text = audioBook.author;
+        self.previewString = audioBook.previewLink;
+        [self setupImageView:audioBook.imageLink];
+    }
+    
     self.dimBackground.alpha = 0;
     [UIView animateWithDuration:0.5 animations:^{
         self.dimBackground.alpha = 1.0f;
+    }];
+}
+
+#pragma mark - Helpers
+- (void)setupImageView:(NSString *)url
+{
+    // Image should already be in cache. Look up and download if not in cache just incase.
+    [NetworkManager downloadImagesWithUrl:url withCompletion:^(UIImage *image, bool success) {
+        self.imageView.image = image;
     }];
 }
 
@@ -261,7 +291,7 @@
         UIImage *pauseImage = [[UIImage imageNamed:@"pause_btn"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
         [self.playButton setBackgroundImage:pauseImage forState:UIControlStateNormal];
         
-        NSURL *url = [NSURL URLWithString:@"http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview62/v4/bd/6b/34/bd6b3443-d4c3-26fd-91c8-d0b31ab47ee3/mzaf_8046559398209773051.plus.aac.p.m4a"];
+        NSURL *url = [NSURL URLWithString:self.previewString];
         
         NSData *soundData = [NSData dataWithContentsOfURL:url];
         NSString *filePath = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,

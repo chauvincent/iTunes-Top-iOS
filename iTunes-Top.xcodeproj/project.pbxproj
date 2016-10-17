@@ -25,6 +25,7 @@
 		7586EC0B1DB4C1AB00398237 /* CollectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EC0A1DB4C1AB00398237 /* CollectionTableViewController.m */; };
 		7586EC0E1DB4CFF200398237 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EC0D1DB4CFF200398237 /* Constants.m */; };
 		7586EC111DB4DBED00398237 /* PreviewAudioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EC101DB4DBED00398237 /* PreviewAudioView.m */; };
+		7586EC141DB511BF00398237 /* ItemDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EC131DB511BF00398237 /* ItemDetailView.m */; };
 		75D482B11DB0A9CE002ECD43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B01DB0A9CE002ECD43 /* main.m */; };
 		75D482B41DB0A9CE002ECD43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B31DB0A9CE002ECD43 /* AppDelegate.m */; };
 		75D482B71DB0A9CE002ECD43 /* FeaturedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B61DB0A9CE002ECD43 /* FeaturedViewController.m */; };
@@ -78,6 +79,8 @@
 		7586EC0D1DB4CFF200398237 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		7586EC0F1DB4DBED00398237 /* PreviewAudioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewAudioView.h; sourceTree = "<group>"; };
 		7586EC101DB4DBED00398237 /* PreviewAudioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewAudioView.m; sourceTree = "<group>"; };
+		7586EC121DB511BF00398237 /* ItemDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailView.h; sourceTree = "<group>"; };
+		7586EC131DB511BF00398237 /* ItemDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailView.m; sourceTree = "<group>"; };
 		75D482AC1DB0A9CE002ECD43 /* iTunes-Top.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes-Top.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D482B01DB0A9CE002ECD43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75D482B21DB0A9CE002ECD43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -213,6 +216,8 @@
 				7586EBD91DB315A000398237 /* CategoryItemCollectionViewCell.m */,
 				7586EC0F1DB4DBED00398237 /* PreviewAudioView.h */,
 				7586EC101DB4DBED00398237 /* PreviewAudioView.m */,
+				7586EC121DB511BF00398237 /* ItemDetailView.h */,
+				7586EC131DB511BF00398237 /* ItemDetailView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -353,6 +358,7 @@
 				7586EBDF1DB3813300398237 /* NetworkManager.m in Sources */,
 				75D482B71DB0A9CE002ECD43 /* FeaturedViewController.m in Sources */,
 				7586EBFC1DB49FFB00398237 /* NSString+Price.m in Sources */,
+				7586EC141DB511BF00398237 /* ItemDetailView.m in Sources */,
 				75D482DE1DB0AFD2002ECD43 /* RootTabBarController.m in Sources */,
 				75D482B41DB0A9CE002ECD43 /* AppDelegate.m in Sources */,
 				7586EC051DB4B31600398237 /* SongTableViewController.m in Sources */,

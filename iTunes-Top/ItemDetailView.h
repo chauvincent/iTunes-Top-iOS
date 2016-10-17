@@ -1,5 +1,5 @@
 //
-//  PreviewAudioView.h
+//  ItemDetailView.h
 //  iTunes-Top
 //
 //  Created by Vincent Chau on 10/17/16.
@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseStoreItem.h"
-#import "Song.h"
-#import "AudioBook.h"
+#import "iTunesUCollection.h"
 
-@interface PreviewAudioView : UIView
-
-- (void)showMenu:(BaseStoreItem *)item;
+@interface ItemDetailView : UIView
 
 @end

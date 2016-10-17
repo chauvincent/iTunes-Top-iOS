@@ -11,7 +11,13 @@
 #import "UIView+Constraints.h"
 #import <AudioToolbox/AudioToolbox.h>
 #import <AVFoundation/AVFoundation.h>
+#import "ItemDetailView.h"
 #import "PreviewAudioView.h"
+#import "BaseStoreItem.h"
+#import "Song.h"
+#import "AudioBook.h"
+#import "iTunesUCollection.h"
+
 
 @interface CategoryCollectionViewCell () <UICollectionViewDelegateFlowLayout, UICollectionViewDelegate, UICollectionViewDataSource>
 
@@ -19,6 +25,7 @@
 @property (strong, nonatomic) NSMutableArray *items;
 @property (strong, nonatomic) AVAudioPlayer *player;
 @property (strong, nonatomic) PreviewAudioView *previewView;
+@property (strong, nonatomic) ItemDetailView *itemView;
 
 @end
 
@@ -30,10 +37,20 @@ static NSString * const cellId = @"ItemCell";
 
 - (PreviewAudioView *)previewView
 {
-    if (!_previewView) {
+    if (!_previewView)
+    {
         _previewView = [[PreviewAudioView alloc] init];
     }
     return _previewView;
+}
+
+-(ItemDetailView *)itemView
+{
+    if (!_itemView)
+    {
+        _itemView = [[ItemDetailView alloc] init];
+    }
+    return _itemView;
 }
 
 
@@ -132,7 +149,16 @@ static NSString * const cellId = @"ItemCell";
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self.previewView showMenu];
+    id item = self.items[indexPath.row];
+    
+    if ([item isKindOfClass:[AudioBook class]] || [item isKindOfClass:[Song class]])
+    {
+        [self.previewView showMenu:item];
+    }
+    else
+    {
+        NSLog(@"show course");
+    }
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
