@@ -18,6 +18,7 @@
 		7586EBF21DB43F6F00398237 /* topCollection.json in Resources */ = {isa = PBXBuildFile; fileRef = 7586EBEF1DB43F6F00398237 /* topCollection.json */; };
 		7586EBF31DB43F6F00398237 /* topAudioBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 7586EBF01DB43F6F00398237 /* topAudioBooks.json */; };
 		7586EBF41DB43F6F00398237 /* topSongs.json in Resources */ = {isa = PBXBuildFile; fileRef = 7586EBF11DB43F6F00398237 /* topSongs.json */; };
+		7586EBF91DB449D200398237 /* JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7586EBF81DB449D200398237 /* JSONParser.m */; };
 		75D482B11DB0A9CE002ECD43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B01DB0A9CE002ECD43 /* main.m */; };
 		75D482B41DB0A9CE002ECD43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B31DB0A9CE002ECD43 /* AppDelegate.m */; };
 		75D482B71DB0A9CE002ECD43 /* FeaturedCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D482B61DB0A9CE002ECD43 /* FeaturedCollectionViewController.m */; };
@@ -57,6 +58,8 @@
 		7586EBEF1DB43F6F00398237 /* topCollection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = topCollection.json; path = ../../topCollection.json; sourceTree = "<group>"; };
 		7586EBF01DB43F6F00398237 /* topAudioBooks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = topAudioBooks.json; path = ../../topAudioBooks.json; sourceTree = "<group>"; };
 		7586EBF11DB43F6F00398237 /* topSongs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = topSongs.json; path = ../../topSongs.json; sourceTree = "<group>"; };
+		7586EBF71DB449D200398237 /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
+		7586EBF81DB449D200398237 /* JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParser.m; sourceTree = "<group>"; };
 		75D482AC1DB0A9CE002ECD43 /* iTunes-Top.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes-Top.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D482B01DB0A9CE002ECD43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75D482B21DB0A9CE002ECD43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +94,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7586EBF61DB449AF00398237 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7586EBD51DB3115900398237 /* UIView+Constraints.h */,
+				7586EBD61DB3115900398237 /* UIView+Constraints.m */,
+				7586EBF71DB449D200398237 /* JSONParser.h */,
+				7586EBF81DB449D200398237 /* JSONParser.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		75D482A31DB0A9CE002ECD43 = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +128,7 @@
 			children = (
 				75D482D41DB0AB57002ECD43 /* App Global */,
 				75D482D81DB0AB75002ECD43 /* Data Service */,
-				75D482E61DB25871002ECD43 /* Category */,
+				7586EBF61DB449AF00398237 /* Utilities */,
 				75D482D51DB0AB61002ECD43 /* Model */,
 				75D482D61DB0AB68002ECD43 /* View */,
 				75D482D71DB0AB6E002ECD43 /* Controller */,
@@ -199,15 +213,6 @@
 				7586EBDE1DB3813300398237 /* NetworkManager.m */,
 			);
 			name = "Data Service";
-			sourceTree = "<group>";
-		};
-		75D482E61DB25871002ECD43 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				7586EBD51DB3115900398237 /* UIView+Constraints.h */,
-				7586EBD61DB3115900398237 /* UIView+Constraints.m */,
-			);
-			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +331,7 @@
 				75D482B11DB0A9CE002ECD43 /* main.m in Sources */,
 				7586EBD01DB2F81F00398237 /* CategoryCollectionViewCell.m in Sources */,
 				7586EBE51DB4232500398237 /* BaseStoreItem.m in Sources */,
+				7586EBF91DB449D200398237 /* JSONParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

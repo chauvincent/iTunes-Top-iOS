@@ -14,7 +14,6 @@
 
 @property (strong, nonatomic) UICollectionView *collectionView;
 
-
 @end
 
 @implementation CategoryCollectionViewCell

@@ -95,6 +95,8 @@
     return self;
 }
 
+#pragma mark - Setup View
+
 - (void)setupViews
 {
     [self addSubview:self.imageView];

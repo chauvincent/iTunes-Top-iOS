@@ -8,10 +8,15 @@
 
 #import "FeaturedCollectionViewController.h"
 #import "CategoryCollectionViewCell.h"
+#import "JSONParser.h"
 
 @interface FeaturedCollectionViewController () <UICollectionViewDelegateFlowLayout>
 
 @property (strong, nonatomic) NSArray *categoryTitles;
+
+@property (strong, nonatomic) NSMutableArray *topSongs;
+@property (strong, nonatomic) NSMutableArray *topAudioBooks;
+@property (strong, nonatomic) NSMutableArray *topCollection;
 
 @end
 
@@ -39,7 +44,26 @@ static NSString * const cellId = @"CategoryCell";
 {
     [super viewDidLoad];
     [self setupView];
+    [self loadTestJSON];
 }
+
+#pragma mark - Test JSON
+
+- (void)loadTestJSON
+{
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"topCollection" ofType:@"json"];
+    NSString *myJSON = [[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:NULL];
+    NSDictionary *jsonDict = [NSJSONSerialization JSONObjectWithData:[myJSON dataUsingEncoding:NSUTF8StringEncoding] options:0 error:NULL];
+    NSDictionary *feedDict = jsonDict[@"feed"];
+    NSArray *entry = feedDict[@"entry"];
+    
+    JSONParser *parser = [[JSONParser alloc] init];
+    [parser parseCollectionJSONWithEntry:entry withCompletion:^(NSMutableArray *collection) {
+        
+        
+    }];
+}
+
 
 #pragma mark - Setup View
 
