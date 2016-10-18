@@ -2,7 +2,7 @@ iTunesTop-iOS
 ===================
 ---------
 
-![](https://github.com/chauvincent/iTunes-Top-iOS/blob/master/demo.gif)
+![](https://github.com/chauvincent/iTunes-Top-iOS/blob/master/demo3.gif)
 
 ---------
 About
