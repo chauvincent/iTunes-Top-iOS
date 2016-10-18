@@ -2,9 +2,7 @@ iTunesTop-iOS
 ===================
 ---------
 
-![Imgur](http://i.imgur.com/o6sOr6k.gifv)
-![](http://i.imgur.com/o6sOr6k.gif)
-http://imgur.com/o6sOr6k
+![](https://github.com/chauvincent/iTunes-Top-iOS/blob/master/demo.gif)
 
 ---------
 About
