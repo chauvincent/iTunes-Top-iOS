@@ -1,9 +1,8 @@
 iTunesTop-iOS
 ===================
----------
 
-![](https://github.com/chauvincent/iTunes-Top-iOS/blob/master/demo3.gif)
-
+![](http://i558.photobucket.com/albums/ss26/vincent_chau1/menu1_zpszzja7hpk.jpg)
+![](http://i558.photobucket.com/albums/ss26/vincent_chau1/menu2_zpsmemu54ng.jpg)
 ---------
 About
 -------------
